@@ -1,143 +1,234 @@
 <div align="center">
-  <img src="https://github.com/AmanDubey923/AmanDubey923/raw/main/assets/hero-banner.png" 
-       alt="Aman Kumar - Futuristic Developer" 
-       width="100%" 
-       style="border-radius: 16px; box-shadow: 0 20px 40px rgba(0, 245, 255, 0.15);">
+  <img src="https://capsule-render.vercel.app/api?type=venom&color=0:0D1117,30:0a0020,60:0D1117,100:0a1a2e&height=280&section=header&text=Aman%20Kumar&fontSize=90&fontColor=00FFFF&fontAlignY=55&desc=Full%20Stack%20Developer%20%E2%80%A2%20AI%20Builder%20%E2%80%A2%20Future%20Founder&descSize=18&descAlignY=72&descColor=8B5CF6&animation=fadeIn&stroke=00FFFF&strokeWidth=2" width="100%"/>
 </div>
-
-<br>
 
 <div align="center">
   <a href="https://github.com/AmanDubey923">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=00F5FF&center=true&vCenter=true&width=600&lines=Full+Stack+Developer;AI+Enthusiast;Future+Tech+Entrepreneur;Building+the+Future+with+Code+%26+AI" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&pause=1000&color=00FFFF&center=true&vCenter=true&width=700&lines=Full+Stack+Developer+%E2%9A%A1;AI-First+Product+Builder+%F0%9F%A4%96;Future+Tech+Entrepreneur+%F0%9F%9A%80;Cracking+Google+%C2%B7+Building+Startups+%F0%9F%8E%AF;Code.+Create.+Scale.+Repeat.+%F0%9F%94%81" alt="Typing SVG" />
   </a>
 </div>
 
-<br>
+<br/>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Status-Actively%20Building-%2300f5ff?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/Goal-Crack%20Google-%23ff00ff?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Mindset-Founder-%23ffff00?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Status-Actively%20Building-00FFFF?style=for-the-badge&logo=githubactions&logoColor=black&labelColor=0D1117"/>
+  &nbsp;
+  <img src="https://img.shields.io/badge/Goal-Crack%20Google-8B5CF6?style=for-the-badge&logo=google&logoColor=white&labelColor=0D1117"/>
+  &nbsp;
+  <img src="https://img.shields.io/badge/Mindset-Founder%20Mode-EF9F27?style=for-the-badge&logo=startrek&logoColor=white&labelColor=0D1117"/>
+  &nbsp;
+  <img src="https://img.shields.io/badge/Open%20To-Collabs-00FF88?style=for-the-badge&logo=handshake&logoColor=white&labelColor=0D1117"/>
 </div>
+
+<br/>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
 ---
 
 ## 👋 Welcome to My Digital Universe
 
+<table>
+<tr>
+<td valign="top" width="55%">
+
 **Passionate Full Stack Developer | AI Enthusiast | Aspiring Tech Entrepreneur**
 
 > *"Building the future through code and AI. Turning ideas into impactful, scalable products that touch millions."*
 
-I craft exceptional digital experiences with modern technologies, blending beautiful interfaces with powerful AI-driven backends. Currently focused on mastering system design, advanced algorithms, and launching AI-first products.
+I craft exceptional digital experiences with modern technologies — blending beautiful interfaces with powerful AI-driven backends. Currently mastering system design, advanced algorithms, and launching AI-first products.
 
 **Current Mission:** Create technology that improves lives while building towards billion-dollar impact.
+
+</td>
+<td valign="top" width="45%">
+
+
+const aman = {
+  role: "Full Stack Developer",
+  focus: ["AI Products", "Scalable Systems"],
+  goal: "Crack Google → Build Startups",
+  stack: ["Next.js", "Node", "AI/ML"],
+  philosophy: "Code. Create. Scale. Repeat.",
+  status: "🔥 Actively Building",
+}
+
+
+</td>
+</tr>
+</table>
 
 ---
 
 ## 🧭 About Me
 
-- 🚀 **Full-Stack Engineer** with expertise in end-to-end product development
-- 🤖 **AI Enthusiast** building intelligent applications
-- 💼 **Founder Mindset** — solving real problems at scale
-- 🎯 **Goals**: Crack Google → Launch successful AI startups → Create generational wealth through technology
-- 🌱 **Currently Learning**: Advanced System Design, Production AI Systems, Startup Scaling
 
-**Philosophy:** Code. Create. Scale. Repeat.
+🚀  Full-Stack Engineer    →  End-to-end product development, pixel to production
+🤖  AI Builder             →  Shipping intelligent, AI-first applications
+💼  Founder Mindset        →  Solving real problems at scale
+🎯  Mission                →  Crack Google → Launch AI startups → Generational impact
+🌱  Currently Learning     →  Advanced System Design · Production AI · Startup Scaling
+⚡  Philosophy             →  Code. Create. Scale. Repeat.
 
----
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
+
 
 ## 🛠️ Tech Arsenal
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=c,cpp,js,ts,html,css,react,next,tailwind,nodejs,express,mongodb,mysql,prisma,git,github,firebase,vercel,netlify,postman,vscode,figma&perline=12&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=c,cpp,js,ts,html,css,react,next,tailwind,nodejs,express,mongodb,mysql,prisma,git,github,firebase,vercel,netlify,postman,vscode,figma&perline=11&theme=dark"/>
 </div>
 
-**Languages & Frameworks**  
-**Frontend:** React.js • Next.js • React Native • Tailwind CSS  
-**Backend:** Node.js • Express.js  
-**Database:** MongoDB • MySQL • Prisma • Convex  
-**Tools:** Git • Firebase • Vercel • Postman • Figma
+<br/>
+
+<div align="center">
+
+| Layer | Technologies |
+|:------|:------------|
+| **Frontend** | React.js • Next.js • React Native • Tailwind CSS • TypeScript |
+| **Backend** | Node.js • Express.js • REST APIs • WebSockets |
+| **Database** | MongoDB • MySQL • Prisma ORM • Convex • Firebase |
+| **DevOps** | Git • GitHub Actions • Vercel • Netlify • Docker |
+| **Design** | Figma • Framer • UI/UX Principles |
+
+</div>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
 ---
 
 ## 🚀 Featured Projects
 
-### **Dentiva AI** — AI-Powered Dental Healthcare Platform
-**Revolutionizing dental care with intelligent recommendations and seamless patient experience.**
+<div align="center">
 
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Tailwind](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![AI](https://img.shields.io/badge/AI-Powered-00f5ff?style=for-the-badge)
+### 🦷 Dentiva AI — AI-Powered Dental Healthcare Platform
 
-**[View Project](https://github.com/AmanDubey923/dentiva-ai)** | **[Live Demo](https://dentiva.ai)**
+> **Revolutionizing dental care with intelligent recommendations and seamless patient experience.**
+
+<img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white"/>
+<img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white"/>
+<img src="https://img.shields.io/badge/AI_Powered-00FFFF?style=for-the-badge&logo=openai&logoColor=black&labelColor=0D1117"/>
+<img src="https://img.shields.io/badge/TypeScript-378ADD?style=for-the-badge&logo=typescript&logoColor=white"/>
+
+```
+✅ Smart AI diagnosis suggestions    ✅ Modern UI/UX experience
+✅ Real-time appointment booking     ✅ Patient health history tracking
+```
+
+[![View Project](https://img.shields.io/badge/View%20Repo-0D1117?style=for-the-badge&logo=github&logoColor=00FFFF)](https://github.com/AmanDubey923/dentiva-ai)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-0D1117?style=for-the-badge&logo=vercel&logoColor=8B5CF6)](https://dentiva.ai)
 
 ---
 
-### **AI-FITNESS** — Personalized AI Fitness Coach
-**Intelligent workout planner with health tracking and adaptive recommendations.**
+### 💪 AI-FITNESS — Personalized AI Fitness Coach
 
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+> **Intelligent workout planner with health tracking and adaptive AI recommendations.**
 
-**[View Project](https://github.com/AmanDubey923/ai-fitness)** | **[Live Demo](https://ai-fitness.app)**
+<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
+<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"/>
+<img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/>
+<img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white"/>
+
+```
+✅ AI workout generation             ✅ Progress analytics dashboard
+✅ Personalized nutrition plans      ✅ Adaptive difficulty engine
+```
+
+[![View Project](https://img.shields.io/badge/View%20Repo-0D1117?style=for-the-badge&logo=github&logoColor=00FFFF)](https://github.com/AmanDubey923/ai-fitness)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-0D1117?style=for-the-badge&logo=vercel&logoColor=8B5CF6)](https://ai-fitness.app)
 
 ---
 
-### **Interview VC Platform** — Real-time Coding Interview Solution
-**Next-gen platform for technical interviews with video, code collaboration, and AI assistance.**
+### 🎥 Interview VC Platform — Real-time Coding Interview Solution
 
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![WebRTC](https://img.shields.io/badge/WebRTC-333333?style=for-the-badge)
-![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socketdotio&logoColor=white)
+> **Next-gen platform for technical interviews with video, live code collaboration & AI assistance.**
 
-**[View Project](https://github.com/AmanDubey923/interview-vc)** | **[Live Demo](https://interviewvc.live)**
+<img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white"/>
+<img src="https://img.shields.io/badge/WebRTC-333333?style=for-the-badge&logo=webrtc&logoColor=white"/>
+<img src="https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socketdotio&logoColor=white"/>
+<img src="https://img.shields.io/badge/AI%20Coach-8B5CF6?style=for-the-badge&logo=openai&logoColor=white"/>
+
+```
+✅ Real-time collaborative editor    ✅ HD video calling (WebRTC)
+✅ AI interview coach & hints        ✅ Session recording & playback
+```
+
+[![View Project](https://img.shields.io/badge/View%20Repo-0D1117?style=for-the-badge&logo=github&logoColor=00FFFF)](https://github.com/AmanDubey923/interview-vc)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-0D1117?style=for-the-badge&logo=vercel&logoColor=8B5CF6)](https://interviewvc.live)
+
+</div>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
 ---
 
 ## 📊 GitHub Analytics
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=AmanDubey923&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AmanDubey923&layout=compact&theme=tokyonight&hide_border=true" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AmanDubey923&theme=tokyonight&hide_border=true" />
+
+<img src="https://github-readme-stats.vercel.app/api?username=AmanDubey923&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&bg_color=0D1117&title_color=00FFFF&icon_color=8B5CF6&text_color=FFFFFF&ring_color=00FFFF" height="170"/>
+&nbsp;&nbsp;
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AmanDubey923&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00FFFF&text_color=FFFFFF" height="170"/>
+
 </div>
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=AmanDubey923&theme=tokyonight&column=6&margin-w=15&margin-h=15&no-bg=true" alt="Trophies" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AmanDubey923&theme=tokyonight&hide_border=true&background=0D1117&ring=00FFFF&fire=8B5CF6&currStreakLabel=00FFFF&sideLabels=00FFFF" width="60%"/>
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=AmanDubey923&theme=tokyonight&column=6&margin-w=12&margin-h=12&no-bg=true&no-frame=true" width="100%"/>
 </div>
 
 ---
 
-## 🔥 Contribution Heatmap
+## 🔥 Contribution Graph
 
-![Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=AmanDubey923&theme=tokyo-night&hide_border=true)
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=AmanDubey923&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=00FFFF&line=8B5CF6&point=EF9F27&area=true&area_color=00FFFF" width="100%"/>
+</div>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
 ---
 
 ## 🌐 Connect With Me
 
 <div align="center">
-  <a href="https://linkedin.com/in/Amankumar923">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="mailto:kumaraman19137@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-  <a href="https://github.com/AmanDubey923">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Aman%20Kumar-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D1117)](https://linkedin.com/in/Amankumar923)
+&nbsp;
+[![Gmail](https://img.shields.io/badge/Gmail-kumaraman19137-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117)](mailto:kumaraman19137@gmail.com)
+&nbsp;
+[![GitHub](https://img.shields.io/badge/GitHub-AmanDubey923-181717?style=for-the-badge&logo=github&logoColor=00FFFF&labelColor=0D1117)](https://github.com/AmanDubey923)
+
+</div>
+
+---
+
+## 💡 Dev Wisdom
+
+<div align="center">
+
+> *"The best way to predict the future is to build it."*
+> — Alan Kay
+
+> *"First, solve the problem. Then, write the code."*
+> — John Johnson
+
 </div>
 
 ---
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=AmanDubey923&label=Profile%20Views&color=00f5ff&style=for-the-badge" alt="Profile Views" />
+  <img src="https://komarev.com/ghpvc/?username=AmanDubey923&label=Profile%20Views&color=00FFFF&style=for-the-badge&labelColor=0D1117" alt="Profile Views"/>
 </div>
+
+<br/>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=soft&color=00f5ff&height=100&section=footer&text=Code.%20Create.%20Scale.%20Repeat.&fontSize=18" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8B5CF6,50:00FFFF,100:0D1117&height=120&section=footer&text=Dream%20it.%20Code%20it.%20Ship%20it.%20Repeat.&fontSize=18&fontColor=ffffff&fontAlignY=65&animation=fadeIn" width="100%"/>
 </div>
-
-**"Dream it. Code it. Ship it. Repeat."**
