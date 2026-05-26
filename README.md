@@ -112,10 +112,10 @@ const aman = {
 <img src="https://img.shields.io/badge/AI_Powered-00FFFF?style=for-the-badge&logo=openai&logoColor=black&labelColor=0D1117"/>
 <img src="https://img.shields.io/badge/TypeScript-378ADD?style=for-the-badge&logo=typescript&logoColor=white"/>
 
-```
+
 ✅ Smart AI diagnosis suggestions    ✅ Modern UI/UX experience
 ✅ Real-time appointment booking     ✅ Patient health history tracking
-```
+
 
 [![View Project](https://img.shields.io/badge/View%20Repo-0D1117?style=for-the-badge&logo=github&logoColor=00FFFF)](https://github.com/AmanDubey923/dentiva-ai)
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-0D1117?style=for-the-badge&logo=vercel&logoColor=8B5CF6)](https://dentiva.ai)
@@ -131,10 +131,10 @@ const aman = {
 <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/>
 <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white"/>
 
-```
+
 ✅ AI workout generation             ✅ Progress analytics dashboard
 ✅ Personalized nutrition plans      ✅ Adaptive difficulty engine
-```
+
 
 [![View Project](https://img.shields.io/badge/View%20Repo-0D1117?style=for-the-badge&logo=github&logoColor=00FFFF)](https://github.com/AmanDubey923/ai-fitness)
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-0D1117?style=for-the-badge&logo=vercel&logoColor=8B5CF6)](https://ai-fitness.app)
@@ -150,10 +150,10 @@ const aman = {
 <img src="https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socketdotio&logoColor=white"/>
 <img src="https://img.shields.io/badge/AI%20Coach-8B5CF6?style=for-the-badge&logo=openai&logoColor=white"/>
 
-```
+
 ✅ Real-time collaborative editor    ✅ HD video calling (WebRTC)
 ✅ AI interview coach & hints        ✅ Session recording & playback
-```
+
 
 [![View Project](https://img.shields.io/badge/View%20Repo-0D1117?style=for-the-badge&logo=github&logoColor=00FFFF)](https://github.com/AmanDubey923/interview-vc)
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-0D1117?style=for-the-badge&logo=vercel&logoColor=8B5CF6)](https://interviewvc.live)
