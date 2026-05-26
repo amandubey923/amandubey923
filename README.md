@@ -118,7 +118,7 @@ const aman = {
 
 
 [![View Project](https://img.shields.io/badge/View%20Repo-0D1117?style=for-the-badge&logo=github&logoColor=00FFFF)](https://github.com/amandubey923/dentiva-ai)
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-0D1117?style=for-the-badge&logo=vercel&logoColor=8B5CF6)]([https://dentiva.ai](https://dentiva-ai-aman.netlify.app/))
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-0D1117?style=for-the-badge&logo=vercel&logoColor=8B5CF6)](https://dentiva-ai-aman.netlify.app/)
 
 ---
 
