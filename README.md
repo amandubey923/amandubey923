@@ -168,9 +168,50 @@ const aman = {
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=AmanDubey923&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&bg_color=0D1117&title_color=00FFFF&icon_color=8B5CF6&text_color=FFFFFF&ring_color=00FFFF" height="170"/>
-&nbsp;&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AmanDubey923&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00FFFF&text_color=FFFFFF" height="170"/>
+<!-- Premium Developer Banner -->
+<p align="center">
+  <img 
+    src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=32&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=1000&lines=AI+Engineer+%7C+Full+Stack+Developer;Building+Futuristic+Web+Experiences;Google+Focused+Developer;Startup+Builder+%7C+Tech+Enthusiast"
+    alt="Typing Animation"
+  />
+</p>
+
+<!-- Neon Divider -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00F7FF,50:8B5CF6,100:FF00FF&height=120&section=header"/>
+
+<!-- Tech Stack -->
+<h2 align="center">⚡ Tech Arsenal ⚡</h2>
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=cpp,c,js,react,nextjs,nodejs,express,mongodb,mysql,tailwind,git,github,docker,vscode,vercel,postman,firebase&theme=dark" />
+</p>
+
+<!-- Animated Snake Contribution -->
+<h2 align="center">🐍 Contribution Graph</h2>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/AmanDubey923/AmanDubey923/output/github-contribution-grid-snake-dark.svg" alt="snake animation"/>
+</p>
+
+<!-- Activity Graph -->
+<h2 align="center">📈 Activity Graph</h2>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=AmanDubey923&bg_color=0d1117&color=00ffff&line=8b5cf6&point=ffffff&area=true&hide_border=true"/>
+</p>
+
+<!-- Futuristic Quote -->
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight"/>
+</p>
+
+<!-- Visitor Counter -->
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=AmanDubey923&label=PROFILE+VIEWS&color=00ffff&style=for-the-badge"/>
+</p>
+
+<!-- Glowing Footer -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:FF00FF,50:8B5CF6,100:00F7FF&height=120&section=footer"/>
 
 </div>
 
