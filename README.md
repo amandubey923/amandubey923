@@ -1,6 +1,11 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=wave&color=00f5ff&height=300&section=header&text=Aman%20Kumar&fontSize=80&fontColor=ffffff&animation=fadeIn" width="100%"/>
+  <img src="https://github.com/AmanDubey923/AmanDubey923/raw/main/assets/hero-banner.png" 
+       alt="Aman Kumar - Futuristic Developer" 
+       width="100%" 
+       style="border-radius: 16px; box-shadow: 0 20px 40px rgba(0, 245, 255, 0.15);">
 </div>
+
+<br>
 
 <div align="center">
   <a href="https://github.com/AmanDubey923">
@@ -58,16 +63,13 @@ I craft exceptional digital experiences with modern technologies, blending beaut
 
 ## 🚀 Featured Projects
 
-<div align="center">
-
 ### **Dentiva AI** — AI-Powered Dental Healthcare Platform
 **Revolutionizing dental care with intelligent recommendations and seamless patient experience.**
 
-![Dentiva](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![Tailwind](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![AI](https://img.shields.io/badge/AI-Powered-00f5ff?style=for-the-badge)
 
-**Highlights:** Smart diagnosis suggestions • Modern UI/UX • Real-time booking  
 **[View Project](https://github.com/AmanDubey923/dentiva-ai)** | **[Live Demo](https://dentiva.ai)**
 
 ---
@@ -79,7 +81,6 @@ I craft exceptional digital experiences with modern technologies, blending beaut
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 
-**Highlights:** AI workout generation • Progress analytics • Personalized nutrition  
 **[View Project](https://github.com/AmanDubey923/ai-fitness)** | **[Live Demo](https://ai-fitness.app)**
 
 ---
@@ -91,23 +92,16 @@ I craft exceptional digital experiences with modern technologies, blending beaut
 ![WebRTC](https://img.shields.io/badge/WebRTC-333333?style=for-the-badge)
 ![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socketdotio&logoColor=white)
 
-**Highlights:** Real-time code editor • Video calling • AI interview coach  
 **[View Project](https://github.com/AmanDubey923/interview-vc)** | **[Live Demo](https://interviewvc.live)**
-
-</div>
 
 ---
 
 ## 📊 GitHub Analytics
 
 <div align="center">
-
-![Aman's GitHub Stats](https://github-readme-stats.vercel.app/api?username=AmanDubey923&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=AmanDubey923&layout=compact&theme=tokyonight&hide_border=true)
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=AmanDubey923&theme=tokyonight&hide_border=true)
-
+  <img src="https://github-readme-stats.vercel.app/api?username=AmanDubey923&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AmanDubey923&layout=compact&theme=tokyonight&hide_border=true" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AmanDubey923&theme=tokyonight&hide_border=true" />
 </div>
 
 <div align="center">
@@ -125,27 +119,22 @@ I craft exceptional digital experiences with modern technologies, blending beaut
 ## 🌐 Connect With Me
 
 <div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/Amankumar923)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kumaraman19137@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AmanDubey923)
-
+  <a href="https://linkedin.com/in/Amankumar923">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="mailto:kumaraman19137@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  <a href="https://github.com/AmanDubey923">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
 </div>
-
----
-
-## 💡 Random Dev Wisdom
-
-> *"The best way to predict the future is to build it."*  
-> — Alan Kay
 
 ---
 
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=AmanDubey923&label=Profile%20Views&color=00f5ff&style=for-the-badge" alt="Profile Views" />
 </div>
-
----
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=soft&color=00f5ff&height=100&section=footer&text=Code.%20Create.%20Scale.%20Repeat.&fontSize=18" width="100%"/>
