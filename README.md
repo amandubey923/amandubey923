@@ -1,109 +1,154 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:00F5FF,50:7C3AED,100:FF00E5&section=header&reversal=false" /> <div align="center"> <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=32&duration=2800&pause=700&color=00F5FF&center=true&vCenter=true&width=900&height=70&lines=Hi%2C+I'm+Aman+Kumar;Full+Stack+Developer+%26+AI+Enthusiast;Building+the+Future+with+Code;AI+Products+%7C+System+Design+%7C+Startup+Energy" alt="Typing SVG" />
-<img src="https://img.shields.io/badge/Full%20Stack%20Developer-0A0A0A?style=for-the-badge&logo=codeforces&logoColor=00F5FF" /> <img src="https://img.shields.io/badge/AI%20Enthusiast-0A0A0A?style=for-the-badge&logo=openai&logoColor=FF00E5" /> <img src="https://img.shields.io/badge/Founder%20Mindset-0A0A0A?style=for-the-badge&logo=rocket&logoColor=7C3AED" /> <img src="https://img.shields.io/badge/Always%20Shipping-0A0A0A?style=for-the-badge&logo=vercel&logoColor=00F5FF" />
-
-
-
-<img src="https://komarev.com/ghpvc/?username=AmanDubey923&label=Profile%20Views&color=00f5ff&style=for-the-badge" alt="Profile Views" /> <img src="https://img.shields.io/github/followers/AmanDubey923?label=Followers&style=for-the-badge&color=ff00e5&labelColor=0A0A0A" alt="GitHub Followers" /> </div>
 <div align="center">
-Code. Build. Scale. Repeat.
+  <img src="https://capsule-render.vercel.app/api?type=wave&color=00f5ff&height=300&section=header&text=Aman%20Kumar&fontSize=80&fontColor=ffffff&animation=fadeIn" width="100%"/>
+</div>
+
+<div align="center">
+  <a href="https://github.com/AmanDubey923">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=00F5FF&center=true&vCenter=true&width=600&lines=Full+Stack+Developer;AI+Enthusiast;Future+Tech+Entrepreneur;Building+the+Future+with+Code+%26+AI" alt="Typing SVG" />
+  </a>
+</div>
+
+<br>
+
+<div align="center">
+  <img src="https://img.shields.io/badge/Status-Actively%20Building-%2300f5ff?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/Goal-Crack%20Google-%23ff00ff?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Mindset-Founder-%23ffff00?style=for-the-badge" />
+</div>
+
+---
+
+## 👋 Welcome to My Digital Universe
+
+**Passionate Full Stack Developer | AI Enthusiast | Aspiring Tech Entrepreneur**
+
+> *"Building the future through code and AI. Turning ideas into impactful, scalable products that touch millions."*
+
+I craft exceptional digital experiences with modern technologies, blending beautiful interfaces with powerful AI-driven backends. Currently focused on mastering system design, advanced algorithms, and launching AI-first products.
+
+**Current Mission:** Create technology that improves lives while building towards billion-dollar impact.
+
+---
+
+## 🧭 About Me
+
+- 🚀 **Full-Stack Engineer** with expertise in end-to-end product development
+- 🤖 **AI Enthusiast** building intelligent applications
+- 💼 **Founder Mindset** — solving real problems at scale
+- 🎯 **Goals**: Crack Google → Launch successful AI startups → Create generational wealth through technology
+- 🌱 **Currently Learning**: Advanced System Design, Production AI Systems, Startup Scaling
+
+**Philosophy:** Code. Create. Scale. Repeat.
+
+---
+
+## 🛠️ Tech Arsenal
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=c,cpp,js,ts,html,css,react,next,tailwind,nodejs,express,mongodb,mysql,prisma,git,github,firebase,vercel,netlify,postman,vscode,figma&perline=12&theme=dark" />
+</div>
+
+**Languages & Frameworks**  
+**Frontend:** React.js • Next.js • React Native • Tailwind CSS  
+**Backend:** Node.js • Express.js  
+**Database:** MongoDB • MySQL • Prisma • Convex  
+**Tools:** Git • Firebase • Vercel • Postman • Figma
+
+---
+
+## 🚀 Featured Projects
+
+<div align="center">
+
+### **Dentiva AI** — AI-Powered Dental Healthcare Platform
+**Revolutionizing dental care with intelligent recommendations and seamless patient experience.**
+
+![Dentiva](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![AI](https://img.shields.io/badge/AI-Powered-00f5ff?style=for-the-badge)
+
+**Highlights:** Smart diagnosis suggestions • Modern UI/UX • Real-time booking  
+**[View Project](https://github.com/AmanDubey923/dentiva-ai)** | **[Live Demo](https://dentiva.ai)**
+
+---
+
+### **AI-FITNESS** — Personalized AI Fitness Coach
+**Intelligent workout planner with health tracking and adaptive recommendations.**
+
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+
+**Highlights:** AI workout generation • Progress analytics • Personalized nutrition  
+**[View Project](https://github.com/AmanDubey923/ai-fitness)** | **[Live Demo](https://ai-fitness.app)**
+
+---
+
+### **Interview VC Platform** — Real-time Coding Interview Solution
+**Next-gen platform for technical interviews with video, code collaboration, and AI assistance.**
+
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![WebRTC](https://img.shields.io/badge/WebRTC-333333?style=for-the-badge)
+![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socketdotio&logoColor=white)
+
+**Highlights:** Real-time code editor • Video calling • AI interview coach  
+**[View Project](https://github.com/AmanDubey923/interview-vc)** | **[Live Demo](https://interviewvc.live)**
 
 </div>
-<table> <tr> <td width="58%" valign="top">
-<img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28" /> Professional Introduction
-I am Aman Kumar, a Full Stack Developer & AI Enthusiast focused on building high-impact digital products with clean architecture, fast interfaces, and intelligent automation.
 
-I love working at the intersection of AI, scalable web systems, product engineering, and startup execution. My mission is simple: build products that solve real problems, scale beautifully, and create massive value.
+---
 
-</td> <td width="42%" valign="top" align="center"> <img width="100%" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="Developer Coding GIF" /> </td> </tr> </table>
-<img src="https://media.giphy.com/media/juua9i2c2fA0AIp2iq/giphy.gif" width="28" /> About Me
-<table> <tr> <td width="50%">
-const aman = {
-  role: "Full Stack Developer & AI Enthusiast",
-  mindset: "Founder + Builder + Problem Solver",
-  focus: ["AI Apps", "System Design", "DSA", "Full Stack"],
-  ambition: "Build technology that impacts millions",
-  currentMode: "Learning deeply. Shipping consistently."
-};
-</td> <td width="50%">
-Building AI-powered web applications
-Strengthening System Design fundamentals
-Mastering Advanced DSA
-Creating polished full-stack products
-Preparing to crack Google
-Working toward becoming a billionaire tech entrepreneur
-Obsessed with impact, execution, and scale
-</td> </tr> </table>
-<img src="https://media.giphy.com/media/f3iwJFOVOwuy7K6FFw/giphy.gif" width="28" /> Current Goals & Mission
-<div align="center"> <table> <tr> <td align="center" width="33%"> <img src="https://img.shields.io/badge/01-Crack%20Google-0A0A0A?style=for-the-badge&logo=google&logoColor=00F5FF" /> <br /><br /> Master DSA, system design, and engineering depth. </td> <td align="center" width="33%"> <img src="https://img.shields.io/badge/02-Build%20AI%20Products-0A0A0A?style=for-the-badge&logo=openai&logoColor=FF00E5" /> <br /><br /> Create intelligent products that solve real-world problems. </td> <td align="center" width="33%"> <img src="https://img.shields.io/badge/03-Tech%20Entrepreneur-0A0A0A?style=for-the-badge&logo=rocket&logoColor=7C3AED" /> <br /><br /> Build scalable startups with global impact. </td> </tr> </table> </div>
-<img src="https://media.giphy.com/media/kH1DBkPNyZPOk0BxrM/giphy.gif" width="28" /> Tech Stack
+## 📊 GitHub Analytics
+
 <div align="center">
-Core Languages & Frontend
-<img src="https://skillicons.dev/icons?i=cpp,js,ts,react,nextjs,tailwind&theme=dark" alt="Core Tech Stack" />
 
+![Aman's GitHub Stats](https://github-readme-stats.vercel.app/api?username=AmanDubey923&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true)
 
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=AmanDubey923&layout=compact&theme=tokyonight&hide_border=true)
 
-Backend, Database & Tools
-<img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,firebase,prisma,git,github,vercel&theme=dark" alt="Backend Tech Stack" />
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=AmanDubey923&theme=tokyonight&hide_border=true)
 
+</div>
 
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=AmanDubey923&theme=tokyonight&column=6&margin-w=15&margin-h=15&no-bg=true" alt="Trophies" />
+</div>
 
-Mobile & Product Engineering
-<img src="https://skillicons.dev/icons?i=react,figma,vscode,postman,npm&theme=dark" alt="Mobile and Tools" />
+---
 
+## 🔥 Contribution Heatmap
 
+![Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=AmanDubey923&theme=tokyo-night&hide_border=true)
 
-<img src="https://img.shields.io/badge/C++-0A0A0A?style=for-the-badge&logo=cplusplus&logoColor=00599C" /> <img src="https://img.shields.io/badge/JavaScript-0A0A0A?style=for-the-badge&logo=javascript&logoColor=F7DF1E" /> <img src="https://img.shields.io/badge/TypeScript-0A0A0A?style=for-the-badge&logo=typescript&logoColor=3178C6" /> <img src="https://img.shields.io/badge/React.js-0A0A0A?style=for-the-badge&logo=react&logoColor=61DAFB" /> <img src="https://img.shields.io/badge/Next.js-0A0A0A?style=for-the-badge&logo=nextdotjs&logoColor=FFFFFF" /> <img src="https://img.shields.io/badge/Node.js-0A0A0A?style=for-the-badge&logo=nodedotjs&logoColor=5FA04E" /> <img src="https://img.shields.io/badge/Express.js-0A0A0A?style=for-the-badge&logo=express&logoColor=FFFFFF" /> <img src="https://img.shields.io/badge/MongoDB-0A0A0A?style=for-the-badge&logo=mongodb&logoColor=47A248" /> <img src="https://img.shields.io/badge/Tailwind%20CSS-0A0A0A?style=for-the-badge&logo=tailwindcss&logoColor=06B6D4" /> <img src="https://img.shields.io/badge/Firebase-0A0A0A?style=for-the-badge&logo=firebase&logoColor=FFCA28" /> <img src="https://img.shields.io/badge/Prisma-0A0A0A?style=for-the-badge&logo=prisma&logoColor=2D3748" /> <img src="https://img.shields.io/badge/React%20Native-0A0A0A?style=for-the-badge&logo=react&logoColor=61DAFB" /> </div>
-<img src="https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif" width="28" /> Featured Projects
-<table> <tr> <td width="50%">
-🦷 Dentiva AI
-AI-powered dental assistance platform designed to make dental care smarter, faster, and more accessible.
+---
 
-Highlights: AI diagnosis support, modern patient experience, intelligent workflows.
+## 🌐 Connect With Me
 
-<img src="https://img.shields.io/badge/AI-0A0A0A?style=flat-square&logo=openai&logoColor=00F5FF" /> <img src="https://img.shields.io/badge/Healthcare-0A0A0A?style=flat-square&logo=medrt&logoColor=FF00E5" /> <img src="https://img.shields.io/badge/Full%20Stack-0A0A0A?style=flat-square&logo=vercel&logoColor=7C3AED" /> </td> <td width="50%">
-🏋️ AI Fitness
-Personalized AI fitness platform for workout planning, progress tracking, and intelligent health recommendations.
+<div align="center">
 
-Highlights: AI plans, user dashboards, scalable fitness workflows.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/Amankumar923)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kumaraman19137@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AmanDubey923)
 
-<img src="https://img.shields.io/badge/Fitness%20Tech-0A0A0A?style=flat-square&logo=strava&logoColor=FC4C02" /> <img src="https://img.shields.io/badge/AI%20Coach-0A0A0A?style=flat-square&logo=openai&logoColor=00F5FF" /> <img src="https://img.shields.io/badge/Product-0A0A0A?style=flat-square&logo=producthunt&logoColor=FF6154" /> </td> </tr> <tr> <td width="50%">
-🎙️ Interview VC Platform
-A platform built to help users practice, prepare, and perform better in interviews with modern virtual collaboration flows.
+</div>
 
-Highlights: Interview preparation, video-first experience, recruiter-friendly workflows.
+---
 
-<img src="https://img.shields.io/badge/Interview%20Prep-0A0A0A?style=flat-square&logo=googlegemini&logoColor=00F5FF" /> <img src="https://img.shields.io/badge/Platform-0A0A0A?style=flat-square&logo=webrtc&logoColor=FF00E5" /> <img src="https://img.shields.io/badge/Career%20Tech-0A0A0A?style=flat-square&logo=linkedin&logoColor=0A66C2" /> </td> <td width="50%">
-🌾 Farmer Assistance Platform
-A digital solution helping farmers access guidance, resources, and smarter decision-making tools.
+## 💡 Random Dev Wisdom
 
-Highlights: Practical impact, assistance workflows, technology for agriculture.
+> *"The best way to predict the future is to build it."*  
+> — Alan Kay
 
-<img src="https://img.shields.io/badge/AgriTech-0A0A0A?style=flat-square&logo=leaflet&logoColor=00F5FF" /> <img src="https://img.shields.io/badge/Impact-0A0A0A?style=flat-square&logo=seedling&logoColor=22C55E" /> <img src="https://img.shields.io/badge/Web%20App-0A0A0A?style=flat-square&logo=react&logoColor=61DAFB" /> </td> </tr> <tr> <td colspan="2">
-🩺 AyuCare Telemedicine App
-A healthcare-focused telemedicine application designed to improve access to consultations, digital care, and patient support.
+---
 
-Highlights: Telemedicine experience, appointment flows, mobile-first healthcare access.
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=AmanDubey923&label=Profile%20Views&color=00f5ff&style=for-the-badge" alt="Profile Views" />
+</div>
 
-<img src="https://img.shields.io/badge/Telemedicine-0A0A0A?style=flat-square&logo=healthchecks&logoColor=00F5FF" /> <img src="https://img.shields.io/badge/Healthcare-0A0A0A?style=flat-square&logo=pluscodes&logoColor=FF00E5" /> <img src="https://img.shields.io/badge/Mobile%20First-0A0A0A?style=flat-square&logo=react&logoColor=61DAFB" /> </td> </tr> </table>
-<img src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif" width="28" /> GitHub Analytics
-<div align="center"> <img width="49%" src="https://github-readme-stats.vercel.app/api?username=AmanDubey923&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=00F5FF&icon_color=FF00E5&text_color=FFFFFF&ring_color=7C3AED" alt="Aman Kumar GitHub Stats" /> <img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=AmanDubey923&theme=radical&hide_border=true&background=0D1117&ring=00F5FF&fire=FF00E5&currStreakLabel=00F5FF" alt="Aman Kumar GitHub Streak" />
+---
 
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=00f5ff&height=100&section=footer&text=Code.%20Create.%20Scale.%20Repeat.&fontSize=18" width="100%"/>
+</div>
 
-
-<img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AmanDubey923&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=00F5FF&text_color=FFFFFF" alt="Most Used Languages" /> </div>
-<img src="https://media.giphy.com/media/l0HlNaQ6gWfllcjDO/giphy.gif" width="28" /> Contribution Graph
-<div align="center"> <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=AmanDubey923&bg_color=0D1117&color=FFFFFF&line=00F5FF&point=FF00E5&area=true&hide_border=true&custom_title=Aman%20Kumar%27s%20Contribution%20Graph" alt="Contribution Graph" /> </div>
-<img src="https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif" width="28" /> GitHub Trophies
-<div align="center"> <img width="100%" src="https://github-profile-trophy.vercel.app/?username=AmanDubey923&theme=radical&no-frame=true&no-bg=true&margin-w=8&margin-h=8&column=7" alt="GitHub Trophies" /> </div>
-<img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="28" /> Connect With Me
-<div align="center"> <a href="https://github.com/AmanDubey923"> <img src="https://img.shields.io/badge/GitHub-0A0A0A?style=for-the-badge&logo=github&logoColor=FFFFFF" alt="GitHub" /> </a> <a href="https://www.linkedin.com/in/"> <img src="https://img.shields.io/badge/LinkedIn-0A0A0A?style=for-the-badge&logo=linkedin&logoColor=0A66C2" alt="LinkedIn" /> </a> <a href="mailto:your.email@example.com"> <img src="https://img.shields.io/badge/Email-0A0A0A?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Email" /> </a> <a href="https://twitter.com/"> <img src="https://img.shields.io/badge/X-0A0A0A?style=for-the-badge&logo=x&logoColor=FFFFFF" alt="X" /> </a> <a href="https://portfolio.example.com"> <img src="https://img.shields.io/badge/Portfolio-0A0A0A?style=for-the-badge&logo=vercel&logoColor=00F5FF" alt="Portfolio" /> </a> </div>
-<img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="28" /> Random Dev Quote
-<div align="center"> <img width="70%" src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Random Dev Quote" /> </div>
-<div align="center"> <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=2600&pause=700&color=FF00E5&center=true&vCenter=true&width=900&height=60&lines=Founder+mindset.+Engineer+execution.;Building+products+that+compound+impact.;The+future+belongs+to+builders+who+ship." alt="Footer Typing SVG" />
-<img src="https://img.shields.io/badge/Building%20the%20Future%20with%20Code-0A0A0A?style=for-the-badge&logo=rocket&logoColor=00F5FF" />
-
-
-
-"Great companies are built by people who see the future early and work relentlessly to make it real."
-
-</div> <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:FF00E5,50:7C3AED,100:00F5FF&section=footer" />
+**"Dream it. Code it. Ship it. Repeat."**
