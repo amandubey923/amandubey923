@@ -43,7 +43,7 @@ I craft exceptional digital experiences with modern technologies — blending be
 </td>
 <td valign="top" width="45%">
 
-
+```ts
 const aman = {
   role: "Full Stack Developer",
   focus: ["AI Products", "Scalable Systems"],
@@ -52,7 +52,7 @@ const aman = {
   philosophy: "Code. Create. Scale. Repeat.",
   status: "🔥 Actively Building",
 }
-
+```
 
 </td>
 </tr>
@@ -62,17 +62,18 @@ const aman = {
 
 ## 🧭 About Me
 
-
+```
 🚀  Full-Stack Engineer    →  End-to-end product development, pixel to production
 🤖  AI Builder             →  Shipping intelligent, AI-first applications
 💼  Founder Mindset        →  Solving real problems at scale
 🎯  Mission                →  Crack Google → Launch AI startups → Generational impact
 🌱  Currently Learning     →  Advanced System Design · Production AI · Startup Scaling
 ⚡  Philosophy             →  Code. Create. Scale. Repeat.
-
+```
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
+---
 
 ## 🛠️ Tech Arsenal
 
