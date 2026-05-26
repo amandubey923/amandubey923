@@ -117,8 +117,8 @@ const aman = {
 ✅ Real-time appointment booking     ✅ Patient health history tracking
 
 
-[![View Project](https://img.shields.io/badge/View%20Repo-0D1117?style=for-the-badge&logo=github&logoColor=00FFFF)](https://github.com/AmanDubey923/dentiva-ai)
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-0D1117?style=for-the-badge&logo=vercel&logoColor=8B5CF6)](https://dentiva.ai)
+[![View Project](https://img.shields.io/badge/View%20Repo-0D1117?style=for-the-badge&logo=github&logoColor=00FFFF)](https://github.com/amandubey923/dentiva-ai)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-0D1117?style=for-the-badge&logo=vercel&logoColor=8B5CF6)]([https://dentiva.ai](https://dentiva-ai-aman.netlify.app/))
 
 ---
 
@@ -136,8 +136,8 @@ const aman = {
 ✅ Personalized nutrition plans      ✅ Adaptive difficulty engine
 
 
-[![View Project](https://img.shields.io/badge/View%20Repo-0D1117?style=for-the-badge&logo=github&logoColor=00FFFF)](https://github.com/AmanDubey923/ai-fitness)
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-0D1117?style=for-the-badge&logo=vercel&logoColor=8B5CF6)](https://ai-fitness.app)
+[![View Project](https://img.shields.io/badge/View%20Repo-0D1117?style=for-the-badge&logo=github&logoColor=00FFFF)](https://github.com/amandubey923/ai-fitness)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-0D1117?style=for-the-badge&logo=vercel&logoColor=8B5CF6)](https://ai-fitness-aman.netlify.app/)
 
 ---
 
@@ -155,8 +155,8 @@ const aman = {
 ✅ AI interview coach & hints        ✅ Session recording & playback
 
 
-[![View Project](https://img.shields.io/badge/View%20Repo-0D1117?style=for-the-badge&logo=github&logoColor=00FFFF)](https://github.com/AmanDubey923/interview-vc)
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-0D1117?style=for-the-badge&logo=vercel&logoColor=8B5CF6)](https://interviewvc.live)
+[![View Project](https://img.shields.io/badge/View%20Repo-0D1117?style=for-the-badge&logo=github&logoColor=00FFFF)](https://github.com/amandubey923/Interview-video-calling-platform)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-0D1117?style=for-the-badge&logo=vercel&logoColor=8B5CF6)](https://video-calling-interview-plattform.netlify.app/)
 
 </div>
 
