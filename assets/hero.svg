@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">Aman Kumar — Neon Engineering Lab</title>
+  <desc id="desc">A futuristic engineering dashboard featuring a three-dimensional code core, orbiting nodes, circuit paths, and live system labels.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#05070D"/><stop offset=".55" stop-color="#0B0F17"/><stop offset="1" stop-color="#120B25"/></linearGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#B8FEFF"/><stop offset=".5" stop-color="#00F5FF"/><stop offset="1" stop-color="#4F7CFF"/></linearGradient>
+    <linearGradient id="violet" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#C4B5FD"/><stop offset="1" stop-color="#8B5CF6"/></linearGradient>
+    <radialGradient id="core"><stop stop-color="#F5FFFF"/><stop offset=".22" stop-color="#00F5FF" stop-opacity=".95"/><stop offset=".62" stop-color="#8B5CF6" stop-opacity=".38"/><stop offset="1" stop-color="#05070D" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#75E9F5" stroke-opacity=".08"/></pattern>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="soft" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="20"/></filter>
+  </defs>
+  <rect width="1200" height="520" rx="20" fill="url(#bg)"/>
+  <rect width="1200" height="520" rx="20" fill="url(#grid)"/>
+  <path d="M0 90H260M940 90H1200M0 430H260M940 430H1200" stroke="#00F5FF" stroke-opacity=".28"/>
+  <path d="M0 91H260M940 91H1200" stroke="#8B5CF6" stroke-opacity=".22"/>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" fill="#9EAECA">
+    <text x="58" y="63" font-size="12" letter-spacing="3">AMAN KUMAR / ENGINEERING LAB</text>
+    <text x="58" y="90" font-size="10" fill="#00F5FF" letter-spacing="2">SYSTEM STATUS</text>
+    <circle cx="175" cy="86" r="4" fill="#00F5FF" filter="url(#glow)"><animate attributeName="opacity" values="1;.3;1" dur="1.8s" repeatCount="indefinite"/></circle>
+    <text x="188" y="90" font-size="10" fill="#DDE7F8" letter-spacing="2">ONLINE</text>
+    <text x="58" y="344" font-size="12" fill="#F5F8FF" letter-spacing="1">FULL-STACK PRODUCT ENGINEERING</text>
+    <text x="58" y="372" font-size="11" letter-spacing="1">REACT  ·  NEXT.JS  ·  TYPESCRIPT  ·  MERN</text>
+    <text x="58" y="419" font-size="10" fill="#00F5FF" letter-spacing="2">CURRENT SIGNAL</text>
+    <text x="58" y="444" font-size="12" fill="#DDE7F8">BUILD  /  LEARN  /  SHIP  /  ITERATE</text>
+    <text x="1018" y="63" font-size="10" letter-spacing="2">NODE: AK-923</text>
+  </g>
+  <g transform="translate(600 260)">
+    <circle r="176" fill="url(#core)" opacity=".8"><animate attributeName="r" values="168;182;168" dur="4s" repeatCount="indefinite"/></circle>
+    <g fill="none" stroke="#00F5FF" stroke-opacity=".42">
+      <ellipse rx="238" ry="84" transform="rotate(-18)" stroke-width="1.3"><animateTransform attributeName="transform" type="rotate" from="-18 0 0" to="342 0 0" dur="22s" repeatCount="indefinite"/></ellipse>
+      <ellipse rx="188" ry="130" transform="rotate(48)" stroke="#8B5CF6" stroke-width="1.1"><animateTransform attributeName="transform" type="rotate" from="48 0 0" to="-312 0 0" dur="29s" repeatCount="indefinite"/></ellipse>
+      <circle r="112" stroke-dasharray="3 9" stroke-opacity=".65"><animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="16s" repeatCount="indefinite"/></circle>
+    </g>
+    <g filter="url(#glow)">
+      <circle cx="-207" cy="-33" r="6" fill="#00F5FF"><animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="22s" repeatCount="indefinite"/></circle>
+      <circle cx="144" cy="117" r="5" fill="#A78BFA"><animateTransform attributeName="transform" type="rotate" from="0 0 0" to="-360 0 0" dur="29s" repeatCount="indefinite"/></circle>
+    </g>
+    <path d="M-306-44H-170L-116-88M306 44H170L116 88M-49-196V-120M49 196V120" fill="none" stroke="url(#cyan)" stroke-opacity=".55" stroke-width="1.5"/>
+    <g stroke-linejoin="round">
+      <polygon points="0,-82 76,-38 0,8 -76,-38" fill="#142C42" stroke="#A3FBFF" stroke-width="1.4"/>
+      <polygon points="-76,-38 0,8 0,96 -76,50" fill="#0A172B" stroke="#00F5FF" stroke-width="1.4"/>
+      <polygon points="0,8 76,-38 76,50 0,96" fill="#201640" stroke="#A78BFA" stroke-width="1.4"/>
+      <path d="M0-52V-7M-41-28 0-7 41-28M-40 29 0 52 40 29" stroke="#D3FFFF" stroke-opacity=".8"/>
+    </g>
+    <circle r="36" fill="url(#core)" filter="url(#glow)"><animate attributeName="opacity" values=".72;1;.72" dur="2.2s" repeatCount="indefinite"/></circle>
+    <text y="5" text-anchor="middle" fill="#F5FFFF" font-size="12" font-family="ui-monospace, monospace" letter-spacing="2">CORE</text>
+  </g>
+  <g font-family="ui-monospace, monospace" font-size="10" letter-spacing="1.5">
+    <g transform="translate(850 157)"><rect width="166" height="45" rx="5" fill="#071320" stroke="#00F5FF" stroke-opacity=".45"/><text x="14" y="18" fill="#00F5FF">01 / INTERFACE</text><text x="14" y="34" fill="#C9D5EB">REACT · NEXT</text></g>
+    <g transform="translate(864 319)"><rect width="166" height="45" rx="5" fill="#110D25" stroke="#8B5CF6" stroke-opacity=".55"/><text x="14" y="18" fill="#C4B5FD">02 / SERVICES</text><text x="14" y="34" fill="#C9D5EB">API · DATA · AI</text></g>
+    <g transform="translate(182 172)"><rect width="142" height="45" rx="5" fill="#071320" stroke="#00F5FF" stroke-opacity=".4"/><text x="14" y="18" fill="#00F5FF">MODE / BUILD</text><text x="14" y="34" fill="#C9D5EB">SYSTEMS ONLINE</text></g>
+  </g>
+  <g fill="#00F5FF" opacity=".7"><circle cx="351" cy="125" r="1.5"/><circle cx="822" cy="91" r="1"/><circle cx="1058" cy="262" r="1.5"/><circle cx="1106" cy="416" r="1"/><circle cx="327" cy="403" r="1"/></g>
+  <path d="M58 483H1142" stroke="#00F5FF" stroke-opacity=".25"/><path d="M58 483H360" stroke="#00F5FF" stroke-width="2" filter="url(#glow)"><animate attributeName="d" values="M58 483H360;M58 483H670;M58 483H360" dur="3s" repeatCount="indefinite"/></path>
+</svg>
