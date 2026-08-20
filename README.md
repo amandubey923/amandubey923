@@ -1,284 +1,221 @@
+<!--
+  AMAN KUMAR / GITHUB PROFILE
+  Visual assets are intentionally local so this profile has a durable, custom identity.
+  Update the NOW panel and featured project copy as the work evolves.
+-->
+
+<!-- HERO -->
+<p align="center">
+  <img src="assets/hero.svg" width="100%" alt="Aman Kumar's Neon Engineering Lab: a three-dimensional code core, orbiting system nodes, and live engineering status." />
+</p>
+
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:6D28D9,100:06B6D4&height=220&section=header&text=AMAN%20DUBEY&fontSize=52&fontColor=E2E8F0&fontAlignY=40&desc=Full-Stack%20Developer%20%7C%20AI%20Product%20Builder&descAlignY=58&descSize=18&animation=fadeIn" width="100%"/>
+# Aman Kumar
 
-<br/>
+<img src="assets/identity.svg" width="76%" alt="Identity line cycling through Full-stack developer, Product builder, and Systems learner." />
 
-<a href="https://github.com/AmanDubey923"><img src="https://img.shields.io/badge/GitHub-0F172A?style=for-the-badge&logo=github&logoColor=06B6D4" /></a>
-<a href="https://linkedin.com/in/Amankumar923"><img src="https://img.shields.io/badge/LinkedIn-0F172A?style=for-the-badge&logo=linkedin&logoColor=6D28D9" /></a>
-<a href="mailto:kumaraman19137@gmail.com"><img src="https://img.shields.io/badge/Email-0F172A?style=for-the-badge&logo=gmail&logoColor=06B6D4" /></a>
+<sub>Building clear, useful web products where interface, data, and product behavior meet.</sub>
 
-<br/><br/>
+<br /><br />
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&duration=3000&pause=1000&color=06B6D4&center=true&vCenter=true&width=560&lines=Building+full-stack+products;Designing+AI-assisted+applications;Turning+ideas+into+shipped+software" alt="Typing SVG" />
+[【 PORTFOLIO / 01 】](https://aman-portfolio-next.netlify.app) &nbsp; [【 GITHUB / 02 】](https://github.com/amandubey923) &nbsp; [【 LINKEDIN / 03 】](https://linkedin.com/in/Amankumar923) &nbsp; [【 EMAIL / 04 】](mailto:kumaraman19137@gmail.com)
 
-<br/>
+<br /><br />
 
-<sub>Full-stack engineer focused on building and shipping complete products — from interface to backend to deployment.</sub>
-
-<br/><br/>
-
-<p>
-  <a href="#about">About</a> •
-  <a href="#stack">Stack</a> •
-  <a href="#projects">Projects</a> •
-  <a href="#focus">Focus</a> •
-  <a href="#learning">Learning</a> •
-  <a href="#activity">Activity</a> •
-  <a href="#connect">Connect</a>
-</p>
+[ SYSTEM ](#system-console) &nbsp;·&nbsp; [ STACK ](#technology-architecture) &nbsp;·&nbsp; [ PROJECTS ](#featured-builds) &nbsp;·&nbsp; [ ACTIVITY ](#github-command-center) &nbsp;·&nbsp; [ ROADMAP ](#learning-vector) &nbsp;·&nbsp; [ CONTACT ](#contact-channel)
 
 </div>
 
-<br/>
+<p align="center"><sub>◈ ─────────────────────────────── ◈</sub></p>
 
-<h2 id="about">01 — Snapshot</h2>
+<!-- SYSTEM STATUS -->
+## System console
 
-```ts
-const developer = {
-  name: "Aman Dubey",
-  role: "Full-Stack Developer",
-  focus: ["Web Applications", "AI-Integrated Products", "Real-Time Systems"],
-  building: ["Dentiva AI", "AI-FITNESS", "Interview VC Platform"],
-  learning: ["System Design", "Advanced DSA", "Production AI Engineering"],
-  philosophy: "Ship working software, then refine it with intent.",
-};
+```text
+┌──────────────────────────── AMAN://SYSTEM_CONSOLE ────────────────────────────┐
+│ STATUS       ● ONLINE                         MODE         BUILD / ITERATE     │
+│ ROLE         Full-stack developer             INTERFACE    React · Next.js     │
+│ FOCUS        Product engineering              SERVICES     Node · Express      │
+│ DATA         MongoDB · PostgreSQL             PRACTICE     C++ · DSA           │
+│ SIGNAL       Shipping web experiences with deliberate UI and useful workflows  │
+└────────────────────────────────────────────────────────────────────────────────┘
 ```
 
-<br/>
-
-<h2>02 — Now</h2>
-
+<!-- NOW: Update this small panel regularly. -->
 ```text
 NOW
-├── Building     → AI-assisted product interfaces
-├── Learning     → System design & scalable backend architecture
-├── Improving    → Production-grade code quality and structure
-└── Exploring    → Applied AI in everyday developer tools
+├── BUILDING    → product-focused experiences with Next.js and React
+├── LEARNING    → data structures and algorithms in C++
+├── REFINING    → clearer user flows, type-safe boundaries, and release quality
+└── EXPLORING   → AI-enabled web product interfaces
 ```
 
-<br/>
-
-<h2 id="stack">03 — Stack</h2>
-
-<table>
-<tr>
-<td valign="top" width="33%">
-
-**Frontend**
-
-<img src="https://skillicons.dev/icons?i=react,js,html,css,tailwind" />
-
-</td>
-<td valign="top" width="33%">
-
-**Backend**
-
-<img src="https://skillicons.dev/icons?i=nodejs,express,python" />
-
-</td>
-<td valign="top" width="33%">
-
-**Database**
-
-<img src="https://skillicons.dev/icons?i=mongodb,postgresql" />
-
-</td>
-</tr>
-<tr>
-<td valign="top" width="33%">
-
-**AI / Automation**
-
-<img src="https://skillicons.dev/icons?i=py,tensorflow" />
-
-</td>
-<td valign="top" width="33%">
-
-**DevOps**
-
-<img src="https://skillicons.dev/icons?i=git,docker,vercel,netlify" />
-
-</td>
-<td valign="top" width="33%">
-
-**Tools**
-
-<img src="https://skillicons.dev/icons?i=vscode,figma,postman,github" />
-
-</td>
-</tr>
-</table>
-
-<br/>
-
-<h2 id="projects">04 — Featured Projects</h2>
-
-### ▸ Dentiva AI
-
-**AI-integrated platform for dental care workflows.**
-
-Built to explore how AI can be layered into a real-world healthcare use case — combining a clean user-facing interface with an intelligent processing layer.
-
 <details>
-<summary>⚙️ Details</summary>
+  <summary><strong>OPEN / ENGINEERING DOCTRINE</strong></summary>
+  <br />
 
-<br/>
+  ```text
+  BUILD SMALL.   Start with the smallest flow that can be useful.
+  THINK IN FLOWS. Connect interface decisions to data and system behavior.
+  SHIP WITH CARE. Prefer readable, maintainable code over ornamental complexity.
+  OBSERVE.       Treat every implementation as a chance to learn and improve.
+  ```
+</details>
 
-- **Solves:** Bridges patients and dental care through an AI-assisted interface
-- **Stack:** React, Node.js, AI integration layer
-- **Status:** `Live`
+<p align="center"><sub>╾─ DATA BUS / ARCHITECTURE ─╼</sub></p>
+
+<!-- TECH ARCHITECTURE -->
+## Technology architecture
 
 ```mermaid
-flowchart LR
-    Client --> UI[React Client]
-    UI --> API[API Layer]
-    API --> AI[AI Service]
-    API --> DB[(Database)]
+flowchart TB
+    UI["INTERFACE LAYER<br/>React · Next.js · Tailwind CSS"] --> APP["APPLICATION LAYER<br/>TypeScript · JavaScript · Node.js · Express"]
+    APP --> DATA["DATA & SERVICES<br/>MongoDB · PostgreSQL · Prisma · Convex"]
+    APP --> PRODUCT["PRODUCT INTEGRATIONS<br/>Clerk · Stream · Google GenAI · Vapi"]
+    PRACTICE["FOUNDATIONS<br/>C++ · DSA · Python"] -. informs .-> APP
+    classDef cyan fill:#071923,stroke:#00F5FF,color:#E6FFFF,stroke-width:2px;
+    classDef violet fill:#17112E,stroke:#8B5CF6,color:#F1EDFF,stroke-width:2px;
+    class UI,DATA cyan;
+    class APP,PRODUCT,PRACTICE violet;
 ```
 
-</details>
-
-<p>
-<a href="https://github.com/amandubey923/dentiva-ai"><img src="https://img.shields.io/badge/Repository-0F172A?style=flat-square&logo=github&logoColor=06B6D4" /></a>
-<a href="https://dentiva-ai-aman.netlify.app/"><img src="https://img.shields.io/badge/Live_Demo-0F172A?style=flat-square&logo=netlify&logoColor=6D28D9" /></a>
-</p>
-
----
-
-### ▸ AI-FITNESS
-
-**AI-assisted fitness tracking and guidance application.**
-
-A product exploring how AI can personalize fitness guidance through an interactive, responsive interface.
+<p align="center"><sub>INTERFACE → APPLICATION → DATA / SERVICES → USER VALUE</sub></p>
 
 <details>
-<summary>⚙️ Details</summary>
+  <summary><strong>OPEN / TOOLING INDEX</strong></summary>
+  <br />
 
-<br/>
-
-- **Solves:** Personalized fitness tracking powered by AI logic
-- **Stack:** React, Node.js, AI integration
-- **Status:** `Live`
-
+  <code>JavaScript</code> <code>TypeScript</code> <code>C++</code> <code>Python</code> &nbsp;·&nbsp;
+  <code>React</code> <code>Next.js</code> <code>React Native</code> &nbsp;·&nbsp;
+  <code>Node.js</code> <code>Express</code> <code>MongoDB</code> <code>PostgreSQL</code> <code>Prisma</code> &nbsp;·&nbsp;
+  <code>Tailwind CSS</code> <code>Convex</code> <code>Git</code>
 </details>
 
-<p>
-<a href="https://github.com/amandubey923/ai-fitness"><img src="https://img.shields.io/badge/Repository-0F172A?style=flat-square&logo=github&logoColor=06B6D4" /></a>
-<a href="https://ai-fitness-aman.netlify.app/"><img src="https://img.shields.io/badge/Live_Demo-0F172A?style=flat-square&logo=netlify&logoColor=6D28D9" /></a>
+<p align="center"><sub>◈ ─────────────────────────── FEATURED BUILDS ─────────────────────────── ◈</sub></p>
+
+<!-- PROJECTS -->
+## Featured builds
+
+### 01 / Dentiva AI
+
+<p align="center">
+  <img src="assets/project-dentiva.svg" width="100%" alt="Dentiva AI visual: a cyan and violet medical AI signal interface." />
 </p>
 
----
+> **AI-powered dental product prototype** — a modern full-stack foundation for a focused domain experience.
 
-### ▸ Interview VC Platform
+`Next.js` `TypeScript` `Prisma` `PostgreSQL` `Clerk` `Vapi`
 
-**Real-time video calling platform built for interviews.**
+**Engineering signal:** combines authentication, a typed database layer, component primitives, and voice-AI client integration in one product codebase.
 
-A full-stack real-time communication product — focused on low-latency video, clean session handling, and a practical interview-oriented UX.
+[【 LIVE DEMO 】](https://dentiva-ai-aman.netlify.app/) &nbsp; [【 SOURCE CODE 】](https://github.com/amandubey923/dentiva-ai)
+
+### 02 / AI Fitness
+
+<p align="center">
+  <img src="assets/project-fitness.svg" width="100%" alt="AI Fitness visual: a cyan biometric performance radar interface." />
+</p>
+
+> **AI fitness web application** — an experiment in pairing product workflows with generative and voice-AI integrations.
+
+`Next.js` `TypeScript` `Convex` `Clerk` `Google GenAI` `Vapi`
+
+**Engineering signal:** brings authentication, application data, and AI service clients together within a current Next.js stack.
+
+[【 LIVE DEMO 】](https://ai-fitness-aman.netlify.app/) &nbsp; [【 SOURCE CODE 】](https://github.com/amandubey923/ai-fitness)
+
+### 03 / Interview VC Platform
+
+<p align="center">
+  <img src="assets/project-interview.svg" width="100%" alt="Interview video calling platform visual: a real-time mesh joining call, authentication, code, and data nodes." />
+</p>
+
+> **Real-time interview workspace** — video calls, authentication, and collaborative code tooling converging in a single workflow.
+
+`Next.js` `TypeScript` `Stream` `Convex` `Clerk` `Monaco Editor`
+
+**Engineering signal:** a multi-service product surface that connects real-time video, identity, application state, and code-editor capabilities.
+
+[【 LIVE DEMO 】](https://video-calling-interview-plattform.netlify.app/) &nbsp; [【 SOURCE CODE 】](https://github.com/amandubey923/Interview-video-calling-platform)
 
 <details>
-<summary>⚙️ Details</summary>
+  <summary><strong>OPEN / FEATURED PRODUCT SYSTEM MAP</strong></summary>
+  <br />
 
-<br/>
-
-- **Solves:** Real-time remote interviewing through live video sessions
-- **Stack:** React, Node.js, WebRTC / real-time layer
-- **Status:** `Live`
-
-```mermaid
-flowchart LR
-    Client --> Signal[Signaling Server]
-    Signal --> Peer[Peer Connection]
-    Peer --> Client2[Remote Client]
-```
-
+  ```mermaid
+  flowchart LR
+      U["User"] --> N["Next.js product UI"]
+      N --> D["Dentiva AI<br/>Clerk · Prisma · PostgreSQL · Vapi"]
+      N --> F["AI Fitness<br/>Clerk · Convex · Google GenAI · Vapi"]
+      N --> I["Interview VC<br/>Clerk · Convex · Stream · Monaco"]
+      classDef node fill:#071923,stroke:#00F5FF,color:#E6FFFF,stroke-width:2px;
+      classDef service fill:#17112E,stroke:#8B5CF6,color:#F1EDFF,stroke-width:2px;
+      class U,N node;
+      class D,F,I service;
+  ```
 </details>
 
-<p>
-<a href="https://github.com/amandubey923/Interview-video-calling-platform"><img src="https://img.shields.io/badge/Repository-0F172A?style=flat-square&logo=github&logoColor=06B6D4" /></a>
-<a href="https://video-calling-interview-plattform.netlify.app/"><img src="https://img.shields.io/badge/Live_Demo-0F172A?style=flat-square&logo=netlify&logoColor=6D28D9" /></a>
+<details>
+  <summary><strong>OPEN / OTHER PUBLIC MODULES</strong></summary>
+  <br />
+
+  - [Transaction Validator](https://github.com/amandubey923/transaction-validator) — spreadsheet import and visual reporting in Next.js. [Live system](https://transaction-validator-pi.vercel.app)
+  - [TextWorkspace](https://github.com/amandubey923/TextWorkspace) — React text tooling with motion and document generation.
+  - [Reserve Food](https://github.com/amandubey923/Reserve-Food) — MERN restaurant-reservation and admin workflows.
+  - [DSA](https://github.com/amandubey923/DSA) — an ongoing C++ data-structures and algorithms practice repository.
+</details>
+
+<p align="center"><sub>╾─ ENGINEERING ACTIVITY MATRIX ─╼</sub></p>
+
+<!-- GITHUB COMMAND CENTER -->
+## GitHub command center
+
+<p align="center">
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=amandubey923&theme=github_dark" alt="Aman Kumar's GitHub profile statistics." />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=amandubey923&theme=github_dark" alt="Aman Kumar's GitHub contribution detail." />
 </p>
 
-<br/>
+<div align="center">
 
-<h2 id="focus">05 — Engineering Focus</h2>
+[![Profile views](https://komarev.com/ghpvc/?username=amandubey923&style=flat-square&color=00F5FF&label=SYSTEM+VIEWS)](https://github.com/amandubey923)
 
-I build complete products, not isolated components — end-to-end, from UI to API to deployment. My current interest is in AI-integrated applications: interfaces that stay simple while the logic underneath does real work. I care about real-time systems, clean API design, and interfaces that communicate state clearly to the user.
+</div>
 
-<br/>
-
-**Principles**
+<!-- LEARNING ROADMAP -->
+## Learning vector
 
 ```text
-> Build before overengineering.
-> Understand systems, not just syntax.
-> Prefer measurable progress over motion.
-> Design for maintainability, not just for demos.
-> Ship, observe, iterate.
+CURRENT VECTOR
+
+[ C++ / DSA ] ─────────► stronger problem-solving foundations
+         │
+         ├──────────────► full-stack architecture and typed product systems
+         │
+[ NEXT.JS / AI ] ──────► practical interfaces for emerging AI workflows
+         │
+         └──────────────► intentional UX, iteration, and product delivery
 ```
 
-<br/>
+The direction is simple: build useful products, understand the systems underneath them, and compound that knowledge through implementation.
 
-<h2 id="learning">06 — Currently Learning</h2>
+<p align="center"><sub>◈ ─────────────────────────────── ◈</sub></p>
 
-<table>
-<tr><td width="50%">
-
-**System Design**
-Structuring applications that scale beyond a single use case.
-
-</td><td width="50%">
-
-**Advanced DSA**
-Strengthening problem-solving fundamentals.
-
-</td></tr>
-<tr><td width="50%">
-
-**Production AI Engineering**
-Moving from AI experiments to reliable, integrated features.
-
-</td><td width="50%">
-
-**Backend Architecture**
-Structuring services for clarity and scale.
-
-</td></tr>
-</table>
-
-<br/>
-
-<h2 id="activity">07 — Activity</h2>
+<!-- CONTACT -->
+## Contact channel
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=AmanDubey923&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0F172A&title_color=06B6D4&icon_color=6D28D9&text_color=E2E8F0" width="48%" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=AmanDubey923&theme=tokyonight&hide_border=true&background=0F172A&stroke=0F172A&ring=06B6D4&fire=6D28D9&currStreakLabel=06B6D4" width="48%" />
+```text
+TRANSMISSION READY
+If you are building a useful web product or want to exchange implementation notes,
+the signal is open.
+```
 
-<br/>
+[【 PORTFOLIO 】](https://aman-portfolio-next.netlify.app) &nbsp; [【 LINKEDIN 】](https://linkedin.com/in/Amankumar923) &nbsp; [【 EMAIL 】](mailto:kumaraman19137@gmail.com) &nbsp; [【 REPOSITORIES 】](https://github.com/amandubey923?tab=repositories)
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=AmanDubey923&theme=tokyo-night&bg_color=0F172A&color=06B6D4&line=6D28D9&point=E2E8F0&hide_border=true" width="97%" />
+<br />
 
-</div>
+<sub>END OF TRANSMISSION · AMAN KUMAR / BUILD · LEARN · SHIP</sub>
 
-<br/>
-
-<h2 id="connect">08 — Let's Build</h2>
-
-<div align="center">
-
-Open to conversations about full-stack engineering, AI-integrated products, and interesting problems worth solving.
-
-<p>
-<a href="https://github.com/AmanDubey923"><img src="https://img.shields.io/badge/GitHub-0F172A?style=for-the-badge&logo=github&logoColor=06B6D4" /></a>
-<a href="https://linkedin.com/in/Amankumar923"><img src="https://img.shields.io/badge/LinkedIn-0F172A?style=for-the-badge&logo=linkedin&logoColor=6D28D9" /></a>
-<a href="mailto:kumaraman19137@gmail.com"><img src="https://img.shields.io/badge/Email-0F172A?style=for-the-badge&logo=gmail&logoColor=06B6D4" /></a>
-</p>
-
-</div>
-
-<br/>
-
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:06B6D4,50:6D28D9,100:0F172A&height=100&section=footer" width="100%"/>
 </div>
