@@ -1,1 +1,96 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 190" role="img" aria-labelledby="title desc"><title id="title">AI Fitness visual</title><desc id="desc">A cyan biometric radar and performance interface.</desc><defs><radialGradient id="r"><stop stop-color="#00F5FF" stop-opacity=".35"/><stop offset="1" stop-color="#07131F" stop-opacity="0"/></radialGradient></defs><rect width="960" height="190" rx="12" fill="#07131F"/><g transform="translate(480 95)"><circle r="80" fill="url(#r)"/><g fill="none" stroke="#00F5FF" stroke-opacity=".42"><circle r="65"/><circle r="42"/><circle r="20"/><path d="M-74 0H74M0-74V74M-52-52 52 52M52-52-52 52"/></g><path d="M0 0L57-34" stroke="#C4B5FD" stroke-width="3"/><circle cx="57" cy="-34" r="5" fill="#C4B5FD"/></g><g font-family="ui-monospace,monospace"><text x="35" y="45" fill="#00F5FF" font-size="12" letter-spacing="2">AI FITNESS / RADAR</text><text x="35" y="70" fill="#CBD5E1" font-size="11">WORKOUT SIGNALS · PROGRESS · PRODUCT FLOW</text><text x="714" y="145" fill="#C4B5FD" font-size="11" letter-spacing="2">MODE / ANALYSIS</text></g><path d="M0 150H250L290 115H375M585 115H670L720 150H960" fill="none" stroke="#8B5CF6" stroke-opacity=".55"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 210" width="100%" height="100%">
+  <defs>
+    <linearGradient id="fitBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080F16"/>
+      <stop offset="50%" stop-color="#0B1A24"/>
+      <stop offset="100%" stop-color="#04080D"/>
+    </linearGradient>
+    <linearGradient id="borderFit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#00F5FF" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#10B981" stop-opacity="0.1"/>
+    </linearGradient>
+    <pattern id="fitGrid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#0F2D2E" stroke-width="0.5" stroke-opacity="0.3"/>
+    </pattern>
+    <filter id="glowFit" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="1.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+  </style>
+
+  <rect width="860" height="210" rx="10" fill="url(#fitBg)"/>
+  <rect width="860" height="210" rx="10" fill="url(#fitGrid)"/>
+  <rect width="860" height="210" rx="10" fill="none" stroke="url(#borderFit)" stroke-width="1"/>
+
+  <!-- Top Bar -->
+  <rect x="20" y="16" width="12" height="12" rx="2" fill="#10B981" opacity="0.9"/>
+  <text x="40" y="26" class="mono" font-size="10.5" font-weight="bold" fill="#10B981" letter-spacing="2">04 // SYSTEM: AI FITNESS PLATFORM</text>
+  
+  <rect x="660" y="14" width="180" height="20" rx="4" fill="#030712" stroke="#10B981" stroke-width="0.6"/>
+  <circle cx="672" cy="24" r="3" fill="#10B981" filter="url(#glowFit)"/>
+  <text x="682" y="27" class="mono" font-size="8.5" fill="#10B981" letter-spacing="1.5">PROD DEPLOY // ACTIVE</text>
+
+  <!-- Title and Description -->
+  <text x="20" y="58" class="sans" font-size="18" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">Intelligent Biometric Workout &amp; Nutrition Assistant</text>
+  <text x="20" y="78" class="sans" font-size="11.5" fill="#94A3B8">Real-time biometric analysis, generative dietary workflows, Convex reactive state, and voice-assisted coaching.</text>
+
+  <!-- Architecture Flow Schematic -->
+  <g transform="translate(20, 95)">
+    <rect x="0" y="0" width="820" height="58" rx="6" fill="#040D11" stroke="#0F2D2E" stroke-width="0.8"/>
+    
+    <!-- Stage 1 -->
+    <rect x="12" y="10" width="160" height="38" rx="4" fill="#091A1D" stroke="#10B981" stroke-width="0.7"/>
+    <text x="22" y="24" class="mono" font-size="8" fill="#10B981">STAGE 01 // BIOMETRICS</text>
+    <text x="22" y="38" class="sans" font-size="10" font-weight="600" fill="#F8FAFC">User Target Ingest</text>
+    
+    <path d="M 172 29 L 205 29" fill="none" stroke="#10B981" stroke-width="1" stroke-dasharray="2,2"/>
+    
+    <!-- Stage 2 -->
+    <rect x="205" y="10" width="180" height="38" rx="4" fill="#091A1D" stroke="#00F5FF" stroke-width="0.7"/>
+    <text x="215" y="24" class="mono" font-size="8" fill="#00F5FF">STAGE 02 // REALTIME STATE</text>
+    <text x="215" y="38" class="sans" font-size="10" font-weight="600" fill="#F8FAFC">Convex Reactive Sync</text>
+    
+    <path d="M 385 29 L 418 29" fill="none" stroke="#00F5FF" stroke-width="1" stroke-dasharray="2,2"/>
+    
+    <!-- Stage 3 -->
+    <rect x="418" y="10" width="180" height="38" rx="4" fill="#091A1D" stroke="#818CF8" stroke-width="0.7"/>
+    <text x="428" y="24" class="mono" font-size="8" fill="#818CF8">STAGE 03 // GENERATIVE AI</text>
+    <text x="428" y="38" class="sans" font-size="10" font-weight="600" fill="#F8FAFC">Gemini Nutrition Engine</text>
+
+    <path d="M 598 29 L 631 29" fill="none" stroke="#818CF8" stroke-width="1" stroke-dasharray="2,2"/>
+
+    <!-- Stage 4 -->
+    <rect x="631" y="10" width="177" height="38" rx="4" fill="#091A1D" stroke="#10B981" stroke-width="0.7"/>
+    <text x="641" y="24" class="mono" font-size="8" fill="#10B981">STAGE 04 // VOICE COACH</text>
+    <text x="641" y="38" class="sans" font-size="10" font-weight="600" fill="#F8FAFC">Vapi Voice Interaction</text>
+  </g>
+
+  <!-- Bottom Badges / Tech Specs -->
+  <g transform="translate(20, 168)">
+    <rect x="0" y="0" width="85" height="24" rx="4" fill="#030712" stroke="#0F2D2E" stroke-width="0.6"/>
+    <text x="42" y="16" class="mono" font-size="9" fill="#10B981" text-anchor="middle">Next.js</text>
+
+    <rect x="95" y="0" width="85" height="24" rx="4" fill="#030712" stroke="#0F2D2E" stroke-width="0.6"/>
+    <text x="137" y="16" class="mono" font-size="9" fill="#00F5FF" text-anchor="middle">TypeScript</text>
+
+    <rect x="190" y="0" width="85" height="24" rx="4" fill="#030712" stroke="#0F2D2E" stroke-width="0.6"/>
+    <text x="232" y="16" class="mono" font-size="9" fill="#818CF8" text-anchor="middle">Convex DB</text>
+
+    <rect x="285" y="0" width="75" height="24" rx="4" fill="#030712" stroke="#0F2D2E" stroke-width="0.6"/>
+    <text x="322" y="16" class="mono" font-size="9" fill="#C084FC" text-anchor="middle">Gemini</text>
+
+    <rect x="370" y="0" width="65" height="24" rx="4" fill="#030712" stroke="#0F2D2E" stroke-width="0.6"/>
+    <text x="402" y="16" class="mono" font-size="9" fill="#10B981" text-anchor="middle">Vapi AI</text>
+
+    <text x="450" y="16" class="mono" font-size="8" fill="#64748B">SIGNAL: Biometric analysis + AI routine synthesis with voice agent</text>
+  </g>
+</svg>

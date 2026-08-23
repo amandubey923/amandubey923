@@ -1,1 +1,99 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 190" role="img" aria-labelledby="title desc"><title id="title">Dentiva AI visual</title><desc id="desc">A violet and cyan medical AI signal interface.</desc><defs><linearGradient id="g" x2="1" y2="1"><stop stop-color="#07131F"/><stop offset="1" stop-color="#231044"/></linearGradient><filter id="f"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><rect width="960" height="190" rx="12" fill="url(#g)"/><g stroke="#00F5FF" fill="none" opacity=".5"><path d="M0 150H170L230 95H390M570 95H730L790 40H960"/><path d="M0 40H140L205 105H350" stroke="#8B5CF6"/></g><g transform="translate(480 95)" filter="url(#f)"><circle r="58" fill="#00F5FF" fill-opacity=".08" stroke="#00F5FF"/><circle r="35" fill="#8B5CF6" fill-opacity=".25" stroke="#C4B5FD"/><path d="M-20 0H20M0-20V20" stroke="#F4FFFF" stroke-width="3"/><circle r="4" fill="#F4FFFF"/></g><g font-family="ui-monospace,monospace"><text x="35" y="45" fill="#00F5FF" font-size="12" letter-spacing="2">DENTIVA AI / SIGNAL</text><text x="35" y="70" fill="#CBD5E1" font-size="11">PATIENT WORKFLOW · DATA LAYER · AI INTERFACE</text><text x="735" y="145" fill="#C4B5FD" font-size="11" letter-spacing="2">STATUS / PROTOTYPE</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 210" width="100%" height="100%">
+  <defs>
+    <linearGradient id="dentBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0C091A"/>
+      <stop offset="50%" stop-color="#130E26"/>
+      <stop offset="100%" stop-color="#06040F"/>
+    </linearGradient>
+    <linearGradient id="borderDent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#A78BFA" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0.1"/>
+    </linearGradient>
+    <pattern id="dentGrid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#2E1065" stroke-width="0.5" stroke-opacity="0.3"/>
+    </pattern>
+    <filter id="glowDent" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="1.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+  </style>
+
+  <rect width="860" height="210" rx="10" fill="url(#dentBg)"/>
+  <rect width="860" height="210" rx="10" fill="url(#dentGrid)"/>
+  <rect width="860" height="210" rx="10" fill="none" stroke="url(#borderDent)" stroke-width="1"/>
+
+  <!-- Top Bar -->
+  <rect x="20" y="16" width="12" height="12" rx="2" fill="#A78BFA" opacity="0.9"/>
+  <text x="40" y="26" class="mono" font-size="10.5" font-weight="bold" fill="#C084FC" letter-spacing="2">02 // SYSTEM: DENTIVA AI</text>
+  
+  <rect x="660" y="14" width="180" height="20" rx="4" fill="#030712" stroke="#8B5CF6" stroke-width="0.6"/>
+  <circle cx="672" cy="24" r="3" fill="#10B981" filter="url(#glowDent)"/>
+  <text x="682" y="27" class="mono" font-size="8.5" fill="#C084FC" letter-spacing="1.5">PROD DEPLOY // ACTIVE</text>
+
+  <!-- Title and Description -->
+  <text x="20" y="58" class="sans" font-size="18" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">AI-Powered Clinical Dental Assistant &amp; Voice Triage</text>
+  <text x="20" y="78" class="sans" font-size="11.5" fill="#94A3B8">Real-time doctor appointment orchestration, typed relational records, and interactive AI voice triage.</text>
+
+  <!-- Architecture Flow Schematic -->
+  <g transform="translate(20, 95)">
+    <rect x="0" y="0" width="820" height="58" rx="6" fill="#090514" stroke="#2E1065" stroke-width="0.8"/>
+    
+    <!-- Stage 1 -->
+    <rect x="12" y="10" width="160" height="38" rx="4" fill="#150D2E" stroke="#8B5CF6" stroke-width="0.7"/>
+    <text x="22" y="24" class="mono" font-size="8" fill="#A78BFA">STAGE 01 // IDENTITY</text>
+    <text x="22" y="38" class="sans" font-size="10" font-weight="600" fill="#F8FAFC">Clerk Auth Security</text>
+    
+    <path d="M 172 29 L 205 29" fill="none" stroke="#8B5CF6" stroke-width="1" stroke-dasharray="2,2"/>
+    
+    <!-- Stage 2 -->
+    <rect x="205" y="10" width="180" height="38" rx="4" fill="#150D2E" stroke="#C084FC" stroke-width="0.7"/>
+    <text x="215" y="24" class="mono" font-size="8" fill="#C084FC">STAGE 02 // DATA LAYER</text>
+    <text x="215" y="38" class="sans" font-size="10" font-weight="600" fill="#F8FAFC">Prisma ORM + PostgreSQL</text>
+    
+    <path d="M 385 29 L 418 29" fill="none" stroke="#C084FC" stroke-width="1" stroke-dasharray="2,2"/>
+    
+    <!-- Stage 3 -->
+    <rect x="418" y="10" width="180" height="38" rx="4" fill="#150D2E" stroke="#38BDF8" stroke-width="0.7"/>
+    <text x="428" y="24" class="mono" font-size="8" fill="#38BDF8">STAGE 03 // SCHEDULER</text>
+    <text x="428" y="38" class="sans" font-size="10" font-weight="600" fill="#F8FAFC">Doctor Availability Engine</text>
+
+    <path d="M 598 29 L 631 29" fill="none" stroke="#38BDF8" stroke-width="1" stroke-dasharray="2,2"/>
+
+    <!-- Stage 4 -->
+    <rect x="631" y="10" width="177" height="38" rx="4" fill="#150D2E" stroke="#8B5CF6" stroke-width="0.7"/>
+    <text x="641" y="24" class="mono" font-size="8" fill="#A78BFA">STAGE 04 // AI VOICE</text>
+    <text x="641" y="38" class="sans" font-size="10" font-weight="600" fill="#F8FAFC">Vapi Voice Triage Agent</text>
+  </g>
+
+  <!-- Bottom Badges / Tech Specs -->
+  <g transform="translate(20, 168)">
+    <rect x="0" y="0" width="90" height="24" rx="4" fill="#030712" stroke="#2E1065" stroke-width="0.6"/>
+    <text x="45" y="16" class="mono" font-size="9" fill="#C084FC" text-anchor="middle">Next.js App</text>
+
+    <rect x="100" y="0" width="85" height="24" rx="4" fill="#030712" stroke="#2E1065" stroke-width="0.6"/>
+    <text x="142" y="16" class="mono" font-size="9" fill="#A78BFA" text-anchor="middle">TypeScript</text>
+
+    <rect x="195" y="0" width="90" height="24" rx="4" fill="#030712" stroke="#2E1065" stroke-width="0.6"/>
+    <text x="240" y="16" class="mono" font-size="9" fill="#38BDF8" text-anchor="middle">PostgreSQL</text>
+
+    <rect x="295" y="0" width="85" height="24" rx="4" fill="#030712" stroke="#2E1065" stroke-width="0.6"/>
+    <text x="337" y="16" class="mono" font-size="9" fill="#94A3B8" text-anchor="middle">Prisma ORM</text>
+
+    <rect x="390" y="0" width="75" height="24" rx="4" fill="#030712" stroke="#2E1065" stroke-width="0.6"/>
+    <text x="427" y="16" class="mono" font-size="9" fill="#C084FC" text-anchor="middle">Vapi AI</text>
+
+    <rect x="475" y="0" width="65" height="24" rx="4" fill="#030712" stroke="#2E1065" stroke-width="0.6"/>
+    <text x="507" y="16" class="mono" font-size="9" fill="#10B981" text-anchor="middle">Netlify</text>
+
+    <text x="555" y="16" class="mono" font-size="8" fill="#64748B">SIGNAL: Type-safe database schema · conversational voice triage</text>
+  </g>
+</svg>
