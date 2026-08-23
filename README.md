@@ -1,385 +1,159 @@
-﻿<!--
-  =============================================================================
-  AMAN DUBEY (KUMAR) // FULL-STACK SOFTWARE ENGINEER & SYSTEMS ARCHITECT
-  ENGINEERING DOSSIER & SYSTEM ARCHITECTURE COMMAND CENTER
-  Primary Source of Truth: https://aman-portfolio-next.netlify.app/
-  =============================================================================
--->
-
-<div align="center">
+﻿<div align="center">
 
 <p align="center">
-  <img src="assets/hero.svg" width="100%" alt="Aman Dubey's Futuristic Engineering Command Console: central architecture core, orbiting systems nodes, live telemetry status." />
+  <img src="assets/studio-hero.svg" width="100%" alt="Aman Dubey — Software Engineer &amp; Full-Stack Systems Builder" />
 </p>
 
-# ◈ AMAN DUBEY ◈
+# Aman Dubey
 
-<p align="center">
-  <img src="assets/identity.svg" width="80%" alt="Full-Stack Software Engineer // Systems Architect // 500+ DSA (C++)" />
-</p>
-
-<sub>Architecting high-performance, scalable web systems and modern interactive user experiences with production-grade engineering practices.</sub>
-
-<br /><br />
-
-[【 🌐 LIVE PORTFOLIO 】](https://aman-portfolio-next.netlify.app/) &nbsp;&nbsp;·&nbsp;&nbsp; [【 ⚡ GITHUB REPOSITORIES 】](https://github.com/amandubey923) &nbsp;&nbsp;·&nbsp;&nbsp; [【 💼 LINKEDIN 】](https://www.linkedin.com/in/aman-kr-dubey) &nbsp;&nbsp;·&nbsp;&nbsp; [【 📄 RESUME DOSSIER 】](https://aman-portfolio-next.netlify.app/resume/Resume2.pdf)
-
-<br /><br />
-
-```text
-┌── COMMAND DIRECTORY ────────────────────────────────────────────────────────────────────────────────────┐
-│ [01] SYSTEM CONSOLE  │ [02] ARCHITECTURE  │ [03] ECOSYSTEM CONSTELLATION │ [04] PRODUCTION BUILDS      │
-│ [05] STACK TAXONOMY  │ [06] 500+ DSA CORE │ [07] GITHUB COMMAND CENTER   │ [08] TRANSMISSION CHANNEL   │
-└─────────────────────────────────────────────────────────────────────────────────────────────────────────┘
-```
-
-</div>
-
----
-
-## 01 // SYSTEM CONSOLE & TELEMETRY
-
-```text
-┌───────────────────────────────────────── AMAN://ENGINEERING_OS ─────────────────────────────────────────┐
-│ STATUS       ● ONLINE [v4.2]                   KERNEL       NEXT.JS / REACT / NODE.JS                   │
-│ ROLE         Full-Stack Software Engineer      FOUNDATION   C++ · Algorithmic Architecture (500+ DSA)   │
-│ FOCUS        Scalable Systems & AI Workflows   PERSISTENCE  PostgreSQL · MongoDB · Prisma · Convex      │
-│ SIGNAL       Shipping production-grade web systems with typed boundaries and deliberate interfaces       │
-│ UPTIME       CONTINUOUS EXECUTION              MILESTONE    Smart India Hackathon (SIH) Participant     │
-└─────────────────────────────────────────────────────────────────────────────────────────────────────────┘
-```
-
-<details open>
-<summary><strong>📡 LIVE "NOW" VECTOR // CURRENT ENGINEERING FOCUS</strong></summary>
+**Software Engineer • Full-Stack Developer • Systems Builder**  
+*B.Tech in Information Technology • 500+ Algorithmic Problems Solved (C++) • SIH Hackathon Participant*
 
 <br />
 
-```text
-CURRENT_VECTOR
-├── 🚀 BUILDING   → Production-grade web ecosystems with Next.js App Router, TypeScript & Tailwind
-├── 🧠 PRACTICING → Asymptotic optimization and advanced tree/graph algorithms in C++ (500+ solved)
-├── ⚡ INTEGRATING → Real-time conversational AI workflows (Gemini LLM, Vapi Voice) and secure auth
-└── 🛠️ REFINING   → Resilient database schemas, query caching strategies, and end-to-end type safety
-```
-
-</details>
-
----
-
-## 02 // ENGINEERING DOCTRINE & THE FOUR AXIOMS
-
-```text
-┌── THE FOUR AXIOMS ──────────────────────────────────────────────────────────────────────────────────────┐
-│                                                                                                         │
-│  01. DECONSTRUCT FIRST    Master the algorithmic invariants before writing a single line of interface.  │
-│  02. THINK IN FLOWS       Connect visual components directly to typed state and resilient backend data. │
-│  03. SHIP WITH INTENT     Prefer clean, self-documenting code over ornamental over-engineering.         │
-│  04. COMPOUND DAILY       Every bug, edge case, and commit is a long-term investment in technical mastery.│
-│                                                                                                         │
-└─────────────────────────────────────────────────────────────────────────────────────────────────────────┘
-```
-
----
-
-## 03 // END-TO-END ENGINEERING PIPELINE
-
-> *"I don't just assemble frameworks. I engineer end-to-end systems that transform complex specifications into reliable, performant user value."*
-
-<p align="center">
-  <img src="assets/system-pipeline.svg" width="100%" alt="Aman Dubey's End-to-End Engineering Pipeline: Specifications, Interface, Runtime, Persistence, Intelligence, and Delivery." />
-</p>
-
-```mermaid
-flowchart LR
-    subgraph S1["01 / SPEC & CORE"]
-        A["Problem Deconstruction<br/>Asymptotic Analysis (C++)"]
-    end
-    subgraph S2["02 / INTERFACE"]
-        B["Component Hierarchies<br/>Next.js · React · Tailwind"]
-    end
-    subgraph S3["03 / RUNTIME & DATA"]
-        C["Node.js / Express APIs<br/>PostgreSQL · MongoDB · Prisma"]
-    end
-    subgraph S4["04 / AI & AUTH"]
-        D["Gemini · Vapi Voice<br/>Clerk Identity Layer"]
-    end
-    subgraph S5["05 / PRODUCTION"]
-        E["Vercel / Netlify CI/CD<br/>High-Performance Delivery"]
-    end
-
-    A --> B --> C --> D --> E
-
-    classDef cyan fill:#08131D,stroke:#00F5FF,color:#E0F7FF,stroke-width:1.5px;
-    classDef violet fill:#140C24,stroke:#A78BFA,color:#F3E8FF,stroke-width:1.5px;
-    classDef green fill:#071A14,stroke:#10B981,color:#E6FFFA,stroke-width:1.5px;
-    
-    class S1,S3 cyan;
-    class S2,S4 violet;
-    class S5 green;
-```
-
----
-
-## 04 // PRODUCTION PROJECT CONSTELLATION
-
-The portfolio architecture spans two interdependent engineering clusters: **AI & Voice Intelligence Platforms** and **High-Throughput Product & Data Systems**.
-
-<p align="center">
-  <img src="assets/project-constellation.svg" width="100%" alt="Aman Dubey's Project Ecosystem Constellation: AI Systems and Product Systems converging in Full-Stack Engineering." />
-</p>
-
----
-
-## 05 // FEATURED PRODUCTION SYSTEMS
+[【 🌐 Live Portfolio 】](https://aman-portfolio-next.netlify.app/) &nbsp;&nbsp;·&nbsp;&nbsp; [【 📄 Download Resume (PDF) 】](https://aman-portfolio-next.netlify.app/resume/Resume2.pdf) &nbsp;&nbsp;·&nbsp;&nbsp; [【 💼 LinkedIn Profile 】](https://www.linkedin.com/in/aman-kr-dubey) &nbsp;&nbsp;·&nbsp;&nbsp; [【 ⚡ GitHub Repositories 】](https://github.com/amandubey923) &nbsp;&nbsp;·&nbsp;&nbsp; [【 📧 Email Me 】](mailto:kumaraman19137@gmail.com)
 
 <br />
 
-### ◈ 01 / READER'S HUB — Digital Library & Reading Ecosystem
-
-<p align="center">
-  <img src="assets/project-readers-hub.svg" width="100%" alt="Reader's HUB System Schematic: Ingestion, Caching, Curation, and Reader State." />
-</p>
-
-```text
-SYSTEM ID      PROJECT_01 // READER'S HUB
-PARADIGM       Next-Gen Digital Library & Book Discovery Platform
-STACK          Next.js (App Router) · TypeScript · Tailwind CSS · React · Responsive UI · Vercel
-LIVE STATUS    ● PRODUCTION ONLINE
-```
-
-- **Architectural Overview:** Architected a modern digital reading platform featuring instant multi-attribute catalog search, personalized book curation, community review flows, and customizable reading display themes.
-- **Engineering Highlights:**
-  - Designed an optimized client-side query and caching layer for fluid book discovery across expansive catalogs.
-  - Engineered persistent reader state management allowing seamless bookmarking, review curation, and reading preference retention.
-  - Implemented responsive, zero-layout-shift UI components optimized for desktop, tablet, and mobile reading.
-
-<div align="center">
-
-[【 🚀 LAUNCH LIVE SYSTEM 】](https://reader-hub-library.vercel.app/) &nbsp;&nbsp;&nbsp;&nbsp; [【 📦 INSPECT SOURCE CODE 】](https://github.com/amandubey923/library-optimized)
+---
 
 </div>
 
----
+## 01 // Engineering Identity
 
-### ◈ 02 / DENTIVA AI — Clinical Dental Assistant & Voice Triage
+I am an **Information Technology engineer** focused on architecting reliable, high-performance web systems and intelligent product workflows. My engineering philosophy is built on solid computer science fundamentals, strict type boundaries, clean code organization, and resilient system design.
 
-<p align="center">
-  <img src="assets/project-dentiva.svg" width="100%" alt="Dentiva AI System Schematic: Identity, Data Layer, Scheduler, and AI Voice Triage." />
-</p>
-
-```text
-SYSTEM ID      PROJECT_02 // DENTIVA AI
-PARADIGM       AI-Powered Clinical Dental Assistant & Conversational Triage
-STACK          Next.js · TypeScript · Prisma ORM · PostgreSQL · Clerk Auth · Vapi Voice AI · Netlify
-LIVE STATUS    ● PRODUCTION ONLINE
-```
-
-- **Architectural Overview:** Built an intelligent clinical assistant enabling interactive voice-driven dental symptom triage, doctor schedule management, and real-time appointment reservation.
-- **Engineering Highlights:**
-  - Architected a robust, type-safe relational database schema utilizing Prisma ORM with PostgreSQL for doctor availability and patient bookings.
-  - Integrated real-time conversational voice agents using Vapi AI to conduct preliminary diagnostic Q&A and route urgency tiers.
-  - Enforced enterprise-grade authentication and route-level authorization barriers with Clerk.
-
-<div align="center">
-
-[【 🚀 LAUNCH LIVE SYSTEM 】](https://dentiva-ai-aman.netlify.app) &nbsp;&nbsp;&nbsp;&nbsp; [【 📦 INSPECT SOURCE CODE 】](https://github.com/amandubey923/dentiva-ai)
-
-</div>
+- **Frontend & Product Engineering:** Building zero-layout-shift, highly accessible interfaces using **Next.js (App Router)**, **React.js**, and **Tailwind CSS**.
+- **Backend & Data Persistence:** Designing performant server APIs and data models using **Node.js**, **Express.js**, **PostgreSQL**, **MongoDB**, **Prisma ORM**, and **Convex**.
+- **Applied AI & Integrations:** Embedding practical generative intelligence (**Google Gemini API**) and real-time voice triage agents (**Vapi AI**) backed by secure authentication (**Clerk**).
+- **Algorithmic Core:** Sustained problem-solving discipline with **500+ algorithmic problems solved in C++** across LeetCode and GeeksforGeeks.
 
 ---
 
-### ◈ 03 / TRANSACTION VALIDATOR — High-Throughput CSV Anomaly Engine
+## 02 // Featured Production Systems
 
-<p align="center">
-  <img src="assets/project-validator.svg" width="100%" alt="Transaction Validator System Schematic: Ingest, Sanitization, Detection Engine, and Export." />
-</p>
-
-```text
-SYSTEM ID      PROJECT_03 // TRANSACTION VALIDATOR
-PARADIGM       High-Throughput Financial CSV Data Pipeline & Anomaly Engine
-STACK          Next.js · TypeScript · Tailwind CSS · Data Parsing Algorithms · Vercel
-LIVE STATUS    ● PRODUCTION ONLINE
-```
-
-- **Architectural Overview:** Developed a high-performance CSV batch processor engineered to ingest, audit, sanitize, and validate transaction records with automated duplicate and anomaly flagging.
-- **Engineering Highlights:**
-  - Constructed efficient client-side stream parsing algorithms to ingest large CSV transaction datasets with minimal UI blocking.
-  - Implemented mathematical validation heuristics to identify malformed syntax, outlier amounts, and duplicate record signatures.
-  - Built an automated reporting interface that exports sanitized records and structured audit summaries.
-
-<div align="center">
-
-[【 🚀 LAUNCH LIVE SYSTEM 】](https://transaction-validator-aman.vercel.app) &nbsp;&nbsp;&nbsp;&nbsp; [【 📦 INSPECT SOURCE CODE 】](https://github.com/amandubey923/transaction-validator)
-
-</div>
-
----
-
-### ◈ 04 / AI FITNESS PLATFORM — Biometric Workout & Nutrition Assistant
-
-<p align="center">
-  <img src="assets/project-fitness.svg" width="100%" alt="AI Fitness Platform System Schematic: Biometrics, Convex Reactive State, Gemini AI, and Vapi Voice Coach." />
-</p>
-
-```text
-SYSTEM ID      PROJECT_04 // AI FITNESS PLATFORM
-PARADIGM       Intelligent Workout & Nutrition Assistant
-STACK          Next.js · TypeScript · Convex DB · Clerk Auth · Google Gemini AI · Vapi AI · Netlify
-LIVE STATUS    ● PRODUCTION ONLINE
-```
-
-- **Architectural Overview:** Architected an adaptive fitness web application that analyzes user biometrics and fitness targets to formulate personalized dietary and workout routines with conversational voice assistance.
-- **Engineering Highlights:**
-  - Engineered reactive, real-time client state synchronization using Convex backend functions.
-  - Structured prompt pipelines with Google Gemini for structured nutritional recommendation outputs.
-  - Incorporated bidirectional conversational voice interaction via Vapi AI for interactive coaching sessions.
-
-<div align="center">
-
-[【 🚀 LAUNCH LIVE SYSTEM 】](https://ai-fitness-aman.netlify.app) &nbsp;&nbsp;&nbsp;&nbsp; [【 📦 INSPECT SOURCE CODE 】](https://github.com/amandubey923/ai-fitness)
-
-</div>
-
----
-
-### ◈ 05 / AI IMAGE GENERATOR STUDIO — Creative Diffusion Studio
-
-<p align="center">
-  <img src="assets/project-image-studio.svg" width="100%" alt="AI Image Generator Studio System Schematic: Prompt Engine, Diffusion Pipeline, Post-Processing, and Gallery." />
-</p>
-
-```text
-SYSTEM ID      PROJECT_05 // AI IMAGE GENERATOR STUDIO
-PARADIGM       Full-Stack Creative Diffusion Studio & Generative Canvas
-STACK          React.js · TypeScript · Tailwind CSS · Generative Diffusion API · Netlify
-LIVE STATUS    ● PRODUCTION ONLINE
-```
-
-- **Architectural Overview:** Built a full-stack creative diffusion application enabling creators to transform text prompts into distinctive visual aesthetics with customizable generation parameters.
-- **Engineering Highlights:**
-  - Implemented an asynchronous client-side generation stream with responsive loading states and error recovery.
-  - Built preset style injectors that optimize user prompt tokens for stylized artistic outputs.
-  - Engineered client-side image upscaling preview buffers and instant one-click export workflows.
-
-<div align="center">
-
-[【 🚀 LAUNCH LIVE SYSTEM 】](https://image-generator-studio.netlify.app) &nbsp;&nbsp;&nbsp;&nbsp; [【 📦 INSPECT SOURCE CODE 】](https://github.com/amandubey923/image-generator)
-
-</div>
-
----
-
-### ◈ 06 / PRODUCTIFY SAAS PLATFORM — Digital Creator Storefront
-
-<p align="center">
-  <img src="assets/project-productify.svg" width="100%" alt="Productify SaaS Platform System Schematic: Storefront UI, Server API, MongoDB Clusters, and Asset Pipeline." />
-</p>
-
-```text
-SYSTEM ID      PROJECT_06 // PRODUCTIFY SAAS PLATFORM
-PARADIGM       Digital Creator Storefront & Asset Showcase Engine
-STACK          React.js / Next.js · Node.js · Express.js · MongoDB Atlas · Tailwind CSS · Vercel
-LIVE STATUS    ● PRODUCTION ONLINE
-```
-
-- **Architectural Overview:** Developed a full-stack SaaS platform empowering digital creators to securely upload, categorize, showcase, and manage digital product listings.
-- **Engineering Highlights:**
-  - Constructed RESTful backend endpoints with Node.js and Express for product lifecycle management.
-  - Modeled document schemas in MongoDB Atlas with indexing on product categories and tags for rapid retrieval.
-  - Built an intuitive creator dashboard for asset management and listing analytics.
-
-<div align="center">
-
-[【 🚀 LAUNCH LIVE SYSTEM 】](https://frontend-productify.vercel.app) &nbsp;&nbsp;&nbsp;&nbsp; [【 📦 INSPECT SOURCE CODE 】](https://github.com/amandubey923/productify)
-
-</div>
-
----
-
-<details>
-<summary><strong>📂 EXPLORE ADDITIONAL PUBLIC MODULES & REPOSITORIES</strong></summary>
+Three verified builds demonstrating full-stack architecture, domain-specific AI workflows, and high-throughput data processing:
 
 <br />
 
-| Module | Architectural Overview | Source |
-| :--- | :--- | :--- |
-| **Interview VC Platform** | Real-time video conferencing, Monaco code editor, and Convex state sync. | [GitHub ↗](https://github.com/amandubey923/Interview-video-calling-platform) &nbsp;·&nbsp; [Live ↗](https://video-calling-interview-plattform.netlify.app/) |
-| **TextWorkspace** | React-powered text editing and document formatting workspace with fluid animations. | [GitHub ↗](https://github.com/amandubey923/TextWorkspace) |
-| **Reserve Food** | MERN-stack restaurant table reservation platform with admin dashboard workflows. | [GitHub ↗](https://github.com/amandubey923/Reserve-Food) |
-| **DSA Practice Core** | Core repository containing 500+ data structure & algorithm implementations in C++. | [GitHub ↗](https://github.com/amandubey923/DSA) |
+### 01 / Reader's HUB — Digital Library & Reading Ecosystem Platform
 
-</details>
+<p align="center">
+  <img src="assets/card-readers-hub.svg" width="100%" alt="Reader's HUB Architecture &amp; System Flow" />
+</p>
+
+* **Problem & Overview:** Modern web readers often experience sluggish catalog browsing and disjointed reading states. Reader's HUB is a next-generation digital library platform featuring instant catalog search, book curation, structured reviews, and custom reading themes.
+* **Engineering Architecture:**
+  - Constructed an optimized client-side indexing and query caching engine for instant search across title, author, and genre attributes.
+  - Engineered persistent reader state management to retain custom themes, active reading sessions, and user bookmarks without layout flickering.
+  - Implemented structured rating and review submission flows with responsive component layouts tailored for desktop and mobile devices.
+* **Technology Stack:** `Next.js (App Router)` · `TypeScript` · `Tailwind CSS` · `React.js` · `Node.js` · `Vercel`
+
+<div align="center">
+
+[【 🚀 Launch Live Project 】](https://reader-hub-library.vercel.app/) &nbsp;&nbsp;&nbsp;&nbsp; [【 📦 Inspect Source Code 】](https://github.com/amandubey923/library-optimized)
+
+</div>
 
 ---
 
-## 06 // TECHNOLOGY ARCHITECTURE BY LAYER
+### 02 / Dentiva AI — Clinical Dental Assistant & Voice Triage
 
-```text
-┌── ENGINEERING STACK MATRIX ─────────────────────────────────────────────────────────────────────────────┐
-│ 01 // LANGUAGES           C++ · TypeScript · JavaScript · Python                                        │
-│ 02 // INTERFACE           Next.js (App Router) · React · Tailwind CSS · Modern Web APIs                │
-│ 03 // RUNTIME & API       Node.js · Express.js · RESTful API Architecture                              │
-│ 04 // PERSISTENCE         PostgreSQL · MongoDB · Prisma ORM · Convex · Neon SQL · Firebase             │
-│ 05 // AI & SERVICES       Gemini AI · Vapi Voice Assistant · Clerk Authentication                      │
-│ 06 // CLOUD & DELIVERY    Git · GitHub Actions · Vercel · Netlify · Render · VS Code                    │
-│ 07 // COMPUTER SCIENCE    Data Structures & Algorithms · System Design · OOP · Operating Systems       │
-└─────────────────────────────────────────────────────────────────────────────────────────────────────────┘
-```
+<p align="center">
+  <img src="assets/card-dentiva.svg" width="100%" alt="Dentiva AI Architecture &amp; System Flow" />
+</p>
 
-<details>
-<summary><strong>🔍 VIEW DETAILED TOOLING TAXONOMY</strong></summary>
+* **Problem & Overview:** Dental clinics face administrative bottlenecks in preliminary patient triage and appointment scheduling. Dentiva AI is an intelligent clinical assistant enabling real-time voice-driven symptom assessment and doctor appointment booking.
+* **Engineering Architecture:**
+  - Integrated bidirectional conversational voice agents via **Vapi AI** to guide patients through preliminary dental symptoms and route priority tiers.
+  - Designed a type-safe relational data model with **Prisma ORM** and **PostgreSQL** to handle real-time doctor availability and patient booking slots.
+  - Enforced route-level role-based authorization and session integrity using **Clerk Authentication**.
+* **Technology Stack:** `Next.js` · `TypeScript` · `Prisma ORM` · `PostgreSQL` · `Clerk Auth` · `Vapi Voice AI` · `Netlify`
 
-<br />
+<div align="center">
 
-| Layer | Technologies & Ecosystem |
+[【 🚀 Launch Live Project 】](https://dentiva-ai-aman.netlify.app) &nbsp;&nbsp;&nbsp;&nbsp; [【 📦 Inspect Source Code 】](https://github.com/amandubey923/dentiva-ai)
+
+</div>
+
+---
+
+### 03 / Transaction Validator — High-Throughput CSV Anomaly Engine
+
+<p align="center">
+  <img src="assets/card-validator.svg" width="100%" alt="Transaction Validator Architecture &amp; System Flow" />
+</p>
+
+* **Problem & Overview:** Financial datasets regularly contain malformed entries, syntax inconsistencies, and duplicated transactions. Transaction Validator is a high-throughput processing pipeline built to ingest, audit, and clean large CSV datasets.
+* **Engineering Architecture:**
+  - Built chunked client-side stream parsing algorithms to ingest large CSV transaction files with zero UI blocking.
+  - Implemented mathematical validation heuristics and record hashing to detect duplicate transactions, invalid currencies, and schema anomalies.
+  - Engineered an automated export pipeline generating sanitized CSV files alongside detailed error audit logs.
+* **Technology Stack:** `Next.js` · `TypeScript` · `Tailwind CSS` · `Data Parsing Algorithms` · `Vercel`
+
+<div align="center">
+
+[【 🚀 Launch Live Project 】](https://transaction-validator-aman.vercel.app) &nbsp;&nbsp;&nbsp;&nbsp; [【 📦 Inspect Source Code 】](https://github.com/amandubey923/transaction-validator)
+
+</div>
+
+---
+
+## 03 // How I Engineer // Architecture & Workflow
+
+> *"Software is not just a collection of libraries—it is an end-to-end system that translates requirements into maintainable, performant, and resilient user value."*
+
+<p align="center">
+  <img src="assets/studio-architecture.svg" width="100%" alt="Aman Dubey's Engineering Lifecycle from Problem Formulation to Production Delivery" />
+</p>
+
+1. **Problem Deconstruction & Invariants:** Analyze mathematical constraints, asymptotic bounds, and data structures before writing application code.
+2. **Interface Engineering:** Build clean, responsive component hierarchies with type-safe props, atomic Tailwind tokens, and fast rendering lifecycles.
+3. **Application & Persistence Layer:** Formulate RESTful API endpoints and typed schema relations (PostgreSQL with Prisma / MongoDB Atlas with indexing).
+4. **AI & Service Integration:** Integrate LLM reasoning (Gemini API) and conversational agents (Vapi) behind validated API boundaries.
+5. **Continuous Delivery:** Automated build and deployment pipelines on Vercel and Netlify for fast, scalable edge execution.
+
+---
+
+## 04 // Technical Stack Taxonomy
+
+Organized strictly by engineering layer to communicate architectural depth:
+
+| Engineering Layer | Technologies & Ecosystem |
 | :--- | :--- |
-| **Core Languages** | `C++` (Algorithmic Core) · `TypeScript` (Strict Typing) · `JavaScript` (ESNext) · `Python` |
-| **Frontend Frameworks** | `Next.js 14+` · `React.js` · `Tailwind CSS` · `Component-Driven UI` · `Responsive Layouts` |
-| **Backend & APIs** | `Node.js` · `Express.js` · `REST Endpoints` · `Server Actions` · `Route Handlers` |
-| **Databases & Storage** | `PostgreSQL` · `MongoDB` · `Prisma ORM` · `Convex DB` · `Neon Serverless Postgres` · `Firebase` |
-| **AI & Integrations** | `Google Gemini API` · `Vapi AI Voice SDK` · `Clerk Identity & RBAC` |
-| **DevOps & Platforms** | `Git` · `GitHub` · `Vercel` · `Netlify` · `Render` · `VS Code` · `Postman` |
-| **CS Fundamentals** | `Complexity Analysis (Big O)` · `Data Structures` · `OOP Principles` · `OS & Networking` |
-
-</details>
+| **Core Languages** | `C++` (Algorithmic Core) · `TypeScript` (Type Safety) · `JavaScript` (ESNext) · `Python` |
+| **Frontend & UI Engineering** | `Next.js 14+ (App Router)` · `React.js` · `Tailwind CSS` · `Component-Driven UI` · `Responsive Design` |
+| **Backend & Server APIs** | `Node.js` · `Express.js` · `RESTful APIs` · `Server Actions` · `Route Handlers` |
+| **Databases & Storage** | `PostgreSQL` · `MongoDB Atlas` · `Prisma ORM` · `Convex DB` · `Neon Serverless Postgres` · `Firebase` |
+| **AI & Platform Integrations** | `Google Gemini API` · `Vapi AI Voice SDK` · `Clerk Identity & RBAC` |
+| **DevOps & Platforms** | `Git` · `GitHub` · `Vercel` · `Netlify` · `Render` · `Railway` · `VS Code` · `Postman` |
+| **Core Computer Science** | `Data Structures & Algorithms` · `Big-O Complexity Analysis` · `OOP` · `Operating Systems` · `DBMS` |
 
 ---
 
-## 07 // ENGINEERING JOURNEY & CHRONOLOGY
+## 05 // Algorithmic Foundations & Hackathons
 
 <p align="center">
-  <img src="assets/engineering-timeline.svg" width="100%" alt="Aman Dubey's Chronological Engineering Timeline: 500+ DSA Core, Full-Stack Systems, SIH Hackathon, and Emerging AI Platforms." />
-</p>
-
-```text
-2023 ─────────────────────────────────────────────────────────────────────────────────────────────► NOW
-FULL-STACK & SYSTEMS ENGINEERING
-├── 01 // COMPUTATIONAL FOUNDATIONS   → 500+ DSA problems solved in C++ across LeetCode and GFG
-├── 02 // PRODUCTION WEB SYSTEMS      → Scalable Next.js, React, Node.js, and multi-model database builds
-├── 03 // SMART INDIA HACKATHON (SIH) → National hackathon participation, agile architecture & live sprints
-└── 04 // AI PLATFORMS & VOICE AGENTS → Practical generative integrations with Gemini & Vapi AI (Current Focus)
-```
-
----
-
-## 08 // ALGORITHMIC FOUNDATIONS & MILESTONES
-
-<p align="center">
-  <img src="assets/dsa-milestone.svg" width="100%" alt="500+ DSA Problems Solved & SIH Participant Milestone Badge." />
+  <img src="assets/studio-dsa-sih.svg" width="100%" alt="500+ DSA Problems Solved &amp; Smart India Hackathon Participant" />
 </p>
 
 ### ◈ 500+ Algorithmic Problems Solved
-- **Primary Core:** `C++` — master of standard template library (STL), memory models, pointer arithmetic, and algorithmic trade-offs.
-- **Problem Domains:** Arrays & Hashing, Two Pointers, Sliding Window, Linked Lists, Trees & Binary Search Trees, Graphs (BFS/DFS, Dijkstra), Dynamic Programming, and Recursion.
-- **Platforms:** Active competitive solver on [LeetCode (aman_dubey923)](https://leetcode.com/u/aman_dubey923) and [GeeksforGeeks (kumaramag0dt)](https://www.geeksforgeeks.org/profile/kumaramag0dt).
+- **Primary Engine:** `C++` — deep understanding of standard template library (STL), memory models, pointer operations, and time/space complexity trade-offs.
+- **Key Problem Domains:** Arrays, Strings, Two Pointers, Sliding Window, Linked Lists, Binary Trees, Graphs (BFS/DFS), Dynamic Programming, and Recursion.
+- **Profiles & Strengths:** Active competitive solver with a **250+ days streak badge** on [LeetCode (aman_dubey923)](https://leetcode.com/u/aman_dubey923) and [GeeksforGeeks (kumaramag0dt)](https://www.geeksforgeeks.org/profile/kumaramag0dt).
 
 ### ◈ Smart India Hackathon (SIH) Participant
-- **Collaborative Engineering:** Active participant across national-level SIH problem selection and technical prototyping rounds.
-- **Rapid Architecture:** Collaborated in high-velocity agile sprints, formulating database schemas, system architecture, and real-time frontend interfaces under competitive deadlines.
+- **Collaborative Engineering:** Selected participant in national-level hackathon rounds, tackling problem statements through rapid agile sprints.
+- **Technical Execution:** Designed system architectures, database schemas, and intuitive frontend interfaces under rigorous evaluation deadlines.
+
+### ◈ Academic Grounding
+- **Degree:** Bachelor of Technology in Information Technology (2023 – 2027)
+- **Institution:** Chandigarh Group of Colleges (CGC Mohali / Landran) • **CGPA: 8.17**
+- **Core Coursework:** Data Structures & Algorithms, Database Management Systems, Object-Oriented Programming, Operating Systems, Web Systems.
 
 ---
 
-## 09 // GITHUB COMMAND CENTER & ACTIVITY
+## 06 // GitHub Activity & Overview
 
 <div align="center">
 
@@ -388,37 +162,30 @@ FULL-STACK & SYSTEMS ENGINEERING
   <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=amandubey923&theme=github_dark" alt="Aman Dubey's GitHub Contribution Matrix" />
 </p>
 
-[![Profile Views](https://komarev.com/ghpvc/?username=amandubey923&style=flat-square&color=00F5FF&label=SYSTEM+TELEMETRY+VIEWS)](https://github.com/amandubey923)
+[![System Views](https://komarev.com/ghpvc/?username=amandubey923&style=flat-square&color=38BDF8&label=PROFILE+VIEWS)](https://github.com/amandubey923)
 
 </div>
 
 ---
 
-## 10 // SECURE TRANSMISSION CHANNEL
+## 07 // Direct Connect & Transmission
 
-```text
-══════════════════════════════════════ TRANSMISSION OPEN ══════════════════════════════════════
-Whether you're exploring full-stack engineering talent, building next-generation web products,
-or discussing system architecture — initiate communication below.
-════════════════════════════════════════════════════════════════════════════════════════════════
-```
+Whether you are discussing a software engineering role, exploring high-impact technical collaborations, or reviewing system architecture:
 
 <div align="center">
 
-| Channel | Destination | Signal |
+| Channel | Platform Link | Notes |
 | :--- | :--- | :--- |
-| **🌐 Portfolio Dossier** | [aman-portfolio-next.netlify.app](https://aman-portfolio-next.netlify.app/) | `PROD_ACTIVE` |
-| **💼 LinkedIn Network** | [linkedin.com/in/aman-kr-dubey](https://www.linkedin.com/in/aman-kr-dubey) | `DIRECT_CONNECT` |
-| **⚡ GitHub Profile** | [github.com/amandubey923](https://github.com/amandubey923) | `SOURCE_ROOT` |
-| **🧠 LeetCode Profile** | [leetcode.com/u/aman_dubey923](https://leetcode.com/u/aman_dubey923) | `500+_SOLVED` |
-| **🎯 GeeksforGeeks** | [geeksforgeeks.org/profile/kumaramag0dt](https://www.geeksforgeeks.org/profile/kumaramag0dt) | `GFG_BADGE` |
-| **📧 Direct Email** | [kumaraman19137@gmail.com](mailto:kumaraman19137@gmail.com) | `ENCRYPTED_INBOX` |
-| **📄 Official Resume** | [Download Resume PDF](https://aman-portfolio-next.netlify.app/resume/Resume2.pdf) | `VERIFIED_DOC` |
+| **🌐 Portfolio** | [aman-portfolio-next.netlify.app](https://aman-portfolio-next.netlify.app/) | Interactive portfolio & live project showcase |
+| **📄 Official Resume** | [Download Resume (PDF)](https://aman-portfolio-next.netlify.app/resume/Resume2.pdf) | Verified one-page technical resume |
+| **💼 LinkedIn** | [linkedin.com/in/aman-kr-dubey](https://www.linkedin.com/in/aman-kr-dubey) | Professional network & messaging |
+| **⚡ GitHub** | [github.com/amandubey923](https://github.com/amandubey923) | Open-source repositories & source code |
+| **🧠 LeetCode** | [leetcode.com/u/aman_dubey923](https://leetcode.com/u/aman_dubey923) | 500+ algorithmic problem solutions |
+| **🎯 GeeksforGeeks** | [geeksforgeeks.org/profile/kumaramag0dt](https://www.geeksforgeeks.org/profile/kumaramag0dt) | Competitive coding profile & streak |
+| **📧 Direct Email** | [kumaraman19137@gmail.com](mailto:kumaraman19137@gmail.com) | Primary communication inbox |
 
 <br />
 
-```text
-[ END OF TRANSMISSION // AMAN DUBEY · FULL-STACK SOFTWARE ENGINEER ]
-```
+<sub>© 2026 Aman Dubey • Designed for performance, structural integrity, and clean engineering.</sub>
 
 </div>

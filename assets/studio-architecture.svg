@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 200" width="100%" height="100%">
+  <defs>
+    <linearGradient id="archBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080C14"/>
+      <stop offset="50%" stop-color="#0C1424"/>
+      <stop offset="100%" stop-color="#05070D"/>
+    </linearGradient>
+    <linearGradient id="flowLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="50%" stop-color="#818CF8"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+    <pattern id="archGrid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="0.6" fill="#334155" fill-opacity="0.4"/>
+    </pattern>
+  </defs>
+
+  <style>
+    .font-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    .font-mono { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; }
+  </style>
+
+  <rect width="880" height="200" rx="12" fill="url(#archBg)"/>
+  <rect width="880" height="200" rx="12" fill="url(#archGrid)"/>
+  <rect width="880" height="200" rx="12" fill="none" stroke="#1E293B" stroke-width="1"/>
+
+  <!-- Header -->
+  <g transform="translate(24, 18)">
+    <text x="0" y="10" class="font-mono" font-size="10" font-weight="700" fill="#38BDF8" letter-spacing="1.5">HOW I ENGINEER // SYSTEM LIFECYCLE</text>
+    <text x="832" y="10" class="font-mono" font-size="9" fill="#64748B" text-anchor="end">PROBLEM ➔ DEPLOYMENT</text>
+  </g>
+
+  <!-- 5 Horizontal Stages -->
+  <g transform="translate(24, 48)">
+    <!-- Stage 1: SPEC -->
+    <rect x="0" y="0" width="154" height="128" rx="8" fill="#0A111E" stroke="#1E293B" stroke-width="0.8"/>
+    <text x="12" y="22" class="font-mono" font-size="8.5" font-weight="700" fill="#38BDF8">01 / FOUNDATION</text>
+    <text x="12" y="42" class="font-sans" font-size="12" font-weight="700" fill="#FFFFFF">Deconstruction</text>
+    <line x1="12" y1="52" x2="142" y2="52" stroke="#1E293B" stroke-width="0.6"/>
+    <text x="12" y="70" class="font-mono" font-size="8" fill="#94A3B8">• Problem Invariants</text>
+    <text x="12" y="86" class="font-mono" font-size="8" fill="#94A3B8">• Asymptotic Bounds</text>
+    <text x="12" y="102" class="font-mono" font-size="8" fill="#94A3B8">• Data Schema Design</text>
+    <text x="12" y="118" class="font-mono" font-size="7.5" fill="#64748B">C++ Core Mindset</text>
+
+    <!-- Flow Arrow 1 -->
+    <path d="M 154 64 L 170 64" fill="none" stroke="#38BDF8" stroke-width="1.2" stroke-dasharray="2,2"/>
+
+    <!-- Stage 2: INTERFACE -->
+    <rect x="170" y="0" width="154" height="128" rx="8" fill="#0A111E" stroke="#1E293B" stroke-width="0.8"/>
+    <text x="182" y="22" class="font-mono" font-size="8.5" font-weight="700" fill="#38BDF8">02 / INTERFACE</text>
+    <text x="182" y="42" class="font-sans" font-size="12" font-weight="700" fill="#FFFFFF">UX Engineering</text>
+    <line x1="182" y1="52" x2="312" y2="52" stroke="#1E293B" stroke-width="0.6"/>
+    <text x="182" y="70" class="font-mono" font-size="8" fill="#94A3B8">• Next.js App Router</text>
+    <text x="182" y="86" class="font-mono" font-size="8" fill="#94A3B8">• React Components</text>
+    <text x="182" y="102" class="font-mono" font-size="8" fill="#94A3B8">• Tailwind Tokens</text>
+    <text x="182" y="118" class="font-mono" font-size="7.5" fill="#64748B">Zero Layout Shift</text>
+
+    <!-- Flow Arrow 2 -->
+    <path d="M 324 64 L 340 64" fill="none" stroke="#818CF8" stroke-width="1.2" stroke-dasharray="2,2"/>
+
+    <!-- Stage 3: RUNTIME & DATA -->
+    <rect x="340" y="0" width="154" height="128" rx="8" fill="#0A111E" stroke="#1E293B" stroke-width="0.8"/>
+    <text x="352" y="22" class="font-mono" font-size="8.5" font-weight="700" fill="#818CF8">03 / BACKEND</text>
+    <text x="352" y="42" class="font-sans" font-size="12" font-weight="700" fill="#FFFFFF">Runtime &amp; Data</text>
+    <line x1="352" y1="52" x2="482" y2="52" stroke="#1E293B" stroke-width="0.6"/>
+    <text x="352" y="70" class="font-mono" font-size="8" fill="#94A3B8">• Node.js / Express</text>
+    <text x="352" y="86" class="font-mono" font-size="8" fill="#94A3B8">• Prisma / PostgreSQL</text>
+    <text x="352" y="102" class="font-mono" font-size="8" fill="#94A3B8">• MongoDB / Convex</text>
+    <text x="352" y="118" class="font-mono" font-size="7.5" fill="#64748B">Typed Boundaries</text>
+
+    <!-- Flow Arrow 3 -->
+    <path d="M 494 64 L 510 64" fill="none" stroke="#818CF8" stroke-width="1.2" stroke-dasharray="2,2"/>
+
+    <!-- Stage 4: INTELLIGENCE & AUTH -->
+    <rect x="510" y="0" width="154" height="128" rx="8" fill="#0A111E" stroke="#1E293B" stroke-width="0.8"/>
+    <text x="522" y="22" class="font-mono" font-size="8.5" font-weight="700" fill="#818CF8">04 / SERVICES</text>
+    <text x="522" y="42" class="font-sans" font-size="12" font-weight="700" fill="#FFFFFF">AI &amp; Identity</text>
+    <line x1="522" y1="52" x2="652" y2="52" stroke="#1E293B" stroke-width="0.6"/>
+    <text x="522" y="70" class="font-mono" font-size="8" fill="#94A3B8">• Gemini API Engine</text>
+    <text x="522" y="86" class="font-mono" font-size="8" fill="#94A3B8">• Vapi Voice Triage</text>
+    <text x="522" y="102" class="font-mono" font-size="8" fill="#94A3B8">• Clerk RBAC Auth</text>
+    <text x="522" y="118" class="font-mono" font-size="7.5" fill="#64748B">Domain Workflows</text>
+
+    <!-- Flow Arrow 4 -->
+    <path d="M 664 64 L 680 64" fill="none" stroke="#10B981" stroke-width="1.2" stroke-dasharray="2,2"/>
+
+    <!-- Stage 5: PRODUCTION VALUE -->
+    <rect x="680" y="0" width="152" height="128" rx="8" fill="#0A111E" stroke="#1E293B" stroke-width="0.8"/>
+    <text x="692" y="22" class="font-mono" font-size="8.5" font-weight="700" fill="#10B981">05 / DELIVERY</text>
+    <text x="692" y="42" class="font-sans" font-size="12" font-weight="700" fill="#FFFFFF">Production</text>
+    <line x1="692" y1="52" x2="820" y2="52" stroke="#1E293B" stroke-width="0.6"/>
+    <text x="692" y="70" class="font-mono" font-size="8" fill="#94A3B8">• Vercel / Netlify</text>
+    <text x="692" y="86" class="font-mono" font-size="8" fill="#94A3B8">• CI/CD Pipelines</text>
+    <text x="692" y="102" class="font-mono" font-size="8" fill="#94A3B8">• Edge Execution</text>
+    <text x="692" y="118" class="font-mono" font-size="7.5" fill="#10B981">Reliable Impact</text>
+  </g>
+</svg>

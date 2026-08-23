@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="heroBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080C14"/>
+      <stop offset="50%" stop-color="#0E1626"/>
+      <stop offset="100%" stop-color="#05070D"/>
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="60%" stop-color="#F1F5F9"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#818CF8"/>
+    </linearGradient>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.5"/>
+      <stop offset="50%" stop-color="#1E293B" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0.2"/>
+    </linearGradient>
+    <pattern id="dotGrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="12" cy="12" r="0.8" fill="#334155" fill-opacity="0.6"/>
+    </pattern>
+    <filter id="softGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .font-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+    .font-mono { font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace; }
+  </style>
+
+  <!-- Card Background -->
+  <rect width="920" height="300" rx="14" fill="url(#heroBg)"/>
+  <rect width="920" height="300" rx="14" fill="url(#dotGrid)"/>
+  <rect width="920" height="300" rx="14" fill="none" stroke="url(#borderGrad)" stroke-width="1.2"/>
+
+  <!-- Top Metadata Bar -->
+  <g transform="translate(30, 24)">
+    <rect x="0" y="0" width="130" height="22" rx="11" fill="#0F172A" stroke="#38BDF8" stroke-width="0.7" stroke-opacity="0.6"/>
+    <circle cx="11" cy="11" r="3.5" fill="#10B981" filter="url(#softGlow)"/>
+    <text x="22" y="14.5" class="font-mono" font-size="8.5" font-weight="600" fill="#38BDF8" letter-spacing="1">VERIFIED DOSSIER</text>
+
+    <text x="860" y="14" class="font-mono" font-size="9" fill="#64748B" text-anchor="end" letter-spacing="1.5">AMAN DUBEY // IT ENGINEER</text>
+  </g>
+
+  <!-- Central Identification -->
+  <g transform="translate(30, 80)">
+    <text x="0" y="38" class="font-sans" font-size="34" font-weight="900" fill="url(#textGrad)" letter-spacing="1">AMAN DUBEY</text>
+    <text x="0" y="65" class="font-sans" font-size="14" font-weight="700" fill="#38BDF8" letter-spacing="2">SOFTWARE ENGINEER • FULL-STACK &amp; SYSTEMS BUILDER</text>
+    
+    <text x="0" y="94" class="font-sans" font-size="12" fill="#94A3B8" font-weight="400">Architecting high-performance, scalable web systems and modern interactive user experiences with production-grade engineering practices.</text>
+  </g>
+
+  <!-- 3 Pillar Stat Modules -->
+  <g transform="translate(30, 205)">
+    <!-- Pillar 1: Full-Stack Systems -->
+    <rect x="0" y="0" width="270" height="65" rx="8" fill="#0B1322" stroke="#1E293B" stroke-width="0.8"/>
+    <rect x="10" y="10" width="4" height="45" rx="2" fill="#38BDF8"/>
+    <text x="24" y="26" class="font-mono" font-size="8.5" font-weight="700" fill="#38BDF8" letter-spacing="1">FULL-STACK &amp; APIS</text>
+    <text x="24" y="42" class="font-sans" font-size="11.5" font-weight="700" fill="#FFFFFF">Next.js · React · Node</text>
+    <text x="24" y="56" class="font-mono" font-size="8" fill="#64748B">PostgreSQL · MongoDB · Prisma</text>
+
+    <!-- Pillar 2: AI & Voice Systems -->
+    <rect x="295" y="0" width="270" height="65" rx="8" fill="#0B1322" stroke="#1E293B" stroke-width="0.8"/>
+    <rect x="305" y="10" width="4" height="45" rx="2" fill="#818CF8"/>
+    <text x="319" y="26" class="font-mono" font-size="8.5" font-weight="700" fill="#818CF8" letter-spacing="1">INTELLIGENT WORKFLOWS</text>
+    <text x="319" y="42" class="font-sans" font-size="11.5" font-weight="700" fill="#FFFFFF">Gemini AI · Vapi Voice</text>
+    <text x="319" y="56" class="font-mono" font-size="8" fill="#64748B">Conversational &amp; Creative APIs</text>
+
+    <!-- Pillar 3: Algorithmic Foundations -->
+    <rect x="590" y="0" width="270" height="65" rx="8" fill="#0B1322" stroke="#1E293B" stroke-width="0.8"/>
+    <rect x="600" y="10" width="4" height="45" rx="2" fill="#10B981"/>
+    <text x="614" y="26" class="font-mono" font-size="8.5" font-weight="700" fill="#10B981" letter-spacing="1">ALGORITHMIC FOUNDATIONS</text>
+    <text x="614" y="42" class="font-sans" font-size="11.5" font-weight="700" fill="#FFFFFF">500+ DSA Solved (C++)</text>
+    <text x="614" y="56" class="font-mono" font-size="8" fill="#64748B">LeetCode · GFG · SIH Participant</text>
+  </g>
+</svg>

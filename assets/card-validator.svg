@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 210" width="100%" height="100%">
+  <defs>
+    <linearGradient id="valGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#061019"/>
+      <stop offset="50%" stop-color="#081C28"/>
+      <stop offset="100%" stop-color="#030A10"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .font-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    .font-mono { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; }
+  </style>
+
+  <rect width="880" height="210" rx="10" fill="url(#valGrad)" stroke="#0E3547" stroke-width="1"/>
+
+  <!-- Top Bar -->
+  <g transform="translate(24, 18)">
+    <rect x="0" y="0" width="80" height="20" rx="4" fill="#044E54" fill-opacity="0.3" stroke="#00F5FF" stroke-width="0.6"/>
+    <text x="40" y="13.5" class="font-mono" font-size="8.5" font-weight="700" fill="#00F5FF" text-anchor="middle">BUILD 03</text>
+    <text x="95" y="14" class="font-mono" font-size="10" font-weight="700" fill="#F8FAFC" letter-spacing="1">TRANSACTION VALIDATOR</text>
+    
+    <text x="832" y="14" class="font-mono" font-size="8.5" fill="#10B981" text-anchor="end">● PRODUCTION ACTIVE</text>
+  </g>
+
+  <!-- Title & Description -->
+  <g transform="translate(24, 52)">
+    <text x="0" y="16" class="font-sans" font-size="16" font-weight="800" fill="#FFFFFF">High-Throughput CSV Data Pipeline &amp; Anomaly Engine</text>
+    <text x="0" y="36" class="font-sans" font-size="11.5" fill="#94A3B8">Constructed client-side stream parsing algorithms to ingest large CSV transactions, verify syntax, detect duplicate records, and export clean reports.</text>
+  </g>
+
+  <!-- Architecture Flow -->
+  <g transform="translate(24, 105)">
+    <rect x="0" y="0" width="832" height="48" rx="6" fill="#040D15" stroke="#0E3547" stroke-width="0.7"/>
+    
+    <rect x="10" y="8" width="180" height="32" rx="4" fill="#081E2B"/>
+    <text x="20" y="21" class="font-mono" font-size="7.5" fill="#00F5FF">STREAM INGEST</text>
+    <text x="20" y="33" class="font-sans" font-size="9.5" font-weight="600" fill="#F8FAFC">Batch CSV Parser</text>
+
+    <path d="M 190 24 L 215 24" fill="none" stroke="#00F5FF" stroke-width="1" stroke-dasharray="2,2"/>
+
+    <rect x="215" y="8" width="185" height="32" rx="4" fill="#081E2B"/>
+    <text x="225" y="21" class="font-mono" font-size="7.5" fill="#00F5FF">SANITIZATION</text>
+    <text x="225" y="33" class="font-sans" font-size="9.5" font-weight="600" fill="#F8FAFC">Syntax &amp; Type Check</text>
+
+    <path d="M 400 24 L 425 24" fill="none" stroke="#00F5FF" stroke-width="1" stroke-dasharray="2,2"/>
+
+    <rect x="425" y="8" width="190" height="32" rx="4" fill="#081E2B"/>
+    <text x="435" y="21" class="font-mono" font-size="7.5" fill="#00F5FF">DETECTION</text>
+    <text x="435" y="33" class="font-sans" font-size="9.5" font-weight="600" fill="#F8FAFC">Duplicate &amp; Anomaly Logic</text>
+
+    <path d="M 615 24 L 640 24" fill="none" stroke="#00F5FF" stroke-width="1" stroke-dasharray="2,2"/>
+
+    <rect x="640" y="8" width="182" height="32" rx="4" fill="#081E2B"/>
+    <text x="650" y="21" class="font-mono" font-size="7.5" fill="#10B981">EXPORT</text>
+    <text x="650" y="33" class="font-sans" font-size="9.5" font-weight="600" fill="#F8FAFC">Clean Report Generator</text>
+  </g>
+
+  <!-- Badges -->
+  <g transform="translate(24, 168)">
+    <rect x="0" y="0" width="80" height="22" rx="4" fill="#04141E" stroke="#0E3547" stroke-width="0.6"/>
+    <text x="40" y="15" class="font-mono" font-size="8.5" fill="#00F5FF" text-anchor="middle">Next.js</text>
+
+    <rect x="90" y="0" width="90" height="22" rx="4" fill="#04141E" stroke="#0E3547" stroke-width="0.6"/>
+    <text x="135" y="15" class="font-mono" font-size="8.5" fill="#00F5FF" text-anchor="middle">TypeScript</text>
+
+    <rect x="190" y="0" width="100" height="22" rx="4" fill="#04141E" stroke="#0E3547" stroke-width="0.6"/>
+    <text x="240" y="15" class="font-mono" font-size="8.5" fill="#94A3B8" text-anchor="middle">Tailwind CSS</text>
+
+    <rect x="300" y="0" width="115" height="22" rx="4" fill="#04141E" stroke="#0E3547" stroke-width="0.6"/>
+    <text x="357" y="15" class="font-mono" font-size="8.5" fill="#10B981" text-anchor="middle">Data Algorithms</text>
+
+    <text x="435" y="15" class="font-mono" font-size="8" fill="#64748B">ENGINEERING SIGNAL: High-efficiency chunked CSV stream processing with duplicate hashing</text>
+  </g>
+</svg>

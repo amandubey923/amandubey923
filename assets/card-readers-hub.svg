@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 210" width="100%" height="100%">
+  <defs>
+    <linearGradient id="rhGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080E18"/>
+      <stop offset="50%" stop-color="#0E1726"/>
+      <stop offset="100%" stop-color="#050810"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .font-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    .font-mono { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; }
+  </style>
+
+  <rect width="880" height="210" rx="10" fill="url(#rhGrad)" stroke="#1E293B" stroke-width="1"/>
+
+  <!-- Top Bar -->
+  <g transform="translate(24, 18)">
+    <rect x="0" y="0" width="80" height="20" rx="4" fill="#0369A1" fill-opacity="0.2" stroke="#38BDF8" stroke-width="0.6"/>
+    <text x="40" y="13.5" class="font-mono" font-size="8.5" font-weight="700" fill="#38BDF8" text-anchor="middle">BUILD 01</text>
+    <text x="95" y="14" class="font-mono" font-size="10" font-weight="700" fill="#F8FAFC" letter-spacing="1">READER'S HUB</text>
+    
+    <text x="832" y="14" class="font-mono" font-size="8.5" fill="#10B981" text-anchor="end">● PRODUCTION ACTIVE</text>
+  </g>
+
+  <!-- Title & Description -->
+  <g transform="translate(24, 52)">
+    <text x="0" y="16" class="font-sans" font-size="16" font-weight="800" fill="#FFFFFF">Digital Library Platform &amp; Reading Ecosystem</text>
+    <text x="0" y="36" class="font-sans" font-size="11.5" fill="#94A3B8">Engineered high-performance client-side catalog indexing, instant title/author search, reading session persistence, and customized themes.</text>
+  </g>
+
+  <!-- Architecture Flow -->
+  <g transform="translate(24, 105)">
+    <rect x="0" y="0" width="832" height="48" rx="6" fill="#09101C" stroke="#1E293B" stroke-width="0.7"/>
+    
+    <rect x="10" y="8" width="180" height="32" rx="4" fill="#0F172A"/>
+    <text x="20" y="21" class="font-mono" font-size="7.5" fill="#38BDF8">INGESTION</text>
+    <text x="20" y="33" class="font-sans" font-size="9.5" font-weight="600" fill="#F8FAFC">Catalog Query Cache</text>
+
+    <path d="M 190 24 L 215 24" fill="none" stroke="#38BDF8" stroke-width="1" stroke-dasharray="2,2"/>
+
+    <rect x="215" y="8" width="185" height="32" rx="4" fill="#0F172A"/>
+    <text x="225" y="21" class="font-mono" font-size="7.5" fill="#38BDF8">SEARCH ENGINE</text>
+    <text x="225" y="33" class="font-sans" font-size="9.5" font-weight="600" fill="#F8FAFC">Multi-Attribute Search</text>
+
+    <path d="M 400 24 L 425 24" fill="none" stroke="#38BDF8" stroke-width="1" stroke-dasharray="2,2"/>
+
+    <rect x="425" y="8" width="190" height="32" rx="4" fill="#0F172A"/>
+    <text x="435" y="21" class="font-mono" font-size="7.5" fill="#38BDF8">CURATION</text>
+    <text x="435" y="33" class="font-sans" font-size="9.5" font-weight="600" fill="#F8FAFC">Reviews &amp; Ratings</text>
+
+    <path d="M 615 24 L 640 24" fill="none" stroke="#38BDF8" stroke-width="1" stroke-dasharray="2,2"/>
+
+    <rect x="640" y="8" width="182" height="32" rx="4" fill="#0F172A"/>
+    <text x="650" y="21" class="font-mono" font-size="7.5" fill="#10B981">PERSISTENCE</text>
+    <text x="650" y="33" class="font-sans" font-size="9.5" font-weight="600" fill="#F8FAFC">Reading State &amp; Themes</text>
+  </g>
+
+  <!-- Badges -->
+  <g transform="translate(24, 168)">
+    <rect x="0" y="0" width="80" height="22" rx="4" fill="#0B1322" stroke="#1E293B" stroke-width="0.6"/>
+    <text x="40" y="15" class="font-mono" font-size="8.5" fill="#38BDF8" text-anchor="middle">Next.js</text>
+
+    <rect x="90" y="0" width="90" height="22" rx="4" fill="#0B1322" stroke="#1E293B" stroke-width="0.6"/>
+    <text x="135" y="15" class="font-mono" font-size="8.5" fill="#38BDF8" text-anchor="middle">TypeScript</text>
+
+    <rect x="190" y="0" width="100" height="22" rx="4" fill="#0B1322" stroke="#1E293B" stroke-width="0.6"/>
+    <text x="240" y="15" class="font-mono" font-size="8.5" fill="#94A3B8" text-anchor="middle">Tailwind CSS</text>
+
+    <rect x="300" y="0" width="70" height="22" rx="4" fill="#0B1322" stroke="#1E293B" stroke-width="0.6"/>
+    <text x="335" y="15" class="font-mono" font-size="8.5" fill="#94A3B8" text-anchor="middle">React.js</text>
+
+    <text x="410" y="15" class="font-mono" font-size="8" fill="#64748B">ENGINEERING SIGNAL: Sub-millisecond catalog filter with local preference store</text>
+  </g>
+</svg>

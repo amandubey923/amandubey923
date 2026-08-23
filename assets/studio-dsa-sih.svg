@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 180" width="100%" height="100%">
+  <defs>
+    <linearGradient id="dsaGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080E18"/>
+      <stop offset="50%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#050810"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .font-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    .font-mono { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; }
+  </style>
+
+  <rect width="880" height="180" rx="10" fill="url(#dsaGrad)" stroke="#1E293B" stroke-width="1"/>
+
+  <!-- Top Bar -->
+  <g transform="translate(24, 16)">
+    <text x="0" y="12" class="font-mono" font-size="10" font-weight="700" fill="#38BDF8" letter-spacing="1.5">ALGORITHMIC MASTERY &amp; HACKATHONS</text>
+    <text x="832" y="12" class="font-mono" font-size="9" fill="#10B981" text-anchor="end">VERIFIED MILESTONES</text>
+  </g>
+
+  <!-- 2 Large Metric Panels -->
+  <g transform="translate(24, 42)">
+    <!-- Panel 1: 500+ DSA Core -->
+    <rect x="0" y="0" width="405" height="118" rx="8" fill="#0A1220" stroke="#1E293B" stroke-width="0.8"/>
+    <text x="16" y="24" class="font-mono" font-size="8.5" font-weight="700" fill="#38BDF8">COMPETITIVE PROBLEM SOLVING</text>
+    
+    <text x="16" y="60" class="font-sans" font-size="30" font-weight="900" fill="#FFFFFF">500+</text>
+    <text x="110" y="48" class="font-sans" font-size="11" font-weight="700" fill="#F8FAFC">Problems Solved</text>
+    <text x="110" y="62" class="font-mono" font-size="8" fill="#64748B">LeetCode &amp; GeeksforGeeks • 250+ Days Streak</text>
+
+    <line x1="16" y1="74" x2="389" y2="74" stroke="#1E293B" stroke-width="0.6"/>
+    
+    <text x="16" y="92" class="font-mono" font-size="8" fill="#94A3B8">• Primary Language: C++ (STL, Memory Optimization, Asymptotics)</text>
+    <text x="16" y="106" class="font-mono" font-size="8" fill="#94A3B8">• Domains: Trees, Graphs, DP, Binary Search, Sliding Window</text>
+
+    <!-- Panel 2: Smart India Hackathon -->
+    <rect x="427" y="0" width="405" height="118" rx="8" fill="#0A1220" stroke="#1E293B" stroke-width="0.8"/>
+    <text x="443" y="24" class="font-mono" font-size="8.5" font-weight="700" fill="#10B981">NATIONAL HACKATHON</text>
+
+    <text x="443" y="60" class="font-sans" font-size="26" font-weight="900" fill="#FFFFFF">SIH</text>
+    <text x="495" y="48" class="font-sans" font-size="11" font-weight="700" fill="#F8FAFC">Participant // Smart India Hackathon</text>
+    <text x="495" y="62" class="font-mono" font-size="8" fill="#64748B">National Engineering &amp; Innovation Rounds</text>
+
+    <line x1="443" y1="74" x2="816" y2="74" stroke="#1E293B" stroke-width="0.6"/>
+
+    <text x="443" y="92" class="font-mono" font-size="8" fill="#94A3B8">• High-intensity agile collaboration &amp; system architecture design</text>
+    <text x="443" y="106" class="font-mono" font-size="8" fill="#94A3B8">• Engineered database schemas &amp; real-time frontend under deadlines</text>
+  </g>
+</svg>
