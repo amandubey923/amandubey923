@@ -117,17 +117,105 @@ Three verified builds demonstrating full-stack architecture, domain-specific AI 
 
 ## 04 // Technical Stack Taxonomy
 
-Organized strictly by engineering layer to communicate architectural depth:
-
-| Engineering Layer | Technologies & Ecosystem |
-| :--- | :--- |
-| **Core Languages** | `C++` (Algorithmic Core) · `TypeScript` (Type Safety) · `JavaScript` (ESNext) · `Python` |
-| **Frontend & UI Engineering** | `Next.js 14+ (App Router)` · `React.js` · `Tailwind CSS` · `Component-Driven UI` · `Responsive Design` |
-| **Backend & Server APIs** | `Node.js` · `Express.js` · `RESTful APIs` · `Server Actions` · `Route Handlers` |
-| **Databases & Storage** | `PostgreSQL` · `MongoDB Atlas` · `Prisma ORM` · `Convex DB` · `Neon Serverless Postgres` · `Firebase` |
-| **AI & Platform Integrations** | `Google Gemini API` · `Vapi AI Voice SDK` · `Clerk Identity & RBAC` |
-| **DevOps & Platforms** | `Git` · `GitHub` · `Vercel` · `Netlify` · `Render` · `Railway` · `VS Code` · `Postman` |
-| **Core Computer Science** | `Data Structures & Algorithms` · `Big-O Complexity Analysis` · `OOP` · `Operating Systems` · `DBMS` |
+<table>
+  <thead>
+    <tr align="left">
+      <th width="28%">Engineering Layer</th>
+      <th width="72%">Technologies &amp; Architecture</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <img src="assets/icons/layer-lang.svg" width="16" height="16" valign="middle" alt="Languages" />&nbsp;
+        <strong>Core Languages</strong>
+      </td>
+      <td>
+        <img src="assets/icons/cpp.svg" width="18" height="18" valign="middle" alt="C++" /> <code>C++</code> &nbsp;&nbsp;
+        <img src="assets/icons/typescript.svg" width="18" height="18" valign="middle" alt="TypeScript" /> <code>TypeScript</code> &nbsp;&nbsp;
+        <img src="assets/icons/javascript.svg" width="18" height="18" valign="middle" alt="JavaScript" /> <code>JavaScript</code> &nbsp;&nbsp;
+        <img src="assets/icons/python.svg" width="18" height="18" valign="middle" alt="Python" /> <code>Python</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="assets/icons/layer-ui.svg" width="16" height="16" valign="middle" alt="Frontend" />&nbsp;
+        <strong>Frontend &amp; UI</strong>
+      </td>
+      <td>
+        <img src="assets/icons/nextjs.svg" width="18" height="18" valign="middle" alt="Next.js" /> <code>Next.js 14+</code> &nbsp;&nbsp;
+        <img src="assets/icons/react.svg" width="18" height="18" valign="middle" alt="React" /> <code>React.js</code> &nbsp;&nbsp;
+        <img src="assets/icons/tailwind.svg" width="18" height="18" valign="middle" alt="Tailwind" /> <code>Tailwind CSS</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="assets/icons/layer-api.svg" width="16" height="16" valign="middle" alt="Backend" />&nbsp;
+        <strong>Backend &amp; Server APIs</strong>
+      </td>
+      <td>
+        <img src="assets/icons/nodejs.svg" width="18" height="18" valign="middle" alt="Node.js" /> <code>Node.js</code> &nbsp;&nbsp;
+        <img src="assets/icons/express.svg" width="18" height="18" valign="middle" alt="Express" /> <code>Express.js</code> &nbsp;&nbsp;
+        <code>RESTful APIs</code> &nbsp;&nbsp;
+        <code>Server Actions</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="assets/icons/layer-db.svg" width="16" height="16" valign="middle" alt="Databases" />&nbsp;
+        <strong>Databases &amp; Storage</strong>
+      </td>
+      <td>
+        <img src="assets/icons/postgresql.svg" width="18" height="18" valign="middle" alt="PostgreSQL" /> <code>PostgreSQL</code> &nbsp;&nbsp;
+        <img src="assets/icons/mongodb.svg" width="18" height="18" valign="middle" alt="MongoDB" /> <code>MongoDB Atlas</code> &nbsp;&nbsp;
+        <img src="assets/icons/prisma.svg" width="18" height="18" valign="middle" alt="Prisma" /> <code>Prisma ORM</code> &nbsp;&nbsp;
+        <img src="assets/icons/convex.svg" width="18" height="18" valign="middle" alt="Convex" /> <code>Convex DB</code> &nbsp;&nbsp;
+        <img src="assets/icons/neon.svg" width="18" height="18" valign="middle" alt="Neon" /> <code>Neon SQL</code> &nbsp;&nbsp;
+        <img src="assets/icons/firebase.svg" width="18" height="18" valign="middle" alt="Firebase" /> <code>Firebase</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="assets/icons/layer-ai.svg" width="16" height="16" valign="middle" alt="AI" />&nbsp;
+        <strong>AI &amp; Integrations</strong>
+      </td>
+      <td>
+        <img src="assets/icons/gemini.svg" width="18" height="18" valign="middle" alt="Gemini" /> <code>Google Gemini API</code> &nbsp;&nbsp;
+        <img src="assets/icons/vapi.svg" width="18" height="18" valign="middle" alt="Vapi" /> <code>Vapi AI Voice SDK</code> &nbsp;&nbsp;
+        <img src="assets/icons/clerk.svg" width="18" height="18" valign="middle" alt="Clerk" /> <code>Clerk Identity &amp; Auth</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="assets/icons/layer-devops.svg" width="16" height="16" valign="middle" alt="DevOps" />&nbsp;
+        <strong>DevOps &amp; Platforms</strong>
+      </td>
+      <td>
+        <img src="assets/icons/git.svg" width="18" height="18" valign="middle" alt="Git" /> <code>Git</code> &nbsp;&nbsp;
+        <img src="assets/icons/github.svg" width="18" height="18" valign="middle" alt="GitHub" /> <code>GitHub</code> &nbsp;&nbsp;
+        <img src="assets/icons/vercel.svg" width="18" height="18" valign="middle" alt="Vercel" /> <code>Vercel</code> &nbsp;&nbsp;
+        <img src="assets/icons/netlify.svg" width="18" height="18" valign="middle" alt="Netlify" /> <code>Netlify</code> &nbsp;&nbsp;
+        <img src="assets/icons/render.svg" width="18" height="18" valign="middle" alt="Render" /> <code>Render</code> &nbsp;&nbsp;
+        <img src="assets/icons/railway.svg" width="18" height="18" valign="middle" alt="Railway" /> <code>Railway</code> &nbsp;&nbsp;
+        <img src="assets/icons/vscode.svg" width="18" height="18" valign="middle" alt="VS Code" /> <code>VS Code</code> &nbsp;&nbsp;
+        <img src="assets/icons/postman.svg" width="18" height="18" valign="middle" alt="Postman" /> <code>Postman</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="assets/icons/layer-cs.svg" width="16" height="16" valign="middle" alt="CS" />&nbsp;
+        <strong>Core Computer Science</strong>
+      </td>
+      <td>
+        <img src="assets/icons/dsa.svg" width="18" height="18" valign="middle" alt="DSA" /> <code>DSA (500+ Solved)</code> &nbsp;&nbsp;
+        <img src="assets/icons/bigo.svg" width="18" height="18" valign="middle" alt="Big-O" /> <code>Big-O Complexity Analysis</code> &nbsp;&nbsp;
+        <img src="assets/icons/oop.svg" width="18" height="18" valign="middle" alt="OOP" /> <code>OOP Principles</code> &nbsp;&nbsp;
+        <img src="assets/icons/os.svg" width="18" height="18" valign="middle" alt="OS" /> <code>Operating Systems</code> &nbsp;&nbsp;
+        <img src="assets/icons/dbms.svg" width="18" height="18" valign="middle" alt="DBMS" /> <code>DBMS</code>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
