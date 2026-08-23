@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 270" width="100%" height="100%">
+  <defs>
+    <linearGradient id="idCardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080D18"/>
+      <stop offset="50%" stop-color="#0C1322"/>
+      <stop offset="100%" stop-color="#050810"/>
+    </linearGradient>
+    <linearGradient id="glowBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#1E293B" stop-opacity="0.8"/>
+    </linearGradient>
+    <pattern id="idGrid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="0.6" fill="#334155" fill-opacity="0.4"/>
+    </pattern>
+  </defs>
+
+  <style>
+    .font-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    .font-mono { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; }
+  </style>
+
+  <!-- 4 Capability Cards in 2x2 Grid -->
+
+  <!-- CARD 01: Frontend -->
+  <g transform="translate(0, 0)">
+    <rect width="428" height="125" rx="8" fill="url(#idCardBg)" stroke="#1E293B" stroke-width="1"/>
+    <rect x="0" y="0" width="4" height="125" rx="2" fill="#38BDF8"/>
+    
+    <g transform="translate(16, 14)">
+      <text x="0" y="10" class="font-mono" font-size="8" font-weight="700" fill="#38BDF8" letter-spacing="1">01 / INTERFACE &amp; SYSTEMS</text>
+      <text x="396" y="10" class="font-mono" font-size="7.5" fill="#10B981" text-anchor="end">ZERO-SHIFT UI</text>
+
+      <text x="0" y="32" class="font-sans" font-size="14" font-weight="800" fill="#FFFFFF">Product &amp; Frontend Engineering</text>
+      <text x="0" y="50" class="font-sans" font-size="10.5" fill="#94A3B8">Building responsive, accessible interfaces with client caching and modular component systems.</text>
+      
+      <!-- Tech tags with icons -->
+      <g transform="translate(0, 68)">
+        <rect x="0" y="0" width="85" height="22" rx="4" fill="#0B1322" stroke="#1E293B" stroke-width="0.6"/>
+        <circle cx="10" cy="11" r="5" fill="#000"/>
+        <text x="10" y="14" class="font-sans" font-size="8" font-weight="bold" fill="#FFF" text-anchor="middle">N</text>
+        <text x="22" y="15" class="font-mono" font-size="8" fill="#F8FAFC">Next.js 14+</text>
+
+        <rect x="93" y="0" width="80" height="22" rx="4" fill="#0B1322" stroke="#1E293B" stroke-width="0.6"/>
+        <ellipse cx="103" cy="11" rx="5" ry="2" fill="none" stroke="#61DAFB" stroke-width="0.8"/>
+        <circle cx="103" cy="11" r="1.2" fill="#61DAFB"/>
+        <text x="113" y="15" class="font-mono" font-size="8" fill="#F8FAFC">React.js</text>
+
+        <rect x="181" y="0" width="95" height="22" rx="4" fill="#0B1322" stroke="#1E293B" stroke-width="0.6"/>
+        <path d="M190 9 q3-2 5 0 q2 2 4 0" fill="none" stroke="#38BDF8" stroke-width="1.2"/>
+        <text x="203" y="15" class="font-mono" font-size="8" fill="#F8FAFC">Tailwind CSS</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- CARD 02: Backend & Data -->
+  <g transform="translate(452, 0)">
+    <rect width="428" height="125" rx="8" fill="url(#idCardBg)" stroke="#1E293B" stroke-width="1"/>
+    <rect x="0" y="0" width="4" height="125" rx="2" fill="#818CF8"/>
+    
+    <g transform="translate(16, 14)">
+      <text x="0" y="10" class="font-mono" font-size="8" font-weight="700" fill="#818CF8" letter-spacing="1">02 / RUNTIME &amp; PERSISTENCE</text>
+      <text x="396" y="10" class="font-mono" font-size="7.5" fill="#38BDF8" text-anchor="end">TYPE-SAFE BOUNDARIES</text>
+
+      <text x="0" y="32" class="font-sans" font-size="14" font-weight="800" fill="#FFFFFF">Backend APIs &amp; Data Models</text>
+      <text x="0" y="50" class="font-sans" font-size="10.5" fill="#94A3B8">Designing typed relational and document schemas, REST endpoints, and resilient database queries.</text>
+      
+      <!-- Tech tags with icons -->
+      <g transform="translate(0, 68)">
+        <rect x="0" y="0" width="75" height="22" rx="4" fill="#0B1322" stroke="#1E293B" stroke-width="0.6"/>
+        <circle cx="10" cy="11" r="5" fill="#339933" fill-opacity="0.3"/>
+        <text x="10" y="14" class="font-mono" font-size="7" font-weight="bold" fill="#339933" text-anchor="middle">JS</text>
+        <text x="20" y="15" class="font-mono" font-size="8" fill="#F8FAFC">Node.js</text>
+
+        <rect x="83" y="0" width="88" height="22" rx="4" fill="#0B1322" stroke="#1E293B" stroke-width="0.6"/>
+        <circle cx="93" cy="11" r="5" fill="#4169E1" fill-opacity="0.3"/>
+        <text x="93" y="14" class="font-mono" font-size="7" font-weight="bold" fill="#38BDF8" text-anchor="middle">PG</text>
+        <text x="103" y="15" class="font-mono" font-size="8" fill="#F8FAFC">PostgreSQL</text>
+
+        <rect x="179" y="0" width="80" height="22" rx="4" fill="#0B1322" stroke="#1E293B" stroke-width="0.6"/>
+        <circle cx="189" cy="11" r="5" fill="#5A67D8" fill-opacity="0.3"/>
+        <text x="189" y="14" class="font-mono" font-size="7" font-weight="bold" fill="#818CF8" text-anchor="middle">▲</text>
+        <text x="199" y="15" class="font-mono" font-size="8" fill="#F8FAFC">Prisma</text>
+
+        <rect x="267" y="0" width="88" height="22" rx="4" fill="#0B1322" stroke="#1E293B" stroke-width="0.6"/>
+        <circle cx="277" cy="11" r="5" fill="#47A248" fill-opacity="0.3"/>
+        <text x="277" y="14" class="font-mono" font-size="7" font-weight="bold" fill="#47A248" text-anchor="middle">M</text>
+        <text x="287" y="15" class="font-mono" font-size="8" fill="#F8FAFC">MongoDB</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- CARD 03: AI & Integrations -->
+  <g transform="translate(0, 140)">
+    <rect width="428" height="125" rx="8" fill="url(#idCardBg)" stroke="#1E293B" stroke-width="1"/>
+    <rect x="0" y="0" width="4" height="125" rx="2" fill="#C084FC"/>
+    
+    <g transform="translate(16, 14)">
+      <text x="0" y="10" class="font-mono" font-size="8" font-weight="700" fill="#C084FC" letter-spacing="1">03 / APPLIED INTELLIGENCE</text>
+      <text x="396" y="10" class="font-mono" font-size="7.5" fill="#C084FC" text-anchor="end">VOICE &amp; LLM AGENTS</text>
+
+      <text x="0" y="32" class="font-sans" font-size="14" font-weight="800" fill="#FFFFFF">AI Workflows &amp; Security</text>
+      <text x="0" y="50" class="font-sans" font-size="10.5" fill="#94A3B8">Integrating multimodal LLM reasoning, real-time voice triage agents, and robust RBAC identity.</text>
+      
+      <!-- Tech tags with icons -->
+      <g transform="translate(0, 68)">
+        <rect x="0" y="0" width="92" height="22" rx="4" fill="#0B1322" stroke="#1E293B" stroke-width="0.6"/>
+        <circle cx="10" cy="11" r="5" fill="#8E24AA" fill-opacity="0.3"/>
+        <text x="10" y="14" class="font-mono" font-size="7" font-weight="bold" fill="#C084FC" text-anchor="middle">✦</text>
+        <text x="20" y="15" class="font-mono" font-size="8" fill="#F8FAFC">Gemini AI</text>
+
+        <rect x="100" y="0" width="85" height="22" rx="4" fill="#0B1322" stroke="#1E293B" stroke-width="0.6"/>
+        <circle cx="110" cy="11" r="5" fill="#8B5CF6" fill-opacity="0.3"/>
+        <text x="110" y="14" class="font-mono" font-size="7" font-weight="bold" fill="#A78BFA" text-anchor="middle">◉</text>
+        <text x="120" y="15" class="font-mono" font-size="8" fill="#F8FAFC">Vapi Voice</text>
+
+        <rect x="193" y="0" width="85" height="22" rx="4" fill="#0B1322" stroke="#1E293B" stroke-width="0.6"/>
+        <circle cx="203" cy="11" r="5" fill="#6C47FF" fill-opacity="0.3"/>
+        <text x="203" y="14" class="font-mono" font-size="7" font-weight="bold" fill="#818CF8" text-anchor="middle">🔒</text>
+        <text x="213" y="15" class="font-mono" font-size="8" fill="#F8FAFC">Clerk Auth</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- CARD 04: Algorithmic Core -->
+  <g transform="translate(452, 140)">
+    <rect width="428" height="125" rx="8" fill="url(#idCardBg)" stroke="#1E293B" stroke-width="1"/>
+    <rect x="0" y="0" width="4" height="125" rx="2" fill="#10B981"/>
+    
+    <g transform="translate(16, 14)">
+      <text x="0" y="10" class="font-mono" font-size="8" font-weight="700" fill="#10B981" letter-spacing="1">04 / ALGORITHMIC FOUNDATIONS</text>
+      <text x="396" y="10" class="font-mono" font-size="7.5" fill="#10B981" text-anchor="end">500+ PROBLEMS SOLVED</text>
+
+      <text x="0" y="32" class="font-sans" font-size="14" font-weight="800" fill="#FFFFFF">Computer Science &amp; Rigor</text>
+      <text x="0" y="50" class="font-sans" font-size="10.5" fill="#94A3B8">Mastery of C++ memory &amp; STL, asymptotic bounds, data structures, and national hackathons.</text>
+      
+      <!-- Tech tags with icons -->
+      <g transform="translate(0, 68)">
+        <rect x="0" y="0" width="75" height="22" rx="4" fill="#0B1322" stroke="#1E293B" stroke-width="0.6"/>
+        <circle cx="10" cy="11" r="5" fill="#00599C" fill-opacity="0.3"/>
+        <text x="10" y="14" class="font-mono" font-size="7" font-weight="bold" fill="#38BDF8" text-anchor="middle">C++</text>
+        <text x="20" y="15" class="font-mono" font-size="8" fill="#F8FAFC">C++ Core</text>
+
+        <rect x="83" y="0" width="105" height="22" rx="4" fill="#0B1322" stroke="#1E293B" stroke-width="0.6"/>
+        <circle cx="93" cy="11" r="5" fill="#F59E0B" fill-opacity="0.3"/>
+        <text x="93" y="14" class="font-mono" font-size="7" font-weight="bold" fill="#F59E0B" text-anchor="middle">⚡</text>
+        <text x="103" y="15" class="font-mono" font-size="8" fill="#F8FAFC">LeetCode (250d+)</text>
+
+        <rect x="196" y="0" width="95" height="22" rx="4" fill="#0B1322" stroke="#1E293B" stroke-width="0.6"/>
+        <circle cx="206" cy="11" r="5" fill="#10B981" fill-opacity="0.3"/>
+        <text x="206" y="14" class="font-mono" font-size="7" font-weight="bold" fill="#10B981" text-anchor="middle">★</text>
+        <text x="216" y="15" class="font-mono" font-size="8" fill="#F8FAFC">SIH Participant</text>
+      </g>
+    </g>
+  </g>
+</svg>

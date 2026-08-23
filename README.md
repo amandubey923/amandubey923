@@ -11,7 +11,7 @@
 
 <br />
 
-[【 🌐 Live Portfolio 】](https://aman-portfolio-next.netlify.app/) &nbsp;&nbsp;·&nbsp;&nbsp; [【 📄 Download Resume (PDF) 】](https://aman-portfolio-next.netlify.app/resume/Resume2.pdf) &nbsp;&nbsp;·&nbsp;&nbsp; [【 💼 LinkedIn Profile 】](https://www.linkedin.com/in/aman-kr-dubey) &nbsp;&nbsp;·&nbsp;&nbsp; [【 ⚡ GitHub Repositories 】](https://github.com/amandubey923) &nbsp;&nbsp;·&nbsp;&nbsp; [【 📧 Email Me 】](mailto:kumaraman19137@gmail.com)
+[【 🌐 Live Portfolio 】](https://aman-portfolio-next.netlify.app/) &nbsp;·&nbsp; [【 📄 Download Resume (PDF) 】](https://aman-portfolio-next.netlify.app/resume/Resume2.pdf) &nbsp;·&nbsp; [【 💼 LinkedIn Profile 】](https://www.linkedin.com/in/aman-kr-dubey) &nbsp;·&nbsp; [【 ⚡ GitHub Repositories 】](https://github.com/amandubey923) &nbsp;·&nbsp; [【 📧 Email Me 】](mailto:kumaraman19137@gmail.com)
 
 <br />
 
@@ -21,12 +21,11 @@
 
 ## 01 // Engineering Identity
 
-I am an **Information Technology engineer** focused on architecting reliable, high-performance web systems and intelligent product workflows. My engineering philosophy is built on solid computer science fundamentals, strict type boundaries, clean code organization, and resilient system design.
+> Information Technology engineer building full-stack products where reactive interfaces, resilient backends, distributed data, and intelligent AI services converge on verified algorithmic foundations.
 
-- **Frontend & Product Engineering:** Building zero-layout-shift, highly accessible interfaces using **Next.js (App Router)**, **React.js**, and **Tailwind CSS**.
-- **Backend & Data Persistence:** Designing performant server APIs and data models using **Node.js**, **Express.js**, **PostgreSQL**, **MongoDB**, **Prisma ORM**, and **Convex**.
-- **Applied AI & Integrations:** Embedding practical generative intelligence (**Google Gemini API**) and real-time voice triage agents (**Vapi AI**) backed by secure authentication (**Clerk**).
-- **Algorithmic Core:** Sustained problem-solving discipline with **500+ algorithmic problems solved in C++** across LeetCode and GeeksforGeeks.
+<p align="center">
+  <img src="assets/studio-identity.svg" width="100%" alt="Aman Dubey's Engineering Identity Matrix: Interface, Backend, AI Workflows, Algorithmic Foundations" />
+</p>
 
 ---
 
