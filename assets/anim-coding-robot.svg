@@ -1,150 +1,326 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 240" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" width="100%" height="100%">
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#050811"/>
-      <stop offset="50%" stop-color="#091322"/>
-      <stop offset="100%" stop-color="#03060A"/>
+    <!-- Background Environment Gradient -->
+    <radialGradient id="envGlow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#081426"/>
+      <stop offset="60%" stop-color="#040912"/>
+      <stop offset="100%" stop-color="#020408"/>
+    </radialGradient>
+
+    <!-- 3D Metallic Shading Gradients -->
+    <linearGradient id="metalTop" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#334155"/>
+      <stop offset="50%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#0F172A"/>
     </linearGradient>
-    <linearGradient id="robotBody" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#1E293B"/>
-      <stop offset="50%" stop-color="#0F172A"/>
+    <linearGradient id="metalSide" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A"/>
       <stop offset="100%" stop-color="#020617"/>
     </linearGradient>
-    <linearGradient id="screenGlow" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#00F5FF" stop-opacity="0.25"/>
-      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0.05"/>
+
+    <!-- 3D Visor Glass Gradient -->
+    <linearGradient id="visorGlass" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00F5FF"/>
+      <stop offset="40%" stop-color="#0284C7"/>
+      <stop offset="100%" stop-color="#031A30"/>
     </linearGradient>
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="2" result="blur"/>
+
+    <!-- Screen Bezel 3D Gradient -->
+    <linearGradient id="screenBezel" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#090E17"/>
+    </linearGradient>
+
+    <!-- Neon Cyan & Accent Gradients -->
+    <linearGradient id="cyanCore" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F5FF"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+    <linearGradient id="purpleGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#818CF8"/>
+      <stop offset="100%" stop-color="#C084FC"/>
+    </linearGradient>
+
+    <!-- 3D Isometric Cube Shading -->
+    <linearGradient id="cubeTop" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#0284C7"/>
+    </linearGradient>
+    <linearGradient id="cubeLeft" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0369A1"/>
+      <stop offset="100%" stop-color="#075985"/>
+    </linearGradient>
+    <linearGradient id="cubeRight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0284C7"/>
+      <stop offset="100%" stop-color="#0C4A6E"/>
+    </linearGradient>
+
+    <!-- Drop Glow Filter -->
+    <filter id="neonBlur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
   </defs>
 
   <style>
-    @keyframes visorPulse {
-      0%, 100% { fill: #00F5FF; filter: drop-shadow(0 0 3px #00F5FF); }
-      50% { fill: #38BDF8; filter: drop-shadow(0 0 7px #00F5FF); }
-    }
-    @keyframes antennaBlink {
-      0%, 100% { opacity: 1; filter: drop-shadow(0 0 4px #10B981); }
-      50% { opacity: 0.3; }
-    }
-    @keyframes typingL {
+    @keyframes bob3D {
       0%, 100% { transform: translateY(0); }
-      50% { transform: translateY(-3px); }
+      50% { transform: translateY(-7px); }
     }
-    @keyframes typingR {
-      0%, 100% { transform: translateY(-3px); }
+    @keyframes floatOrb1 {
+      0%, 100% { transform: translateY(0) rotate(0deg); }
+      50% { transform: translateY(-10px) rotate(4deg); }
+    }
+    @keyframes floatOrb2 {
+      0%, 100% { transform: translateY(0) rotate(0deg); }
+      50% { transform: translateY(-12px) rotate(-4deg); }
+    }
+    @keyframes typingLeftHand {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-4px); }
+    }
+    @keyframes typingRightHand {
+      0%, 100% { transform: translateY(-4px); }
       50% { transform: translateY(0); }
     }
-    @keyframes codeFlow {
-      0% { transform: translateY(0); opacity: 0.9; }
-      50% { opacity: 0.4; }
-      100% { transform: translateY(-4px); opacity: 0.9; }
+    @keyframes radarPulse {
+      0%, 100% { opacity: 0.8; filter: drop-shadow(0 0 2px #00F5FF); }
+      50% { opacity: 0.2; filter: drop-shadow(0 0 6px #00F5FF); }
     }
-    @keyframes floatParticle1 {
-      0%, 100% { transform: translate(0, 0); opacity: 0.3; }
-      50% { transform: translate(5px, -8px); opacity: 0.8; }
+    @keyframes codeScrollUp {
+      0% { transform: translateY(0); }
+      100% { transform: translateY(-15px); }
     }
-    @keyframes floatParticle2 {
-      0%, 100% { transform: translate(0, 0); opacity: 0.3; }
-      50% { transform: translate(-6px, -10px); opacity: 0.8; }
+    @keyframes scanLineGlow {
+      0% { transform: translateY(-30px); opacity: 0; }
+      50% { opacity: 0.6; }
+      100% { transform: translateY(110px); opacity: 0; }
     }
-    .visor { animation: visorPulse 2s infinite ease-in-out; }
-    .antenna-light { animation: antennaBlink 1.4s infinite; }
-    .hand-left { animation: typingL 0.6s infinite ease-in-out; }
-    .hand-right { animation: typingR 0.6s infinite ease-in-out; }
-    .code-lines { animation: codeFlow 1.8s infinite ease-in-out; }
-    .particle-1 { animation: floatParticle1 3s infinite ease-in-out; }
-    .particle-2 { animation: floatParticle2 2.5s infinite ease-in-out; }
-    .mono { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; }
+    .bob-container { animation: bob3D 3.5s infinite ease-in-out; }
+    .float-1 { animation: floatOrb1 4s infinite ease-in-out; }
+    .float-2 { animation: floatOrb2 4.5s infinite ease-in-out 0.5s; }
+    .hand-l { animation: typingLeftHand 0.45s infinite ease-in-out; }
+    .hand-r { animation: typingRightHand 0.45s infinite ease-in-out 0.22s; }
+    .pulse-light { animation: radarPulse 1.8s infinite; }
+    .scan-beam { animation: scanLineGlow 3s infinite linear; }
+    .mono { font-family: ui-monospace, SFMono-Regular, "Courier New", monospace; }
   </style>
 
-  <!-- Container Base -->
-  <rect width="600" height="240" rx="12" fill="url(#bgGrad)" stroke="#1E293B" stroke-width="1.2"/>
+  <!-- Background Base Canvas -->
+  <rect width="900" height="360" rx="14" fill="url(#envGlow)"/>
+  <rect width="900" height="360" rx="14" fill="none" stroke="#1E293B" stroke-width="1.2"/>
 
-  <!-- Background Floating Syntax Elements -->
-  <g fill="#334155" class="mono" font-size="11">
-    <text x="45" y="55" class="particle-1">&lt;code&gt;</text>
-    <text x="500" y="60" class="particle-2">{ async }</text>
-    <text x="75" y="190" class="particle-2">[ 500+ DSA ]</text>
-    <text x="475" y="195" class="particle-1">=&gt; deploy()</text>
+  <!-- 3D Isometric Grid Floor Lines -->
+  <g stroke="#1E293B" stroke-width="0.7" opacity="0.45">
+    <line x1="150" y1="340" x2="450" y2="230"/>
+    <line x1="250" y1="360" x2="550" y2="250"/>
+    <line x1="350" y1="360" x2="650" y2="250"/>
+    <line x1="750" y1="340" x2="450" y2="230"/>
+    <line x1="650" y1="360" x2="350" y2="250"/>
+    <line x1="550" y1="360" x2="250" y2="250"/>
   </g>
 
-  <!-- Desktop Desk Surface -->
-  <line x1="80" y1="205" x2="520" y2="205" stroke="#1E293B" stroke-width="2"/>
+  <!-- Ambient Floor Neon Reflection Glow -->
+  <ellipse cx="450" cy="310" rx="280" ry="25" fill="#00F5FF" opacity="0.08" filter="url(#softShadow)"/>
+  <ellipse cx="450" cy="295" rx="190" ry="16" fill="#818CF8" opacity="0.1" filter="url(#softShadow)"/>
 
-  <!-- Center Primary Monitor -->
-  <rect x="220" y="80" width="160" height="95" rx="6" fill="#0A111E" stroke="#38BDF8" stroke-width="1.2" filter="url(#glow)"/>
-  <rect x="225" y="85" width="150" height="85" rx="4" fill="url(#screenGlow)"/>
-  <!-- Monitor Stand -->
-  <polygon points="285,175 315,175 322,205 278,205" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
-  <rect x="265" y="204" width="70" height="3" rx="1.5" fill="#38BDF8"/>
-
-  <!-- Code Streaming Inside Monitor -->
-  <g class="code-lines">
-    <rect x="235" y="96" width="45" height="3" rx="1.5" fill="#38BDF8"/>
-    <rect x="285" y="96" width="30" height="3" rx="1.5" fill="#818CF8"/>
-    <rect x="245" y="106" width="70" height="3" rx="1.5" fill="#10B981"/>
-    <rect x="245" y="116" width="50" height="3" rx="1.5" fill="#94A3B8"/>
-    <rect x="260" y="126" width="60" height="3" rx="1.5" fill="#00F5FF"/>
-    <rect x="245" y="136" width="80" height="3" rx="1.5" fill="#F59E0B"/>
-    <rect x="235" y="146" width="40" height="3" rx="1.5" fill="#38BDF8"/>
-    <circle cx="355" cy="98" r="2.5" fill="#10B981" class="antenna-light"/>
-  </g>
-
-  <!-- Side Screen Left (Terminal) -->
-  <polygon points="130,95 195,90 195,175 130,170" fill="#070E18" stroke="#1E293B" stroke-width="1"/>
-  <line x1="140" y1="108" x2="185" y2="105" stroke="#38BDF8" stroke-width="1.5" opacity="0.6"/>
-  <line x1="140" y1="118" x2="175" y2="115" stroke="#10B981" stroke-width="1.5" opacity="0.6"/>
-  <line x1="140" y1="128" x2="180" y2="125" stroke="#818CF8" stroke-width="1.5" opacity="0.6"/>
-  <line x1="140" y1="138" x2="165" y2="135" stroke="#94A3B8" stroke-width="1.5" opacity="0.6"/>
-
-  <!-- Side Screen Right (Metrics) -->
-  <polygon points="405,90 470,95 470,170 405,175" fill="#070E18" stroke="#1E293B" stroke-width="1"/>
-  <polyline points="415,145 425,130 435,140 445,120 455,135 462,115" fill="none" stroke="#00F5FF" stroke-width="1.5" opacity="0.7"/>
-
-  <!-- Holographic Keyboard -->
-  <polygon points="250,185 350,185 365,200 235,200" fill="#0A1322" stroke="#00F5FF" stroke-width="0.7" opacity="0.8"/>
-  <line x1="255" y1="190" x2="345" y2="190" stroke="#00F5FF" stroke-width="0.8" opacity="0.5"/>
-  <line x1="248" y1="195" x2="352" y2="195" stroke="#00F5FF" stroke-width="0.8" opacity="0.5"/>
-
-  <!-- ================= ROBOT DEVELOPER ================= -->
-  <!-- Robot Head -->
+  <!-- ================= 3D ISOMETRIC DESK ================= -->
   <g transform="translate(0, 0)">
-    <!-- Antenna -->
-    <line x1="300" y1="18" x2="300" y2="35" stroke="#64748B" stroke-width="2"/>
-    <circle cx="300" cy="16" r="4" fill="#10B981" class="antenna-light"/>
-
-    <!-- Head Shell -->
-    <rect x="278" y="32" width="44" height="34" rx="8" fill="url(#robotBody)" stroke="#38BDF8" stroke-width="1.2"/>
-    <!-- Cute Ear Bolts -->
-    <rect x="273" y="42" width="5" height="12" rx="2" fill="#38BDF8"/>
-    <rect x="322" y="42" width="5" height="12" rx="2" fill="#38BDF8"/>
-
-    <!-- Glowing Visor (Eyes) -->
-    <rect x="284" y="40" width="32" height="15" rx="5" fill="#031525"/>
-    <rect x="287" y="43" width="26" height="9" rx="3" class="visor"/>
-
-    <!-- Robot Neck & Torso -->
-    <rect x="294" y="66" width="12" height="6" rx="2" fill="#1E293B"/>
-    <path d="M 270 72 Q 300 68 330 72 L 340 100 Q 300 105 260 100 Z" fill="url(#robotBody)" stroke="#1E293B" stroke-width="1"/>
-    <!-- Core Power Indicator -->
-    <circle cx="300" cy="85" r="4" fill="#00F5FF" class="antenna-light"/>
-
-    <!-- Animated Mechanical Arms & Typing Hands -->
-    <!-- Left Hand -->
-    <path d="M 265 80 Q 245 120 270 145" fill="none" stroke="#334155" stroke-width="4" stroke-linecap="round"/>
-    <circle cx="270" cy="145" r="5" fill="#38BDF8" class="hand-left"/>
-
-    <!-- Right Hand -->
-    <path d="M 335 80 Q 355 120 330 145" fill="none" stroke="#334155" stroke-width="4" stroke-linecap="round"/>
-    <circle cx="330" cy="145" r="5" fill="#38BDF8" class="hand-right"/>
+    <!-- Desk Top Surface (Isometric Diamond Projection) -->
+    <polygon points="450,210 740,265 450,315 160,265" fill="url(#metalTop)" stroke="#38BDF8" stroke-width="1"/>
+    <!-- Desk Front Left Edge (3D Thickness) -->
+    <polygon points="160,265 450,315 450,326 160,276" fill="url(#metalSide)" stroke="#1E293B" stroke-width="0.8"/>
+    <!-- Desk Front Right Edge (3D Thickness) -->
+    <polygon points="450,315 740,265 740,276 450,326" fill="url(#metalSide)" stroke="#1E293B" stroke-width="0.8"/>
+    <!-- Neon Underglow Strip -->
+    <line x1="165" y1="277" x2="450" y2="327" stroke="#00F5FF" stroke-width="2.5" opacity="0.7" filter="url(#neonBlur)"/>
+    <line x1="450" y1="327" x2="735" y2="277" stroke="#00F5FF" stroke-width="2.5" opacity="0.7" filter="url(#neonBlur)"/>
   </g>
 
-  <!-- Bottom Terminal Tagline -->
-  <text x="300" y="226" class="mono" font-size="10" font-weight="bold" fill="#38BDF8" text-anchor="middle" letter-spacing="1.5">⚡ ACTIVE COMPILATION // AMAN DUBEY • IT ENGINEER</text>
+  <!-- ================= 3D FLOATING HOLOGRAPHIC CUBES ================= -->
+  <!-- Floating Cube Left: C++ 500+ -->
+  <g transform="translate(110, 110)" class="float-1">
+    <ellipse cx="40" cy="85" rx="28" ry="8" fill="#000" opacity="0.4" filter="url(#softShadow)"/>
+    <!-- Isometric Cube 3 Faces -->
+    <polygon points="40,20 68,36 40,52 12,36" fill="url(#cubeTop)"/>
+    <polygon points="12,36 40,52 40,84 12,68" fill="url(#cubeLeft)"/>
+    <polygon points="40,52 68,36 68,68 40,84" fill="url(#cubeRight)"/>
+    <text x="40" y="40" class="mono" font-size="9.5" font-weight="900" fill="#FFFFFF" text-anchor="middle">C++</text>
+    <text x="40" y="70" class="mono" font-size="8" font-weight="bold" fill="#38BDF8" text-anchor="middle">500+</text>
+  </g>
+
+  <!-- Floating Cube Right: Next.js & React -->
+  <g transform="translate(710, 115)" class="float-2">
+    <ellipse cx="40" cy="85" rx="28" ry="8" fill="#000" opacity="0.4" filter="url(#softShadow)"/>
+    <!-- Isometric Cube 3 Faces -->
+    <polygon points="40,20 68,36 40,52 12,36" fill="url(#purpleGlow)"/>
+    <polygon points="12,36 40,52 40,84 12,68" fill="#4338CA"/>
+    <polygon points="40,52 68,36 68,68 40,84" fill="#312E81"/>
+    <text x="40" y="40" class="mono" font-size="9" font-weight="900" fill="#FFFFFF" text-anchor="middle">NEXT</text>
+    <text x="40" y="70" class="mono" font-size="8" font-weight="bold" fill="#C084FC" text-anchor="middle">TS / SQL</text>
+  </g>
+
+  <!-- ================= 3D CURVED MULTI-SCREEN SETUP ================= -->
+  <!-- Center Main 3D Curved Ultrawide Display -->
+  <g transform="translate(290, 75)">
+    <!-- Monitor Stand & 3D Base -->
+    <polygon points="140,165 180,165 190,195 130,195" fill="#0A1220" stroke="#1E293B" stroke-width="1"/>
+    <ellipse cx="160" cy="195" rx="45" ry="8" fill="#030712" stroke="#38BDF8" stroke-width="0.8"/>
+    <!-- Monitor Bezel Outer 3D Box -->
+    <rect x="0" y="0" width="320" height="165" rx="8" fill="url(#screenBezel)" stroke="#38BDF8" stroke-width="1.4" filter="url(#neonBlur)"/>
+    <rect x="5" y="5" width="310" height="155" rx="6" fill="#040914"/>
+
+    <!-- Screen Glass Specular Highlight -->
+    <polygon points="5,5 120,5 20,160 5,160" fill="#FFF" opacity="0.04"/>
+
+    <!-- Inner Terminal Code Buffer -->
+    <g transform="translate(15, 18)">
+      <!-- Window Controls -->
+      <circle cx="5" cy="5" r="3.5" fill="#EF4444"/>
+      <circle cx="17" cy="5" r="3.5" fill="#F59E0B"/>
+      <circle cx="29" cy="5" r="3.5" fill="#10B981"/>
+      <text x="145" y="8" class="mono" font-size="7.5" fill="#64748B" text-anchor="middle">core-systems-runtime.tsx</text>
+
+      <!-- Animated Code Lines Stream -->
+      <g transform="translate(0, 20)">
+        <text x="5" y="10" class="mono" font-size="8" fill="#818CF8">const</text>
+        <text x="40" y="10" class="mono" font-size="8" fill="#00F5FF">architect</text>
+        <text x="95" y="10" class="mono" font-size="8" fill="#FFF">= new</text>
+        <text x="130" y="10" class="mono" font-size="8" fill="#10B981">SystemsEngineer();</text>
+
+        <text x="5" y="24" class="mono" font-size="8" fill="#818CF8">await</text>
+        <text x="40" y="24" class="mono" font-size="8" fill="#FFF">architect.mount({</text>
+
+        <text x="15" y="38" class="mono" font-size="8" fill="#94A3B8">frontend:</text>
+        <text x="75" y="38" class="mono" font-size="8" fill="#F59E0B">"Next.js 14 / TypeScript",</text>
+
+        <text x="15" y="52" class="mono" font-size="8" fill="#94A3B8">database:</text>
+        <text x="75" y="52" class="mono" font-size="8" fill="#F59E0B">"PostgreSQL &amp; Prisma ORM",</text>
+
+        <text x="15" y="66" class="mono" font-size="8" fill="#94A3B8">aiVoice:</text>
+        <text x="75" y="66" class="mono" font-size="8" fill="#F59E0B">"Vapi AI &amp; Gemini 1.5",</text>
+
+        <text x="15" y="80" class="mono" font-size="8" fill="#94A3B8">invariants:</text>
+        <text x="85" y="80" class="mono" font-size="8" fill="#10B981">"500+ C++ DSA Verified"</text>
+
+        <text x="5" y="94" class="mono" font-size="8" fill="#FFF">});</text>
+
+        <!-- Status Pill -->
+        <rect x="5" y="104" width="130" height="14" rx="3" fill="#0A1826" stroke="#00F5FF" stroke-width="0.6"/>
+        <circle cx="12" cy="111" r="2.5" fill="#10B981" class="pulse-light"/>
+        <text x="20" y="114" class="mono" font-size="7" font-weight="bold" fill="#00F5FF">STATUS: 100% OPERATIONAL</text>
+      </g>
+    </g>
+
+    <!-- Scanline Laser Effect -->
+    <line x1="5" y1="0" x2="315" y2="0" stroke="#00F5FF" stroke-width="1.2" opacity="0.5" class="scan-beam"/>
+  </g>
+
+  <!-- Left Angled 3D Auxiliary Screen -->
+  <g transform="translate(170, 95)">
+    <polygon points="100,5 0,25 0,140 100,150" fill="#070D18" stroke="#1E293B" stroke-width="1.2"/>
+    <polygon points="95,12 8,28 8,135 95,144" fill="#040912"/>
+    <line x1="18" y1="42" x2="85" y2="30" stroke="#38BDF8" stroke-width="2" opacity="0.6"/>
+    <line x1="18" y1="56" x2="75" y2="46" stroke="#10B981" stroke-width="2" opacity="0.6"/>
+    <line x1="18" y1="70" x2="80" y2="62" stroke="#818CF8" stroke-width="2" opacity="0.6"/>
+    <line x1="18" y1="84" x2="65" y2="78" stroke="#94A3B8" stroke-width="2" opacity="0.6"/>
+    <line x1="18" y1="98" x2="78" y2="94" stroke="#00F5FF" stroke-width="2" opacity="0.6"/>
+    <!-- Small Graph -->
+    <polyline points="18,125 35,115 50,120 70,105 85,110" fill="none" stroke="#00F5FF" stroke-width="1.5"/>
+  </g>
+
+  <!-- Right Angled 3D Auxiliary Screen -->
+  <g transform="translate(630, 95)">
+    <polygon points="0,5 100,25 100,140 0,150" fill="#070D18" stroke="#1E293B" stroke-width="1.2"/>
+    <polygon points="5,12 92,28 92,135 5,144" fill="#040912"/>
+    <!-- Analytics chart lines -->
+    <polyline points="15,90 35,75 55,85 75,55 88,60" fill="none" stroke="#C084FC" stroke-width="1.8"/>
+    <polygon points="15,90 35,75 55,85 75,55 88,60 88,125 15,125" fill="#C084FC" opacity="0.15"/>
+    <text x="50" y="118" class="mono" font-size="7" fill="#A78BFA" text-anchor="middle">LEETCODE: 250d+</text>
+  </g>
+
+  <!-- 3D Holographic Keyboard with Perspective -->
+  <g transform="translate(340, 248)">
+    <polygon points="70,0 150,0 200,30 20,30" fill="#091322" stroke="#00F5FF" stroke-width="0.8" opacity="0.9"/>
+    <!-- Key Rows -->
+    <line x1="30" y1="8" x2="190" y2="8" stroke="#00F5FF" stroke-width="0.8" opacity="0.4"/>
+    <line x1="25" y1="16" x2="195" y2="16" stroke="#00F5FF" stroke-width="0.8" opacity="0.4"/>
+    <line x1="20" y1="24" x2="200" y2="24" stroke="#00F5FF" stroke-width="0.8" opacity="0.4"/>
+  </g>
+
+  <!-- ================= 3D MECHA ROBOT DEVELOPER ================= -->
+  <g transform="translate(450, 155)" class="bob-container">
+    <!-- Drop Shadow Under Robot -->
+    <ellipse cx="0" cy="115" rx="55" ry="12" fill="#000" opacity="0.5" filter="url(#softShadow)"/>
+
+    <!-- Dual Shoulder Cannons / Cyber Accents -->
+    <rect x="-65" y="32" width="14" height="22" rx="4" fill="#1E293B" stroke="#38BDF8" stroke-width="0.8"/>
+    <circle cx="-58" cy="38" r="2.5" fill="#00F5FF" class="pulse-light"/>
+    <rect x="51" y="32" width="14" height="22" rx="4" fill="#1E293B" stroke="#38BDF8" stroke-width="0.8"/>
+    <circle cx="58" cy="38" r="2.5" fill="#00F5FF" class="pulse-light"/>
+
+    <!-- 3D Torso / Chest Armor (Volumetric Shading) -->
+    <path d="M -42 38 L 42 38 L 32 90 L -32 90 Z" fill="url(#metalSide)" stroke="#1E293B" stroke-width="1.2"/>
+    <polygon points="-38,40 38,40 28,70 -28,70" fill="url(#metalTop)"/>
+    <!-- Glowing Arc Reactor / Power Core -->
+    <polygon points="0,48 10,60 0,72 -10,60" fill="#00F5FF" filter="url(#neonBlur)"/>
+    <polygon points="0,52 6,60 0,68 -6,60" fill="#FFFFFF"/>
+
+    <!-- Articulated 3D Shoulders -->
+    <circle cx="-42" cy="42" r="12" fill="url(#metalTop)" stroke="#38BDF8" stroke-width="1"/>
+    <circle cx="42" cy="42" r="12" fill="url(#metalTop)" stroke="#38BDF8" stroke-width="1"/>
+
+    <!-- Left Mechanical Arm & Typing Hand -->
+    <g class="hand-l">
+      <path d="M -42 45 Q -65 75 -40 100 Q -25 110 -15 105" fill="none" stroke="#1E293B" stroke-width="7" stroke-linecap="round"/>
+      <path d="M -42 45 Q -65 75 -40 100 Q -25 110 -15 105" fill="none" stroke="#38BDF8" stroke-width="2" stroke-linecap="round"/>
+      <!-- Metallic Hand -->
+      <circle cx="-15" cy="105" r="6" fill="#00F5FF" filter="url(#neonBlur)"/>
+      <circle cx="-15" cy="105" r="4" fill="#FFFFFF"/>
+    </g>
+
+    <!-- Right Mechanical Arm & Typing Hand -->
+    <g class="hand-r">
+      <path d="M 42 45 Q 65 75 40 100 Q 25 110 15 105" fill="none" stroke="#1E293B" stroke-width="7" stroke-linecap="round"/>
+      <path d="M 42 45 Q 65 75 40 100 Q 25 110 15 105" fill="none" stroke="#38BDF8" stroke-width="2" stroke-linecap="round"/>
+      <!-- Metallic Hand -->
+      <circle cx="15" cy="105" r="6" fill="#00F5FF" filter="url(#neonBlur)"/>
+      <circle cx="15" cy="105" r="4" fill="#FFFFFF"/>
+    </g>
+
+    <!-- 3D Volumetric Spherical Helmet / Head -->
+    <g transform="translate(0, -10)">
+      <!-- Top Cyber Antenna -->
+      <line x1="0" y1="-28" x2="0" y2="-12" stroke="#64748B" stroke-width="2.5"/>
+      <circle cx="0" cy="-28" r="4" fill="#00F5FF" class="pulse-light"/>
+
+      <!-- Helmet Outer Chassis (Curved 3D Shell) -->
+      <rect x="-35" y="-12" width="70" height="50" rx="18" fill="url(#metalTop)" stroke="#38BDF8" stroke-width="1.4" filter="url(#neonBlur)"/>
+      <!-- Side Ear Pucks -->
+      <rect x="-41" y="2" width="8" height="20" rx="3" fill="#0F172A" stroke="#38BDF8" stroke-width="0.8"/>
+      <rect x="33" y="2" width="8" height="20" rx="3" fill="#0F172A" stroke="#38BDF8" stroke-width="0.8"/>
+
+      <!-- 3D Curved Visor (Curved Panoramic Glass with Horizon Reflection) -->
+      <rect x="-27" y="-2" width="54" height="28" rx="10" fill="#020814" stroke="#00F5FF" stroke-width="1"/>
+      <rect x="-24" y="1" width="48" height="22" rx="7" fill="url(#visorGlass)"/>
+      <!-- Specular Highlight Curve on Visor -->
+      <path d="M -20 4 Q 0 0 20 4" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.8" stroke-linecap="round"/>
+      <!-- Robot Eye Reticle / Focus Beams -->
+      <circle cx="-8" cy="12" r="3.5" fill="#FFFFFF" class="pulse-light"/>
+      <circle cx="8" cy="12" r="3.5" fill="#FFFFFF" class="pulse-light"/>
+    </g>
+  </g>
+
+  <!-- Bottom Holographic Status Banner -->
+  <g transform="translate(450, 342)">
+    <rect x="-200" y="-14" width="400" height="22" rx="11" fill="#081424" stroke="#00F5FF" stroke-width="0.8"/>
+    <circle cx="-185" cy="-3" r="3.5" fill="#10B981" class="pulse-light"/>
+    <text x="0" y="1" class="mono" font-size="9" font-weight="bold" fill="#00F5FF" text-anchor="middle" letter-spacing="2">OPERATOR: AMAN DUBEY // B.TECH IT // FULL-STACK &amp; ALGORITHMS</text>
+  </g>
 </svg>

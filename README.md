@@ -264,15 +264,54 @@
 
 ## 🧠 Algorithmic Problem Solving & Milestones
 
-* **500+ Algorithmic Problems Solved (C++):**
-  * Strong proficiency with Standard Template Library (STL: vectors, sets, unordered_maps, heaps) and memory pointer models.
-  * Domains: Arrays, Strings, Two Pointers, Sliding Window, Linked Lists, Binary Trees, Graphs (BFS/DFS), Dynamic Programming, and Recursion.
-  * Active competitive solver with a **250+ days consistency streak** on [LeetCode (aman_dubey923)](https://leetcode.com/u/aman_dubey923) and [GeeksforGeeks (kumaramag0dt)](https://www.geeksforgeeks.org/profile/kumaramag0dt).
-* **Smart India Hackathon (SIH) Participant:**
-  * National-level hackathon participant tackling mission-critical civic challenges through rapid agile sprints.
-* **Academic Credentials:**
-  * **Degree:** Bachelor of Technology in Information Technology (2023 – 2027)
-  * **Institution:** Chandigarh Group of Colleges (CGC Mohali / Landran) • **CGPA: 8.17 / 10.0**
+<p align="center">
+  <img src="assets/studio-dsa-sih.svg" width="100%" alt="500+ DSA Problems Solved &amp; Smart India Hackathon Participant" />
+</p>
+
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <h4>⚡ Competitive Programming</h4>
+      <p><b>500+ Problems Solved in C++</b><br />
+      Active problem solver with a <b>250+ days consistency streak</b> across competitive platforms.</p>
+      <p>
+        <a href="https://leetcode.com/u/aman_dubey923"><img src="https://img.shields.io/badge/LeetCode-500+_Solved-FFA116?style=flat-square&logo=leetcode&logoColor=black" alt="LeetCode" /></a><br />
+        <a href="https://www.geeksforgeeks.org/profile/kumaramag0dt"><img src="https://img.shields.io/badge/GeeksforGeeks-Streak_Active-2F8D46?style=flat-square&logo=geeksforgeeks&logoColor=white" alt="GeeksforGeeks" /></a>
+      </p>
+    </td>
+    <td width="33%" valign="top">
+      <h4>🏆 Smart India Hackathon (SIH)</h4>
+      <p><b>National-Level Participant</b><br />
+      Selected participant in national hackathon rounds, designing resilient system architectures and data models under strict sprint deadlines.</p>
+      <p>
+        <img src="https://img.shields.io/badge/SIH-National_Rounds-10B981?style=flat-square" alt="SIH" /><br />
+        <img src="https://img.shields.io/badge/Sprint-Rapid_Prototyping-38BDF8?style=flat-square" alt="Sprint" />
+      </p>
+    </td>
+    <td width="33%" valign="top">
+      <h4>🎓 Academic Excellence</h4>
+      <p><b>B.Tech in Information Technology</b><br />
+      Chandigarh Group of Colleges (CGC Mohali / Landran)<br />
+      <b>Batch:</b> 2023 – 2027<br />
+      <b>Cumulative GPA:</b> 8.17 / 10.0</p>
+      <p>
+        <img src="https://img.shields.io/badge/CGPA-8.17_%2F_10.0-818CF8?style=flat-square" alt="CGPA" />
+      </p>
+    </td>
+  </tr>
+</table>
+
+<details>
+  <summary><b>🔍 Click to view Algorithmic Topic Mastery &amp; Complexity Invariants</b></summary>
+  <br />
+
+  | Domain / Focus | Core Patterns &amp; Algorithmic Principles Mastered |
+  | :--- | :--- |
+  | **Linear Structures** | Arrays, Strings, Two Pointers, Sliding Window, Monotonic Stacks, Fast &amp; Slow Pointers, Linked Lists |
+  | **Hierarchical &amp; Graphs** | Binary Trees, Binary Search Trees (BST), Graph BFS/DFS Traversal, Topological Sort, Disjoint Set (DSU) |
+  | **Optimization &amp; Search** | Dynamic Programming (1D/2D, Memoization, Tabulation), Binary Search on Answer, Backtracking |
+  | **Systems &amp; Complexity** | Strict $O(N)$ and $O(\log N)$ Time/Space Guarantees, C++ STL Memory Pointer Operations |
+</details>
 
 <br />
 

@@ -31,3 +31,4 @@ jobs:
           publish_dir: ./dist
           publish_branch: output
           commit_message: "chore: update contribution snake animation [skip ci]"
+
