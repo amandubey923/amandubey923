@@ -130,7 +130,7 @@
 
   <!-- ================= 3D FLOATING HOLOGRAPHIC CUBES ================= -->
   <!-- Left Floating 3D Cube: C++ Core -->
-  <g transform="translate(100, 120)" class="cube-l">
+  <g transform="translate(55, 120)" class="cube-l">
     <ellipse cx="40" cy="90" rx="28" ry="7" fill="#000" opacity="0.4" filter="url(#dropShadow)"/>
     <polygon points="40,20 70,37 40,54 10,37" fill="url(#cubeTopCyan)"/>
     <polygon points="10,37 40,54 40,88 10,71" fill="url(#cubeSideCyan)"/>
@@ -140,7 +140,7 @@
   </g>
 
   <!-- Right Floating 3D Cube: Next.js & React -->
-  <g transform="translate(720, 125)" class="cube-r">
+  <g transform="translate(775, 125)" class="cube-r">
     <ellipse cx="40" cy="90" rx="28" ry="7" fill="#000" opacity="0.4" filter="url(#dropShadow)"/>
     <polygon points="40,20 70,37 40,54 10,37" fill="url(#cubeTopPurple)"/>
     <polygon points="10,37 40,54 40,88 10,71" fill="url(#cubeSidePurple)"/>
@@ -226,7 +226,7 @@
   </g>
 
   <!-- 3D Perspective Holographic Keyboard -->
-  <g transform="translate(335, 268)">
+  <g transform="translate(352, 268) scale(1.12)">
     <polygon points="75,0 155,0 205,32 25,32" fill="#091322" stroke="#00F5FF" stroke-width="0.8" opacity="0.85"/>
     <line x1="35" y1="8" x2="195" y2="8" stroke="#00F5FF" stroke-width="0.8" opacity="0.4"/>
     <line x1="30" y1="16" x2="200" y2="16" stroke="#00F5FF" stroke-width="0.8" opacity="0.4"/>
@@ -234,7 +234,7 @@
   </g>
 
   <!-- ================= 3D VOLUMETRIC ROBOT DEVELOPER ================= -->
-  <g transform="translate(450, 168)" class="robot-body">
+  <g transform="translate(470, 162) scale(1.16)" class="robot-body">
     <!-- Shadow Underneath Robot -->
     <ellipse cx="0" cy="125" rx="60" ry="14" fill="#000" opacity="0.5" filter="url(#dropShadow)"/>
 
@@ -301,3 +301,4 @@
     <text x="0" y="1" class="mono" font-size="9" font-weight="bold" fill="#00F5FF" text-anchor="middle" letter-spacing="2">⚡ ACTIVE WORKSTATION // AMAN DUBEY • SOFTWARE ENGINEER</text>
   </g>
 </svg>
+
