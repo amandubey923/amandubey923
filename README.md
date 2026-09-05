@@ -1,45 +1,45 @@
 <div align="center">
 
-<!-- HERO BANNER -->
+<!-- CYBERPUNK GAME HUD BANNER (ANIMATED RADAR & NEON GLOW) -->
 <p align="center">
-  <img src="assets/studio-hero.svg" width="100%" alt="Aman Dubey — Software Engineer &amp; Full-Stack Systems Builder" />
+  <img src="assets/game-hud.svg" width="100%" alt="Aman Dubey - Cyberpunk Developer Game HUD" />
 </p>
 
-<!-- DYNAMIC ANIMATED TYPING SUBHEADER -->
+<!-- DYNAMIC ARCADE TYPING HEADER -->
 <p align="center">
   <a href="https://github.com/amandubey923">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2600&pause=1200&color=38BDF8&center=true&vCenter=true&multiline=false&width=620&height=40&lines=Full-Stack+Engineer+%E2%80%A2+Systems+Builder;500%2B+Algorithmic+Problems+Solved+(C%2B%2B);Next.js+14+%E2%80%A2+TypeScript+%E2%80%A2+PostgreSQL+%E2%80%A2+Prisma;Smart+India+Hackathon+(SIH)+Participant;Building+Intelligent+Voice+%26+Web+Products" alt="Aman Dubey - Dynamic Role Typing Header" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=19&duration=2400&pause=1000&color=00F5FF&center=true&vCenter=true&multiline=false&width=650&height=38&lines=%F0%9F%8E%AE+PRESS+START+TO+EXPLORE+DEV+QUEST;%E2%9A%94%EF%B8%8F+CLASS%3A+FULL-STACK+SYSTEMS+ARCHITECT;%F0%9F%8F%86+LVL+22+%E2%80%A2+500%2B+ALGORITHMIC+RUNES+SOLVED+(C%2B%2B);%F0%9F%91%BE+SMART+INDIA+HACKATHON+VETERAN;%E2%9A%A1+NEXT.JS+14+%E2%80%A2+TYPESCRIPT+%E2%80%A2+POSTGRESQL+%E2%80%A2+PRISMA;%F0%9F%93%A1+STATUS%3A+OPEN+FOR+SOFTWARE+ENGINEERING+ROLES" alt="Aman Dubey - Arcade Typing Header" />
   </a>
 </p>
 
+<!-- ARCADE ACTION TOKENS -->
 <p align="center">
-  <b>B.Tech in Information Technology ('27) • Chandigarh Group of Colleges (CGPA: 8.17)</b><br />
-  <i>Architecting reactive web experiences, resilient distributed backends, and intelligent voice/AI pipelines on verified algorithmic foundations.</i>
+  <a href="https://aman-portfolio-next.netlify.app/">
+    <img src="https://img.shields.io/badge/PLAY_PORTFOLIO-0284C7?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Live Portfolio" />
+  </a>
+  &nbsp;
+  <a href="https://aman-portfolio-next.netlify.app/resume/Resume2.pdf">
+    <img src="https://img.shields.io/badge/QUEST_RESUME_(PDF)-DC2626?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Download Resume" />
+  </a>
+  &nbsp;
+  <a href="https://www.linkedin.com/in/aman-kr-dubey">
+    <img src="https://img.shields.io/badge/GUILD_LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Profile" />
+  </a>
+  &nbsp;
+  <a href="https://leetcode.com/u/aman_dubey923">
+    <img src="https://img.shields.io/badge/ARENA_LEETCODE-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode Profile" />
+  </a>
+  &nbsp;
+  <a href="mailto:kumaraman19137@gmail.com">
+    <img src="https://img.shields.io/badge/COMM_CHANNEL-10B981?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Aman" />
+  </a>
 </p>
 
 <br />
 
-<!-- QUICK ACTION BUTTONS -->
+<!-- RETRO TERMINAL BOOT STREAM -->
 <p align="center">
-  <a href="https://aman-portfolio-next.netlify.app/">
-    <img src="https://img.shields.io/badge/LIVE_PORTFOLIO-0284C7?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Live Portfolio" />
-  </a>
-  &nbsp;
-  <a href="https://aman-portfolio-next.netlify.app/resume/Resume2.pdf">
-    <img src="https://img.shields.io/badge/RESUME_PDF-DC2626?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Download Resume" />
-  </a>
-  &nbsp;
-  <a href="https://www.linkedin.com/in/aman-kr-dubey">
-    <img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Profile" />
-  </a>
-  &nbsp;
-  <a href="https://leetcode.com/u/aman_dubey923">
-    <img src="https://img.shields.io/badge/LEETCODE-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode Profile" />
-  </a>
-  &nbsp;
-  <a href="mailto:kumaraman19137@gmail.com">
-    <img src="https://img.shields.io/badge/DIRECT_EMAIL-10B981?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Aman" />
-  </a>
+  <img src="assets/game-terminal.svg" width="100%" alt="Cyberpunk Terminal Boot Diagnostic" />
 </p>
 
 <br />
@@ -47,14 +47,14 @@
 <!-- HUD QUICK NAVIGATION BAR -->
 <table>
   <tr>
-    <td align="center"><a href="#-engineering-identity"><b>⚡ IDENTITY</b></a></td>
-    <td align="center"><a href="#-flagship-production-systems"><b>🚀 FLAGSHIPS</b></a></td>
-    <td align="center"><a href="#-extended-product-ecosystem"><b>📦 ECOSYSTEM</b></a></td>
-    <td align="center"><a href="#-technical-stack--tooling"><b>🛠️ TECH STACK</b></a></td>
-    <td align="center"><a href="#-system-architecture--lifecycle"><b>🏗️ ARCHITECTURE</b></a></td>
-    <td align="center"><a href="#-algorithmic-mastery--hackathons"><b>🧠 DSA &amp; SIH</b></a></td>
-    <td align="center"><a href="#-activity--telemetry"><b>📊 TELEMETRY</b></a></td>
-    <td align="center"><a href="#-direct-transmission"><b>📬 CONNECT</b></a></td>
+    <td align="center"><a href="#-player-attributes--character-sheet"><b>🎮 STATS</b></a></td>
+    <td align="center"><a href="#-the-contribution-snake-game"><b>🐍 SNAKE GAME</b></a></td>
+    <td align="center"><a href="#-epic-completed-quests"><b>🏆 QUESTS</b></a></td>
+    <td align="center"><a href="#-developer-inventory"><b>🎒 INVENTORY</b></a></td>
+    <td align="center"><a href="#-boss-fights--mastery"><b>⚔️ BOSS FIGHTS</b></a></td>
+    <td align="center"><a href="#-exploration--side-quests"><b>🗺️ SIDE QUESTS</b></a></td>
+    <td align="center"><a href="#-live-telemetry--stats"><b>📊 TELEMETRY</b></a></td>
+    <td align="center"><a href="#-multiplayer-lobby--connect"><b>📡 CO-OP</b></a></td>
   </tr>
 </table>
 
@@ -64,48 +64,44 @@
 
 ---
 
-## ⚡ Engineering Identity
+## 🎮 Player Attributes // Character Sheet
 
-> "Software engineering is not just assembling frameworks—it is formulating data invariants, enforcing type safety across system boundaries, and deploying resilient products that deliver tangible user value."
-
-<p align="center">
-  <img src="assets/studio-identity.svg" width="100%" alt="Aman Dubey's Engineering Identity Matrix: Interface, Backend, AI Workflows, Algorithmic Foundations" />
-</p>
+> *"In the developer realm, true power isn't measured by lines of code, but by invariant proofs, type safety, sub-millisecond execution, and unyielding problem-solving consistency."*
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>🖥️ 01 / Interface &amp; Product Systems</h3>
+      <h3>⚔️ Primary Class: Full-Stack Architect</h3>
       <ul>
-        <li><b>Zero-Shift UI:</b> Built with Next.js 14+ (App Router), React, and Tailwind CSS for instant hydration, sub-second route transitions, and responsive fluid grids.</li>
-        <li><b>Client-Side State &amp; Cache:</b> Multi-attribute query caching and resilient persistent state engines to eliminate layout thrashing.</li>
-        <li><b>Accessible Interactions:</b> Strict semantic HTML, responsive viewport scaling, and keyboard-first accessibility.</li>
+        <li><b>Zero-Shift UI:</b> Master of Next.js 14+ (App Router), React, and Tailwind CSS. Casts instant route transitions and fluid responsive viewports.</li>
+        <li><b>State Memory:</b> Deploys multi-attribute in-memory caching and persistent local state machines with zero hydration latency.</li>
+        <li><b>Accessibility Shield:</b> Strict semantic HTML and keyboard-first navigation patterns.</li>
       </ul>
     </td>
     <td width="50%" valign="top">
-      <h3>🛡️ 02 / Backend &amp; Distributed Data</h3>
+      <h3>🛡️ Secondary Class: Distributed Systems Warden</h3>
       <ul>
-        <li><b>Type-Safe APIs:</b> Node.js &amp; Express.js RESTful endpoints coupled with Next.js Server Actions for secure edge execution.</li>
-        <li><b>Relational &amp; Document Persistence:</b> Typed schema definitions with PostgreSQL &amp; Prisma ORM alongside scalable MongoDB Atlas collections.</li>
-        <li><b>Session &amp; Security:</b> Route-level role-based authorization (RBAC), token validation, and Clerk Identity protection.</li>
+        <li><b>Resilient APIs:</b> Constructs typed RESTful endpoints in Node.js &amp; Express alongside atomic Next.js Server Actions.</li>
+        <li><b>Dual Storage Mastery:</b> Normalizes relational schemas in PostgreSQL (Prisma ORM) and scales document vaults in MongoDB Atlas.</li>
+        <li><b>Authentication Gatekeeper:</b> Route-level role-based authorization (RBAC) and identity protection with Clerk.</li>
       </ul>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>🤖 03 / Intelligent AI Workflows</h3>
+      <h3>🔮 Magic Class: AI &amp; Voice Conjurer</h3>
       <ul>
-        <li><b>Conversational Voice AI:</b> Low-latency bidirectional voice streams via Vapi AI SDK for automated clinical triage.</li>
-        <li><b>Multimodal LLM Reasoning:</b> Structured prompt engineering and context processing utilizing the Google Gemini API.</li>
-        <li><b>Real-Time Event Meshes:</b> Reactive subscriptions and real-time document sync powered by Convex DB.</li>
+        <li><b>Conversational Voice AI:</b> Orchestrates bidirectional real-time audio triage pipelines via Vapi AI SDK.</li>
+        <li><b>Multimodal Reasoning:</b> Integrates structured prompt pipelines with the Google Gemini API.</li>
+        <li><b>Reactive Event Mesh:</b> Real-time subscriptions and live synchronized document state via Convex DB.</li>
       </ul>
     </td>
     <td width="50%" valign="top">
-      <h3>🧠 04 / Algorithmic Core</h3>
+      <h3>🧠 Core Discipline: Algorithmic Berserker</h3>
       <ul>
-        <li><b>Asymptotic Rigor:</b> Strict $O(N)$ and $O(\log N)$ space/time discipline derived from 500+ competitive C++ algorithmic solutions.</li>
-        <li><b>Data Structures:</b> Deep implementation mastery over Trees, Graphs (BFS/DFS), Dynamic Programming, and Heaps.</li>
-        <li><b>System Invariants:</b> Translating complex domain logic into verifiable, clean, and bug-resistant state transitions.</li>
+        <li><b>Asymptotic Invariants:</b> Strict $O(N)$ and $O(\log N)$ space/time guarantees forged in 500+ competitive C++ battles.</li>
+        <li><b>Pattern Mastery:</b> Flawless execution across Trees, Graphs (BFS/DFS), Dynamic Programming, and Heaps.</li>
+        <li><b>Battle Streak:</b> 250+ days continuous problem-solving combo multiplier on LeetCode and GeeksforGeeks.</li>
       </ul>
     </td>
   </tr>
@@ -115,79 +111,103 @@
 
 ---
 
-## 🚀 Flagship Production Systems
-
-Three verified production builds demonstrating full-stack architecture, domain-specific AI workflows, and high-throughput data processing:
-
-<br />
-
-### 01 / Reader's HUB — Digital Library & Reading Ecosystem
-
-<p align="center">
-  <img src="assets/card-readers-hub.svg" width="100%" alt="Reader's HUB Architecture &amp; System Flow" />
-</p>
-
-* **Problem & Overview:** Modern web readers regularly face sluggish catalog filtering, clunky navigation, and lost reading states. Reader's HUB delivers an instant digital library platform featuring client-side indexed search, persistent reader sessions, structured reviews, and custom themes.
-* **Key Architectural Innovations:**
-  - **In-Memory Catalog Indexing:** Client-side query caching engine enabling sub-millisecond filtering across title, author, and genre attributes without recurring server round-trips.
-  - **Persistent Session State:** Synchronized state machine retaining active bookmarks, reading progress, and dark/light modes without layout shift.
-  - **Component Hierarchy:** Modular card containers, rating aggregates, and responsive layouts built with Tailwind CSS.
-* **Technology Stack:** `Next.js (App Router)` · `TypeScript` · `Tailwind CSS` · `React.js` · `Node.js` · `Vercel`
+## 🐍 The Contribution Snake Game
 
 <div align="center">
 
-[![Launch Live](https://img.shields.io/badge/LAUNCH_LIVE_DEMO-0284C7?style=for-the-badge&logo=vercel&logoColor=white)](https://reader-hub-library.vercel.app/)
+```text
+╔════════════════════════════════════════════════════════════════════════════════════════════╗
+║  STAGE: CONTINUOUS DEPLOYMENT  //  DIFFICULTY: NIGHTMARE  //  COINS: [ ∞ ]  //  HIGH SCORE  ║
+╚════════════════════════════════════════════════════════════════════════════════════════════╝
+```
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/amandubey923/amandubey923/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/amandubey923/amandubey923/output/github-snake.svg" />
+  <img alt="GitHub Contribution Snake Game Animation" src="https://raw.githubusercontent.com/amandubey923/amandubey923/output/github-snake-dark.svg" width="100%" />
+</picture>
+
+<sub>👾 <b>RULE:</b> The Cyber-Snake consumes daily GitHub contributions. High commit velocity boosts player velocity and clears git anomalies.</sub>
+
+</div>
+
+<br />
+
+---
+
+## 🏆 Epic Completed Quests
+
+Three verified production campaigns demonstrating end-to-end full-stack engineering, voice-driven clinical triage, and high-throughput data parsing algorithms:
+
+<br />
+
+### 🗡️ QUEST 01: The Citadel of Alexandria // Reader's HUB
+
+<p align="center">
+  <img src="assets/card-readers-hub.svg" width="100%" alt="Reader's HUB Quest Card" />
+</p>
+
+* **Quest Objective:** Slay catalog browsing latency, eradicate disjointed reader states, and forge an instant digital library ecosystem.
+* **Battle Tactics &amp; Implementation:**
+  - **In-Memory Query Engine:** Built a client-side indexing cache enabling sub-millisecond filtering across title, author, and genre without recurring server round-trips.
+  - **Session State Machine:** Engineered persistent storage mechanics to retain custom themes, active reading progress, and bookmarks with zero layout flicker.
+  - **Component Architecture:** Formatted modular book cards, review aggregators, and fluid reading UI using Tailwind CSS tokens.
+* **Loot Dropped:** `Next.js (App Router)` · `TypeScript` · `Tailwind CSS` · `React.js` · `Node.js` · `Vercel`
+
+<div align="center">
+
+[![Launch Live Quest](https://img.shields.io/badge/PLAY_LIVE_QUEST-0284C7?style=for-the-badge&logo=vercel&logoColor=white)](https://reader-hub-library.vercel.app/)
 &nbsp;&nbsp;&nbsp;&nbsp;
-[![Source Code](https://img.shields.io/badge/INSPECT_SOURCE_CODE-1E293B?style=for-the-badge&logo=github&logoColor=white)](https://github.com/amandubey923/library-optimized)
+[![Inspect Scroll](https://img.shields.io/badge/INSPECT_CODE_SCROLL-1E293B?style=for-the-badge&logo=github&logoColor=white)](https://github.com/amandubey923/library-optimized)
 
 </div>
 
 <details>
-  <summary><b>🔍 Click to expand Technical Deep Dive &amp; Engineering Specifications</b></summary>
+  <summary><b>📜 Click to Open: Quest 01 Combat Log &amp; Engineering Specs</b></summary>
   <br />
 
-  | Architectural Layer | Implementation Specifics |
+  | Engineering Vector | Combat Log Entry |
   | :--- | :--- |
-  | **Routing & Rendering** | Next.js App Router pairing static generation for base catalogs with client hydration for dynamic filtering. |
-  | **Search Strategy** | Multi-attribute client-side indexing reducing API requests while maintaining sub-millisecond response times. |
-  | **Theme & State Sync** | Zero-shift persistent hooks ensuring user preferences load smoothly on initial mount. |
-  | **Edge Infrastructure** | Vercel Edge deployment with asset compression and continuous git-triggered releases. |
+  | **Rendering Model** | Next.js App Router pairing static catalog generation with client-side hydration for dynamic multi-filter interactions. |
+  | **Search Strategy** | Multi-attribute client-side fuzzy indexing eliminating server round-trips for catalog browsing. |
+  | **State Persistence** | Synchronized `localStorage` state hooks with zero layout flickers on cold reloads. |
+  | **Deployment Model** | Automated edge deployment via Vercel with asset compression and continuous git delivery. |
 </details>
 
 <br />
 
 ---
 
-### 02 / Dentiva AI — Clinical Dental Assistant & Real-Time Voice Triage
+### 🩺 QUEST 02: The Oracle of Aesculapius // Dentiva AI
 
 <p align="center">
-  <img src="assets/card-dentiva.svg" width="100%" alt="Dentiva AI Architecture &amp; System Flow" />
+  <img src="assets/card-dentiva.svg" width="100%" alt="Dentiva AI Quest Card" />
 </p>
 
-* **Problem & Overview:** Dental clinics experience recurring front-desk bottlenecks in preliminary patient triage and appointment coordination. Dentiva AI is an intelligent clinical assistant featuring real-time conversational voice symptom assessment and dynamic doctor appointment booking.
-* **Key Architectural Innovations:**
-  - **Bidirectional Conversational Voice Triage:** Integrated Vapi Voice AI agents to conduct real-time clinical intake interviews, route emergency urgency, and collect symptom summaries.
-  - **Type-Safe Scheduling Engine:** Relational schema with Prisma ORM and PostgreSQL managing real-time doctor schedules, slot conflicts, and patient appointments.
-  - **Route-Level Security:** Protected administrative rosters and patient dashboards with Clerk Identity and session validation.
-* **Technology Stack:** `Next.js` · `TypeScript` · `Prisma ORM` · `PostgreSQL` · `Clerk Auth` · `Vapi Voice AI` · `Netlify`
+* **Quest Objective:** Liberate clinics from front-desk triage bottlenecks by deploying an autonomous voice companion and collision-free scheduling engine.
+* **Battle Tactics &amp; Implementation:**
+  - **Conversational Voice AI Agent:** Integrated Vapi AI voice pipelines allowing patients to describe dental symptoms verbally and receive instant preliminary triage classification.
+  - **Collision-Free Appointment Store:** Architected a relational schema with Prisma ORM and PostgreSQL managing real-time clinician availability and slot bookings.
+  - **Sanctuary Security:** Guarded administrative rosters and patient appointment history with Clerk route-level role authorization.
+* **Loot Dropped:** `Next.js` · `TypeScript` · `Prisma ORM` · `PostgreSQL` · `Clerk Auth` · `Vapi Voice AI` · `Netlify`
 
 <div align="center">
 
-[![Launch Live](https://img.shields.io/badge/LAUNCH_LIVE_DEMO-7C3AED?style=for-the-badge&logo=netlify&logoColor=white)](https://dentiva-ai-aman.netlify.app)
+[![Launch Live Quest](https://img.shields.io/badge/PLAY_LIVE_QUEST-7C3AED?style=for-the-badge&logo=netlify&logoColor=white)](https://dentiva-ai-aman.netlify.app)
 &nbsp;&nbsp;&nbsp;&nbsp;
-[![Source Code](https://img.shields.io/badge/INSPECT_SOURCE_CODE-1E293B?style=for-the-badge&logo=github&logoColor=white)](https://github.com/amandubey923/dentiva-ai)
+[![Inspect Scroll](https://img.shields.io/badge/INSPECT_CODE_SCROLL-1E293B?style=for-the-badge&logo=github&logoColor=white)](https://github.com/amandubey923/dentiva-ai)
 
 </div>
 
 <details>
-  <summary><b>🔍 Click to expand Technical Deep Dive &amp; Engineering Specifications</b></summary>
+  <summary><b>📜 Click to Open: Quest 02 Combat Log &amp; Engineering Specs</b></summary>
   <br />
 
-  | Architectural Layer | Implementation Specifics |
+  | Engineering Vector | Combat Log Entry |
   | :--- | :--- |
-  | **Voice Pipeline** | Ultra-low latency bidirectional WebRTC voice streaming via Vapi Web SDK with dynamic clinical prompts. |
+  | **Voice Pipeline** | Low-latency WebRTC bidirectional audio streaming via Vapi Web SDK with dynamic symptom prompts. |
   | **Relational Database** | Normalized PostgreSQL schemas utilizing foreign-key constraints across Providers, Slots, and Appointments. |
-  | **Authentication & RBAC** | Middleware authorization guarding clinician dashboards and patient appointment management via Clerk. |
+  | **Identity &amp; RBAC** | Middleware authorization guarding clinician dashboards and patient appointment management via Clerk. |
   | **Deployment Model** | Automated continuous deployment on Netlify with isolated secret management. |
 </details>
 
@@ -195,32 +215,32 @@ Three verified production builds demonstrating full-stack architecture, domain-s
 
 ---
 
-### 03 / Transaction Validator — High-Throughput CSV Anomaly Engine
+### ⚡ QUEST 03: The Anomaly Crucible // Transaction Validator
 
 <p align="center">
-  <img src="assets/card-validator.svg" width="100%" alt="Transaction Validator Architecture &amp; System Flow" />
+  <img src="assets/card-validator.svg" width="100%" alt="Transaction Validator Quest Card" />
 </p>
 
-* **Problem & Overview:** Financial datasets regularly contain malformed entries, corrupted syntax, and duplicate transactions. Transaction Validator is an analytical stream pipeline built to parse, audit, and sanitize massive transaction CSV files directly in the browser.
-* **Key Architectural Innovations:**
-  - **Chunked Stream Parsing:** Batch-processing pipeline parsing large CSV files in chunks to prevent UI thread lockup.
-  - **Mathematical Verification Heuristics:** In-memory record hashing algorithms to instantly detect duplicate entries, ISO currency code mismatches, and schema violations.
-  - **Sanitized Export Engine:** Formatted automatic error logs and downloadable cleaned CSV files for operational use.
-* **Technology Stack:** `Next.js` · `TypeScript` · `Tailwind CSS` · `Data Parsing Algorithms` · `Vercel`
+* **Quest Objective:** Ingest, audit, and clean corrupted multi-megabyte CSV datasets at blistering speed without locking the browser's UI thread.
+* **Battle Tactics &amp; Implementation:**
+  - **Chunked Stream Ingestion:** Developed a batch-processing algorithm to parse large CSV files in chunks, keeping UI frame rates silky smooth.
+  - **Mathematical Anomaly Heuristics:** Formulated record hashing algorithms to instantly isolate duplicate transaction IDs, malformed currencies, and schema anomalies.
+  - **Sanitized Export Engine:** Dynamically generates cleaned CSV files and detailed audit ledgers in-browser with zero server-side retention for maximum privacy.
+* **Loot Dropped:** `Next.js` · `TypeScript` · `Tailwind CSS` · `Data Parsing Algorithms` · `Vercel`
 
 <div align="center">
 
-[![Launch Live](https://img.shields.io/badge/LAUNCH_LIVE_DEMO-00B4D8?style=for-the-badge&logo=vercel&logoColor=white)](https://transaction-validator-aman.vercel.app)
+[![Launch Live Quest](https://img.shields.io/badge/PLAY_LIVE_QUEST-00B4D8?style=for-the-badge&logo=vercel&logoColor=white)](https://transaction-validator-aman.vercel.app)
 &nbsp;&nbsp;&nbsp;&nbsp;
-[![Source Code](https://img.shields.io/badge/INSPECT_SOURCE_CODE-1E293B?style=for-the-badge&logo=github&logoColor=white)](https://github.com/amandubey923/transaction-validator)
+[![Inspect Scroll](https://img.shields.io/badge/INSPECT_CODE_SCROLL-1E293B?style=for-the-badge&logo=github&logoColor=white)](https://github.com/amandubey923/transaction-validator)
 
 </div>
 
 <details>
-  <summary><b>🔍 Click to expand Technical Deep Dive &amp; Engineering Specifications</b></summary>
+  <summary><b>📜 Click to Open: Quest 03 Combat Log &amp; Engineering Specs</b></summary>
   <br />
 
-  | Architectural Layer | Implementation Specifics |
+  | Engineering Vector | Combat Log Entry |
   | :--- | :--- |
   | **Stream Processing** | Iterative chunked parsing eliminating out-of-memory browser crashes on multi-megabyte CSV files. |
   | **Anomaly Heuristics** | $O(1)$ hash set deduplication, checksum verification, and ISO currency regex validators. |
@@ -232,69 +252,46 @@ Three verified production builds demonstrating full-stack architecture, domain-s
 
 ---
 
-## 📦 Extended Product Ecosystem
+## 🎒 Developer Inventory // Equipment Grid
 
-Additional verified full-stack applications, real-time collaboration platforms, and algorithmic repositories:
-
-| Project | Architecture & Stack | Key Highlights | Direct Links |
-| :--- | :--- | :--- | :--- |
-| **AI Fitness** | `Next.js` · `TypeScript` · `Convex` · `Clerk` · `Google GenAI` · `Vapi` | Intelligent fitness tracking web app pairing workout logs with multimodal Gemini reasoning and voice coaching. | [🌐 Live Demo](https://ai-fitness-aman.netlify.app/) &nbsp;\|&nbsp; [📦 Code](https://github.com/amandubey923/ai-fitness) |
-| **Interview VC Platform** | `Next.js` · `Stream Video SDK` · `Convex` · `Clerk` · `Monaco Editor` | Real-time technical interview suite with collaborative code editing, synchronized video calling, and live chat. | [🌐 Live Demo](https://video-calling-interview-plattform.netlify.app/) &nbsp;\|&nbsp; [📦 Code](https://github.com/amandubey923/Interview-video-calling-platform) |
-| **TextWorkspace** | `React.js` · `JavaScript` · `Tailwind CSS` · `Framer Motion` | Modern web utility suite for text transformations, word metrics, case manipulation, and document generation. | [📦 Code](https://github.com/amandubey923/TextWorkspace) |
-| **Reserve Food** | `Node.js` · `Express.js` · `MongoDB` · `React.js` · `MERN` | Restaurant reservation system featuring table booking schedules, menu catalog browsing, and admin controls. | [📦 Code](https://github.com/amandubey923/Reserve-Food) |
-| **C++ DSA Repository** | `C++` · `STL` · `Algorithms` · `Data Structures` | Central competitive programming repository documenting optimized solutions across trees, graphs, DP, and search. | [📦 Code](https://github.com/amandubey923/DSA) |
-
-<br />
-
----
-
-## 🛠️ Technical Stack & Tooling
-
-A comprehensive taxonomy of languages, frameworks, databases, and development tooling actively used in production:
-
-<br />
+A categorized inventory of weapons, armor, runes, and artifacts equipped in my daily engineering campaigns:
 
 <div align="center">
 
-### Core Languages
-[![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](https://isocpp.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-
-### Frontend & UI Systems
+### 🗡️ Primary Weapons Slot // Frontend &amp; Interface
 [![Next.js](https://img.shields.io/badge/Next.js_14+-000000?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
 [![React.js](https://img.shields.io/badge/React.js-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![HTML5/CSS3](https://img.shields.io/badge/HTML5_&_CSS3-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 
-### Backend & Server APIs
+### 🛡️ Defensive Armor Slot // Backend &amp; Execution
 [![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
 [![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/)
 [![RESTful APIs](https://img.shields.io/badge/RESTful_APIs-0284C7?style=for-the-badge&logo=postman&logoColor=white)](https://restfulapi.net/)
-[![Server Actions](https://img.shields.io/badge/Next.js_Server_Actions-1E293B?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/docs/app/building-your-application/data-fetching/server-actions-and-mutations)
+[![Server Actions](https://img.shields.io/badge/Server_Actions-1E293B?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
 
-### Databases & Persistence
+### 💎 Soul Vaults Slot // Databases &amp; Persistence
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
 [![MongoDB Atlas](https://img.shields.io/badge/MongoDB_Atlas-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
 [![Prisma ORM](https://img.shields.io/badge/Prisma_ORM-2D3748?style=for-the-badge&logo=prisma&logoColor=white)](https://www.prisma.io/)
-[![Convex DB](https://img.shields.io/badge/Convex_Real--Time_DB-EE342F?style=for-the-badge&logo=convex&logoColor=white)](https://www.convex.dev/)
+[![Convex DB](https://img.shields.io/badge/Convex_Real--Time-EE342F?style=for-the-badge&logo=convex&logoColor=white)](https://www.convex.dev/)
 [![Neon SQL](https://img.shields.io/badge/Neon_Serverless-00E599?style=for-the-badge&logo=neondatabase&logoColor=black)](https://neon.tech/)
 
-### AI & Media Services
-[![Google Gemini API](https://img.shields.io/badge/Google_Gemini_API-8E75B2?style=for-the-badge&logo=google&logoColor=white)](https://ai.google.dev/)
-[![Vapi AI Voice](https://img.shields.io/badge/Vapi_AI_Voice_SDK-4C1D95?style=for-the-badge&logo=soundcharts&logoColor=white)](https://vapi.ai/)
-[![Clerk Auth](https://img.shields.io/badge/Clerk_Identity_&_Auth-6C47FF?style=for-the-badge&logo=clerk&logoColor=white)](https://clerk.com/)
-[![Stream Video](https://img.shields.io/badge/Stream_Video_SDK-005FFF?style=for-the-badge&logo=stream&logoColor=white)](https://getstream.io/)
+### 🔮 Magic Runes Slot // AI &amp; Media Services
+[![Google Gemini](https://img.shields.io/badge/Google_Gemini_API-8E75B2?style=for-the-badge&logo=google&logoColor=white)](https://ai.google.dev/)
+[![Vapi Voice AI](https://img.shields.io/badge/Vapi_Voice_AI-4C1D95?style=for-the-badge&logo=soundcharts&logoColor=white)](https://vapi.ai/)
+[![Clerk Auth](https://img.shields.io/badge/Clerk_Identity-6C47FF?style=for-the-badge&logo=clerk&logoColor=white)](https://clerk.com/)
+[![Stream SDK](https://img.shields.io/badge/Stream_Video_SDK-005FFF?style=for-the-badge&logo=stream&logoColor=white)](https://getstream.io/)
 
-### DevOps, Cloud & Tooling
-[![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/)
+### ⚡ Artifacts &amp; Tooling Slot // Cloud &amp; DevOps
+[![C++](https://img.shields.io/badge/C++_Core-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](https://isocpp.org/)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Vercel](https://img.shields.io/badge/Vercel_Edge-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/)
 [![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=black)](https://www.netlify.com/)
 [![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/)
-[![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)](https://code.visualstudio.com/)
-[![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)](https://www.postman.com/)
 
 </div>
 
@@ -302,96 +299,49 @@ A comprehensive taxonomy of languages, frameworks, databases, and development to
 
 ---
 
-## 🏗️ System Architecture & Lifecycle
-
-> *"Architecture is the art of connecting reactive user interfaces, resilient server execution, structured data, and intelligent AI services into a cohesive, maintainable whole."*
-
-<p align="center">
-  <img src="assets/studio-architecture.svg" width="100%" alt="Aman Dubey's Engineering Lifecycle from Problem Formulation to Production Delivery" />
-</p>
-
-```mermaid
-flowchart LR
-    subgraph CLIENT["01 // Presentation Layer"]
-        direction TB
-        UI["Next.js 14+ / React UI<br/>• Zero-Shift Fluid Layouts<br/>• Tailwind Utility Tokens"]
-        CACHE["Client-Side Caching<br/>• Query Index & In-Memory Filters<br/>• Session & Theme Sync"]
-        UI <--> CACHE
-    end
-
-    subgraph SECURITY["02 // Ingestion & Identity"]
-        direction TB
-        AUTH["Clerk Identity<br/>• Route-Level RBAC<br/>• Session Verification"]
-        STREAM["Stream Ingest<br/>• Chunked CSV Parsing<br/>• Deduplication Hashing"]
-    end
-
-    subgraph BACKEND["03 // Application Runtime"]
-        direction TB
-        API["Node.js / Express / Server Actions<br/>• Typed REST API Endpoints<br/>• Domain Logic Invariants"]
-    end
-
-    subgraph DATA_SERVICES["04 // Persistence & AI Services"]
-        direction TB
-        DB[("Storage Layer<br/>• PostgreSQL + Prisma ORM<br/>• MongoDB Atlas · Convex DB")]
-        AI["AI & Voice Pipelines<br/>• Vapi AI Voice Triage Agent<br/>• Google Gemini Multimodal API"]
-    end
-
-    CLIENT --> SECURITY
-    SECURITY --> BACKEND
-    BACKEND <--> DB
-    BACKEND <--> AI
-
-    classDef clientStyle fill:#0B1322,stroke:#38BDF8,stroke-width:1.5px,color:#FFFFFF;
-    classDef secStyle fill:#0F172A,stroke:#818CF8,stroke-width:1.5px,color:#FFFFFF;
-    classDef backStyle fill:#0A111E,stroke:#38BDF8,stroke-width:1.5px,color:#FFFFFF;
-    classDef dataStyle fill:#061019,stroke:#10B981,stroke-width:1.5px,color:#FFFFFF;
-
-    class UI,CACHE clientStyle;
-    class AUTH,STREAM secStyle;
-    class API backStyle;
-    class DB,AI dataStyle;
-```
-
-### Core Architectural Principles
-
-1. **Invariants & Asymptotics First:** Define state transitions, boundary constraints, and $O(N)$ / $O(\log N)$ algorithmic bounds before implementing application features.
-2. **Strict Type Safety:** Enforce end-to-end TypeScript interfaces spanning Prisma schemas, RESTful API endpoints, and React hooks.
-3. **Resilient Data Storage:** Structure normalized relational models in PostgreSQL or document schemas in MongoDB with appropriate indexing strategies.
-4. **Decoupled AI Pipelines:** Encapsulate voice agents (Vapi) and generative models (Gemini) behind validated server endpoints with fallback handling.
-5. **Continuous Deployment:** Leverage atomic git deployments on Vercel and Netlify with automatic asset optimization.
-
-<br />
-
----
-
-## 🧠 Algorithmic Mastery & Hackathons
+## ⚔️ Boss Fights &amp; Mastery
 
 <p align="center">
   <img src="assets/studio-dsa-sih.svg" width="100%" alt="500+ DSA Problems Solved &amp; Smart India Hackathon Participant" />
 </p>
 
-### ◈ 500+ Competitive Algorithmic Solutions (C++)
-* **Core Language:** `C++` — utilizing standard template library (STL) vectors, maps, heaps, and pointers with attention to memory allocation and asymptotic space/time complexity.
-* **Mastered Domains:** Arrays, Strings, Two Pointers, Sliding Window, Linked Lists, Binary Trees, Binary Search Trees, Graphs (BFS/DFS, Topological Sort), Dynamic Programming, and Recursion.
-* **Competitive Profiles & Consistency:**
-  - Active competitive programmer with a **250+ days consistency streak** on [LeetCode (aman_dubey923)](https://leetcode.com/u/aman_dubey923).
-  - Practice, problem evaluations, and badge milestones documented on [GeeksforGeeks (kumaramag0dt)](https://www.geeksforgeeks.org/profile/kumaramag0dt).
+### 🐲 BOSS 01: The 500+ Algorithmic Trials (C++)
+* **Combat Engine:** `C++` — utilizing Standard Template Library (STL) vectors, maps, heaps, and pointer memory models with strict asymptotic space/time complexity trade-offs.
+* **Domains Conquered:** Arrays, Strings, Two Pointers, Sliding Window, Linked Lists, Binary Trees, Binary Search Trees, Graphs (BFS/DFS, Topological Sort), Dynamic Programming, and Recursion.
+* **Buffs Unlocked:**
+  - **250+ Days Streak Badge** on [LeetCode (aman_dubey923)](https://leetcode.com/u/aman_dubey923).
+  - Practice and problem evaluation milestones on [GeeksforGeeks (kumaramag0dt)](https://www.geeksforgeeks.org/profile/kumaramag0dt).
 
-### ◈ Smart India Hackathon (SIH) Participant
-* **National-Level Collaborative Engineering:** Selected participant in national-level hackathon rounds, tackling problem statements through rapid agile sprints.
-* **Technical Execution:** Designed system architectures, database schemas, and responsive frontend interfaces under rigorous evaluation deadlines.
+### 🐲 BOSS 02: The National Colosseum // Smart India Hackathon (SIH)
+* **National-Level Hackathon Rounds:** Selected participant in national competitive rounds, tackling real-world government/industry problem statements.
+* **Combat Execution:** Designed end-to-end system architectures, relational database schemas, and intuitive frontend interfaces under strict sprint evaluation deadlines.
 
-### ◈ Academic Foundations
-* **Degree:** Bachelor of Technology in Information Technology (2023 – 2027)
-* **Institution:** Chandigarh Group of Colleges (CGC Mohali / Landran)
-* **Academic Merit:** Cumulative Grade Point Average (CGPA): **8.17 / 10.0**
-* **Core Coursework:** Data Structures & Algorithms, Database Management Systems (DBMS), Object-Oriented Programming (OOP), Operating Systems (OS), Computer Networks.
+### 🎓 GUILD CREDENTIALS: B.Tech in Information Technology
+* **Institution:** Chandigarh Group of Colleges (CGC Mohali / Landran) • **Batch:** 2023 – 2027
+* **Academic Merit:** Cumulative GPA: **8.17 / 10.0**
+* **Core Coursework:** Data Structures &amp; Algorithms, Database Management Systems (DBMS), Object-Oriented Programming (OOP), Operating Systems (OS), Computer Networks.
 
 <br />
 
 ---
 
-## 📊 Activity & Telemetry
+## 🗺️ Exploration &amp; Side Quests
+
+Additional public repositories and software adventures available in the open world:
+
+| Expedition | Architecture &amp; Stack | Quest Description | Direct Links |
+| :--- | :--- | :--- | :--- |
+| **🏋️ AI Fitness** | `Next.js` · `Convex` · `Clerk` · `Gemini AI` · `Vapi` | Full-stack AI fitness web application pairing workout logging with multimodal Gemini reasoning and voice coaching. | [🌐 Live Demo](https://ai-fitness-aman.netlify.app/) &nbsp;\|&nbsp; [📦 Code](https://github.com/amandubey923/ai-fitness) |
+| **🎙️ Interview VC Platform** | `Next.js` · `Stream Video` · `Convex` · `Clerk` · `Monaco` | Real-time technical interview workspace with synchronized video calling, collaborative code editor, and live chat. | [🌐 Live Demo](https://video-calling-interview-plattform.netlify.app/) &nbsp;\|&nbsp; [📦 Code](https://github.com/amandubey923/Interview-video-calling-platform) |
+| **📝 TextWorkspace** | `React.js` · `JavaScript` · `Tailwind CSS` · `Framer Motion` | Modern web utility suite for text transformations, word metrics, case manipulation, and document generation. | [📦 Code](https://github.com/amandubey923/TextWorkspace) |
+| **🥘 Reserve Food** | `Node.js` · `Express.js` · `MongoDB` · `React.js` · `MERN` | Restaurant reservation system featuring table booking schedules, menu catalog browsing, and admin controls. | [📦 Code](https://github.com/amandubey923/Reserve-Food) |
+| **⚔️ C++ DSA Repository** | `C++` · `STL` · `Algorithms` · `Data Structures` | Central competitive programming repository documenting optimized solutions across trees, graphs, DP, and search. | [📦 Code](https://github.com/amandubey923/DSA) |
+
+<br />
+
+---
+
+## 📊 Live Telemetry &amp; Stats
 
 <div align="center">
 
@@ -400,29 +350,30 @@ flowchart LR
   <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=amandubey923&theme=github_dark" alt="Aman Dubey's GitHub Contribution Matrix" />
 </p>
 
-[![System Views](https://komarev.com/ghpvc/?username=amandubey923&style=flat-square&color=38BDF8&label=PROFILE+VIEWS)](https://github.com/amandubey923)
+[![System Views](https://komarev.com/ghpvc/?username=amandubey923&style=flat-square&color=00F5FF&label=PLAYER+VIEWS)](https://github.com/amandubey923)
 
 <br /><br />
 
 <details>
-  <summary><b>🖥️ Click to Open: System Manifest &amp; Engineering Specs</b></summary>
+  <summary><b>🖥️ Click to Open: Player Character Sheet &amp; Technical Specs</b></summary>
   <br />
 
 ```text
 ================================================================================
-SYSTEM MANIFEST // AMAN DUBEY (amandubey923)
+PLAYER DOSSIER // AMAN DUBEY (amandubey923)
 ================================================================================
-PRIMARY DISCIPLINE : Full-Stack Software Engineering & Distributed Web Systems
-ACADEMIC DEGREE    : B.Tech in Information Technology (2023 – 2027) [CGPA: 8.17]
-CORE LANGUAGES     : C++ (500+ DSA), TypeScript, JavaScript, Python
-PRIMARY RUNTIME    : Next.js 14+ (App Router), React, Node.js, Express
-DATA & STORAGE     : PostgreSQL (Prisma), MongoDB Atlas, Convex, Neon SQL
-AI WORKFLOWS       : Vapi AI Conversational Voice SDK, Google Gemini API
-COLLABORATION      : Smart India Hackathon (SIH) Participant
-STREAK & PRACTICE  : 250+ Days LeetCode Streak, GeeksforGeeks Profile Active
-AVAILABILITY       : Open for Software Engineering Internships & Full-Stack Roles
+CLASS TITLE        : Full-Stack Systems Architect & Algorithmic Problem Solver
+CURRENT LEVEL      : 22 [EXPEDITION YEAR: 2026]
+ACADEMIC STATUS    : B.Tech in Information Technology (2023 – 2027) [CGPA: 8.17]
+PRIMARY ENGINES    : Next.js 14+ (App Router), React, Node.js, Express
+LANGUAGES MASTERED : C++ (500+ Solved), TypeScript, JavaScript, Python
+DATA STORAGE       : PostgreSQL (Prisma), MongoDB Atlas, Convex, Neon SQL
+AI INTEGRATIONS    : Vapi AI Conversational Voice SDK, Google Gemini API
+HACKATHON BADGES   : Smart India Hackathon (SIH) Participant
+STREAK MULTIPLIER  : 250+ Days Streak (LeetCode & GeeksforGeeks)
+CO-OP AVAILABILITY : Open for Software Engineering Internships & Full-Stack Roles
 ================================================================================
-STATUS: TRANSMISSION VERIFIED // READY FOR DEPLOYMENT
+TRANSMISSION ACTIVE // READY TO DEPLOY
 ================================================================================
 ```
 
@@ -434,30 +385,34 @@ STATUS: TRANSMISSION VERIFIED // READY FOR DEPLOYMENT
 
 ---
 
-## 📬 Direct Transmission
+## 📡 Multiplayer Lobby // Connect
 
-Whether you are recruiting for a Software Engineering / Full-Stack role, discussing technical architecture, or looking to collaborate on high-impact projects:
+Looking to assemble a party for a Software Engineering / Full-Stack role, collaborate on high-impact systems, or discuss architecture:
 
 <div align="center">
 
 | Channel | Direct Link | Purpose / Context |
 | :--- | :--- | :--- |
-| **🌐 Live Portfolio** | [aman-portfolio-next.netlify.app](https://aman-portfolio-next.netlify.app/) | Interactive portfolio showcasing production projects |
-| **📄 Official Resume** | [Download Resume (PDF)](https://aman-portfolio-next.netlify.app/resume/Resume2.pdf) | Verified one-page technical resume & background |
-| **💼 LinkedIn** | [linkedin.com/in/aman-kr-dubey](https://www.linkedin.com/in/aman-kr-dubey) | Professional networking & communication |
-| **⚡ GitHub** | [github.com/amandubey923](https://github.com/amandubey923) | Source code, repositories & contribution graph |
-| **🧠 LeetCode** | [leetcode.com/u/aman_dubey923](https://leetcode.com/u/aman_dubey923) | 500+ solved algorithmic problems & badges |
-| **🎯 GeeksforGeeks** | [geeksforgeeks.org/profile/kumaramag0dt](https://www.geeksforgeeks.org/profile/kumaramag0dt) | Competitive coding track record |
-| **📧 Direct Email** | [kumaraman19137@gmail.com](mailto:kumaraman19137@gmail.com) | Direct inquiries & recruitment opportunities |
+| **🌐 Interactive Portfolio** | [aman-portfolio-next.netlify.app](https://aman-portfolio-next.netlify.app/) | Live production applications & showcase |
+| **📄 Official Resume** | [Download Resume (PDF)](https://aman-portfolio-next.netlify.app/resume/Resume2.pdf) | One-page verified technical resume & background |
+| **💼 Guild LinkedIn** | [linkedin.com/in/aman-kr-dubey](https://www.linkedin.com/in/aman-kr-dubey) | Professional networking & message transmission |
+| **⚡ GitHub Hub** | [github.com/amandubey923](https://github.com/amandubey923) | Source code, repositories & contribution graph |
+| **🧠 LeetCode Arena** | [leetcode.com/u/aman_dubey923](https://leetcode.com/u/aman_dubey923) | 500+ solved algorithmic problems & badges |
+| **🎯 GeeksforGeeks** | [geeksforgeeks.org/profile/kumaramag0dt](https://www.geeksforgeeks.org/profile/kumaramag0dt) | Competitive coding track record & streak |
+| **📧 Direct Transmission** | [kumaraman19137@gmail.com](mailto:kumaraman19137@gmail.com) | Direct inquiries & recruitment opportunities |
 
 <br />
 
 ```text
-● STATUS: AVAILABLE FOR SOFTWARE ENGINEERING INTERNSHIPS & FULL-STACK ROLES
+● STATUS: READY FOR MULTIPLAYER // AVAILABLE FOR SWE INTERNSHIPS & FULL-STACK ROLES
 ```
 
 <br />
 
-<sub>© 2026 Aman Dubey • Designed for performance, structural integrity, and verified engineering excellence.</sub>
+```text
+╔════════════════════════════════════════════════════════════════════════════════════════════╗
+║  GAME OVER? NO.  INSERT COIN TO INITIATE HIGH-IMPACT COLLABORATION // AMAN DUBEY © 2026   ║
+╚════════════════════════════════════════════════════════════════════════════════════════════╝
+```
 
 </div>

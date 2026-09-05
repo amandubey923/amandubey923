@@ -1,0 +1,171 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 320" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="hudBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050811"/>
+      <stop offset="50%" stop-color="#0B1220"/>
+      <stop offset="100%" stop-color="#04060A"/>
+    </linearGradient>
+
+    <!-- Neon Cyan Gradient -->
+    <linearGradient id="cyanNeon" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F5FF"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+
+    <!-- XP Bar Gradient -->
+    <linearGradient id="xpGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10B981"/>
+      <stop offset="50%" stop-color="#00F5FF"/>
+      <stop offset="100%" stop-color="#818CF8"/>
+    </linearGradient>
+
+    <!-- HP Bar Gradient -->
+    <linearGradient id="hpGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#EF4444"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+
+    <!-- Mana Bar Gradient -->
+    <linearGradient id="manaGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="cyberGrid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#1E293B" stroke-width="0.5" stroke-opacity="0.6"/>
+    </pattern>
+
+    <!-- Glow Filter -->
+    <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes radarSweep {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    @keyframes neonBlink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.35; }
+    }
+    @keyframes pulseBar {
+      0%, 100% { filter: drop-shadow(0 0 2px #00F5FF); }
+      50% { filter: drop-shadow(0 0 6px #00F5FF); }
+    }
+    @keyframes scanline {
+      0% { transform: translateY(0); }
+      100% { transform: translateY(320px); }
+    }
+    .font-mono { font-family: ui-monospace, SFMono-Regular, "Courier New", monospace; }
+    .font-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    .neon-pulse { animation: neonBlink 2s infinite ease-in-out; }
+    .hud-radar { transform-origin: 840px 65px; animation: radarSweep 6s infinite linear; }
+    .scan-effect { animation: scanline 8s infinite linear; }
+  </style>
+
+  <!-- Background Base -->
+  <rect width="920" height="320" rx="14" fill="url(#hudBg)"/>
+  <rect width="920" height="320" rx="14" fill="url(#cyberGrid)"/>
+  
+  <!-- Cyberpunk Frame Corners -->
+  <rect width="920" height="320" rx="14" fill="none" stroke="#1E293B" stroke-width="1.5"/>
+  <path d="M 0 35 L 0 0 L 35 0" fill="none" stroke="#00F5FF" stroke-width="3" filter="url(#neonGlow)"/>
+  <path d="M 885 0 L 920 0 L 920 35" fill="none" stroke="#00F5FF" stroke-width="3" filter="url(#neonGlow)"/>
+  <path d="M 0 285 L 0 320 L 35 320" fill="none" stroke="#00F5FF" stroke-width="3" filter="url(#neonGlow)"/>
+  <path d="M 885 320 L 920 320 L 920 285" fill="none" stroke="#00F5FF" stroke-width="3" filter="url(#neonGlow)"/>
+
+  <!-- Top System Header Bar -->
+  <g transform="translate(35, 24)">
+    <rect x="0" y="0" width="165" height="22" rx="4" fill="#0A1526" stroke="#00F5FF" stroke-width="0.8"/>
+    <circle cx="12" cy="11" r="4" fill="#10B981" class="neon-pulse"/>
+    <text x="24" y="15" class="font-mono" font-size="9" font-weight="bold" fill="#00F5FF" letter-spacing="1.5">SYS.ONLINE // v2.6</text>
+
+    <!-- Center Mode Pill -->
+    <rect x="280" y="0" width="290" height="22" rx="4" fill="#0F172A" stroke="#38BDF8" stroke-width="0.6"/>
+    <text x="425" y="15" class="font-mono" font-size="9.5" font-weight="bold" fill="#F8FAFC" text-anchor="middle" letter-spacing="2">DEVELOPER QUEST HUD 🎮</text>
+
+    <!-- Right Side Coordinates -->
+    <text x="850" y="15" class="font-mono" font-size="8.5" fill="#64748B" text-anchor="end" letter-spacing="1">LOCATION: CGC MOHALI // B.TECH '27</text>
+  </g>
+
+  <!-- Player Title & Classification -->
+  <g transform="translate(35, 75)">
+    <text x="0" y="24" class="font-mono" font-size="10" font-weight="700" fill="#38BDF8" letter-spacing="2">&gt; ACTIVE OPERATOR IDENTIFICATION</text>
+    <text x="0" y="60" class="font-sans" font-size="34" font-weight="900" fill="#FFFFFF" letter-spacing="1.5">AMAN DUBEY</text>
+    <text x="245" y="58" class="font-mono" font-size="12" font-weight="700" fill="#00F5FF" filter="url(#neonGlow)">[ LVL 22 • FULL-STACK ARCHITECT ]</text>
+    <text x="0" y="82" class="font-mono" font-size="11" fill="#94A3B8">SPECIALIZATION: REACTIVE INTERFACES • DISTRIBUTED DATA • VOICE AI • ASYMPTOTIC INVARIANTS</text>
+  </g>
+
+  <!-- Radar Scanner (Top Right) -->
+  <g transform="translate(0, 0)">
+    <circle cx="840" cy="65" r="30" fill="#06101E" stroke="#1E293B" stroke-width="1"/>
+    <circle cx="840" cy="65" r="20" fill="none" stroke="#1E293B" stroke-width="0.6" stroke-dasharray="2,2"/>
+    <circle cx="840" cy="65" r="10" fill="none" stroke="#1E293B" stroke-width="0.6"/>
+    <line x1="810" y1="65" x2="870" y2="65" stroke="#1E293B" stroke-width="0.5"/>
+    <line x1="840" y1="35" x2="840" y2="95" stroke="#1E293B" stroke-width="0.5"/>
+    <!-- Animated Sweep Line -->
+    <line x1="840" y1="65" x2="868" y2="65" stroke="#00F5FF" stroke-width="1.5" class="hud-radar"/>
+    <circle cx="852" cy="55" r="2.5" fill="#10B981" class="neon-pulse"/>
+    <circle cx="830" cy="74" r="2" fill="#38BDF8"/>
+  </g>
+
+  <!-- 3 Vital Bars: HP (Health), MP (Algorithmic Mana), XP (Experience) -->
+  <g transform="translate(35, 180)">
+    <!-- 01 HP: SYSTEM HEALTH / STABILITY -->
+    <text x="0" y="10" class="font-mono" font-size="9" font-weight="700" fill="#EF4444" letter-spacing="1">STABILITY / HP</text>
+    <text x="210" y="10" class="font-mono" font-size="9" fill="#94A3B8" text-anchor="end">100 / 100 [MAX]</text>
+    <rect x="0" y="16" width="210" height="8" rx="2" fill="#1E1218" stroke="#371B24" stroke-width="0.8"/>
+    <rect x="0" y="16" width="210" height="8" rx="2" fill="url(#hpGrad)"/>
+
+    <!-- 02 MP: ALGORITHMIC MANA -->
+    <text x="245" y="10" class="font-mono" font-size="9" font-weight="700" fill="#8B5CF6" letter-spacing="1">MANA / DSA SOLVED</text>
+    <text x="495" y="10" class="font-mono" font-size="9" fill="#94A3B8" text-anchor="end">500+ (C++) [MAX]</text>
+    <rect x="245" y="16" width="250" height="8" rx="2" fill="#12132A" stroke="#251F4F" stroke-width="0.8"/>
+    <rect x="245" y="16" width="250" height="8" rx="2" fill="url(#manaGrad)"/>
+
+    <!-- 03 XP: GLOBAL LEVEL PROGRESSION -->
+    <text x="530" y="10" class="font-mono" font-size="9" font-weight="700" fill="#00F5FF" letter-spacing="1">XP ACCUMULATION</text>
+    <text x="850" y="10" class="font-mono" font-size="9" fill="#94A3B8" text-anchor="end">8,450 / 10,000 XP [RANK UP IN 15%]</text>
+    <rect x="530" y="16" width="320" height="8" rx="2" fill="#0A1828" stroke="#0E354A" stroke-width="0.8"/>
+    <rect x="530" y="16" width="270" height="8" rx="2" fill="url(#xpGrad)"/>
+  </g>
+
+  <!-- 4 Tactical Metric HUD Panels -->
+  <g transform="translate(35, 225)">
+    <!-- Panel 1: Streak Combo -->
+    <rect x="0" y="0" width="195" height="65" rx="6" fill="#07101D" stroke="#1E293B" stroke-width="0.8"/>
+    <rect x="0" y="0" width="3" height="65" rx="1.5" fill="#F59E0B"/>
+    <text x="14" y="20" class="font-mono" font-size="8.5" font-weight="700" fill="#F59E0B" letter-spacing="1">COMBO MULTIPLIER</text>
+    <text x="14" y="44" class="font-sans" font-size="20" font-weight="900" fill="#FFFFFF">250+ DAYS</text>
+    <text x="14" y="57" class="font-mono" font-size="8" fill="#64748B">LeetCode &amp; GFG Streak Buff</text>
+
+    <!-- Panel 2: Algorithmic Grimoire -->
+    <rect x="215" y="0" width="200" height="65" rx="6" fill="#07101D" stroke="#1E293B" stroke-width="0.8"/>
+    <rect x="215" y="0" width="3" height="65" rx="1.5" fill="#00F5FF"/>
+    <text x="229" y="20" class="font-mono" font-size="8.5" font-weight="700" fill="#00F5FF" letter-spacing="1">RUNES MASTERED</text>
+    <text x="229" y="44" class="font-sans" font-size="20" font-weight="900" fill="#FFFFFF">500+ RUNES</text>
+    <text x="229" y="57" class="font-mono" font-size="8" fill="#64748B">C++ STL • Graphs • Trees • DP</text>
+
+    <!-- Panel 3: Guild Credentials -->
+    <rect x="435" y="0" width="200" height="65" rx="6" fill="#07101D" stroke="#1E293B" stroke-width="0.8"/>
+    <rect x="435" y="0" width="3" height="65" rx="1.5" fill="#10B981"/>
+    <text x="449" y="20" class="font-mono" font-size="8.5" font-weight="700" fill="#10B981" letter-spacing="1">GUILD CAMPAIGN</text>
+    <text x="449" y="44" class="font-sans" font-size="20" font-weight="900" fill="#FFFFFF">SIH WARRIOR</text>
+    <text x="449" y="57" class="font-mono" font-size="8" fill="#64748B">Smart India Hackathon Rounds</text>
+
+    <!-- Panel 4: Academic Rank -->
+    <rect x="655" y="0" width="195" height="65" rx="6" fill="#07101D" stroke="#1E293B" stroke-width="0.8"/>
+    <rect x="655" y="0" width="3" height="65" rx="1.5" fill="#818CF8"/>
+    <text x="669" y="20" class="font-mono" font-size="8.5" font-weight="700" fill="#818CF8" letter-spacing="1">ACADEMIC RATING</text>
+    <text x="669" y="44" class="font-sans" font-size="20" font-weight="900" fill="#FFFFFF">8.17 CGPA</text>
+    <text x="669" y="57" class="font-mono" font-size="8" fill="#64748B">B.Tech IT // CGC Mohali</text>
+  </g>
+</svg>
