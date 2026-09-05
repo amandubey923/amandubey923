@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 130" width="100%" height="100%">
+  <defs>
+    <linearGradient id="valBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#040F18"/>
+      <stop offset="50%" stop-color="#081E2E"/>
+      <stop offset="100%" stop-color="#030A12"/>
+    </linearGradient>
+    <filter id="valGlow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes streamMove {
+      0% { transform: translateX(0); opacity: 0; }
+      20% { opacity: 1; }
+      80% { opacity: 1; }
+      100% { transform: translateX(160px); opacity: 0; }
+    }
+    @keyframes gateCheck {
+      0%, 100% { stroke: #00F5FF; filter: drop-shadow(0 0 2px #00F5FF); }
+      50% { stroke: #10B981; filter: drop-shadow(0 0 6px #10B981); }
+    }
+    .stream-packet-1 { animation: streamMove 2s infinite linear; }
+    .stream-packet-2 { animation: streamMove 2s infinite linear 0.7s; }
+    .stream-packet-3 { animation: streamMove 2s infinite linear 1.4s; }
+    .gate-glow { animation: gateCheck 2s infinite ease-in-out; }
+    .font-mono { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; }
+  </style>
+
+  <rect width="500" height="130" rx="10" fill="url(#valBg)" stroke="#0E3547" stroke-width="1"/>
+
+  <!-- Left: Ingestion Pipeline -->
+  <g transform="translate(40, 35)">
+    <rect x="0" y="0" width="80" height="46" rx="4" fill="#081E2C" stroke="#0E3547" stroke-width="1"/>
+    <text x="40" y="16" class="font-mono" font-size="7.5" fill="#00F5FF" text-anchor="middle">CSV INGEST</text>
+    <line x1="12" y1="24" x2="68" y2="24" stroke="#64748B" stroke-width="1.5" stroke-dasharray="2,2"/>
+    <line x1="12" y1="32" x2="55" y2="32" stroke="#64748B" stroke-width="1.5" stroke-dasharray="2,2"/>
+    <text x="40" y="42" class="font-mono" font-size="7" fill="#10B981" text-anchor="middle">CHUNK STREAM</text>
+  </g>
+
+  <!-- Central Data Stream Track -->
+  <line x1="125" y1="58" x2="365" y2="58" stroke="#1E293B" stroke-width="2" stroke-dasharray="4,4"/>
+
+  <!-- Moving Data Packets -->
+  <g transform="translate(130, 48)">
+    <rect x="0" y="4" width="22" height="12" rx="2" fill="#00F5FF" class="stream-packet-1" opacity="0.8"/>
+    <rect x="0" y="4" width="22" height="12" rx="2" fill="#38BDF8" class="stream-packet-2" opacity="0.8"/>
+    <rect x="0" y="4" width="22" height="12" rx="2" fill="#10B981" class="stream-packet-3" opacity="0.8"/>
+  </g>
+
+  <!-- Central Anomaly Filter Gate -->
+  <g transform="translate(235, 30)">
+    <rect x="0" y="0" width="30" height="56" rx="4" fill="#051624" stroke="#00F5FF" stroke-width="1.2" class="gate-glow"/>
+    <path d="M 8 28 L 13 33 L 22 23" fill="none" stroke="#10B981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="15" cy="10" r="3" fill="#00F5FF" class="gate-glow"/>
+    <text x="15" y="50" class="font-mono" font-size="6.5" fill="#00F5FF" text-anchor="middle">HASH</text>
+  </g>
+
+  <!-- Right: Sanitized Output Buffer -->
+  <g transform="translate(375, 35)">
+    <rect x="0" y="0" width="85" height="46" rx="4" fill="#081E2C" stroke="#0E3547" stroke-width="1"/>
+    <text x="42" y="16" class="font-mono" font-size="7.5" fill="#10B981" text-anchor="middle">CLEAN AUDIT</text>
+    <rect x="15" y="22" width="55" height="4" rx="1.5" fill="#10B981" opacity="0.8"/>
+    <rect x="15" y="29" width="40" height="4" rx="1.5" fill="#38BDF8" opacity="0.8"/>
+    <text x="42" y="42" class="font-mono" font-size="7" fill="#94A3B8" text-anchor="middle">0 DUPES // PASS</text>
+  </g>
+
+  <!-- Caption text -->
+  <text x="250" y="112" class="font-mono" font-size="9" fill="#94A3B8" text-anchor="middle" letter-spacing="1">CLIENT-SIDE CHUNKED CSV STREAM PARSING &amp; DEDUPLICATION</text>
+</svg>

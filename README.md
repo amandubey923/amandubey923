@@ -8,38 +8,160 @@
 
 <br />
 
-[**🌐 Live Portfolio**](https://aman-portfolio-next.netlify.app/) &nbsp;|&nbsp; 
-[**📄 Resume (PDF)**](https://aman-portfolio-next.netlify.app/resume/Resume2.pdf) &nbsp;|&nbsp; 
-[**💼 LinkedIn**](https://www.linkedin.com/in/aman-kr-dubey) &nbsp;|&nbsp; 
-[**⚡ GitHub**](https://github.com/amandubey923) &nbsp;|&nbsp; 
-[**🧠 LeetCode**](https://leetcode.com/u/aman_dubey923) &nbsp;|&nbsp; 
-[**🎯 GeeksforGeeks**](https://www.geeksforgeeks.org/profile/kumaramag0dt) &nbsp;|&nbsp; 
-[**📧 Email**](mailto:kumaraman19137@gmail.com)
+<!-- DYNAMIC ANIMATED ROLE TYPING -->
+<p align="center">
+  <a href="https://github.com/amandubey923">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=2400&pause=1000&color=38BDF8&center=true&vCenter=true&multiline=false&width=620&height=36&lines=Software+Engineer+%E2%80%A2+Full-Stack+Systems+Builder;500%2B+Algorithmic+Problems+Solved+(C%2B%2B);Next.js+14+%E2%80%A2+TypeScript+%E2%80%A2+PostgreSQL+%E2%80%A2+Prisma;Smart+India+Hackathon+Participant;Voice+AI+Integrations+%26+Reactive+Architectures" alt="Dynamic Role Typing" />
+  </a>
+</p>
+
+<!-- ACTION PILL BUTTONS -->
+<p align="center">
+  <a href="https://aman-portfolio-next.netlify.app/">
+    <img src="https://img.shields.io/badge/Live_Portfolio-0284C7?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Live Portfolio" />
+  </a>
+  &nbsp;
+  <a href="https://aman-portfolio-next.netlify.app/resume/Resume2.pdf">
+    <img src="https://img.shields.io/badge/Resume_(PDF)-DC2626?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Resume PDF" />
+  </a>
+  &nbsp;
+  <a href="https://www.linkedin.com/in/aman-kr-dubey">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  &nbsp;
+  <a href="https://leetcode.com/u/aman_dubey923">
+    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />
+  </a>
+  &nbsp;
+  <a href="mailto:kumaraman19137@gmail.com">
+    <img src="https://img.shields.io/badge/Email_Me-10B981?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+</p>
 
 <br />
 
+<!-- ANIMATED CODING ROBOT WORKSTATION -->
+<p align="center">
+  <img src="assets/anim-coding-robot.svg" width="100%" alt="Animated Coding Robot Workstation" />
+</p>
+
 </div>
 
----
-
-## 📌 Professional Summary
-
-I am a Software Engineer and Full-Stack Developer with a rigorous foundation in computer science and competitive algorithmic problem solving. My engineering focus centers on building production-grade web systems where reactive interfaces, resilient backend architectures, type-safe data persistence, and emerging AI capabilities converge.
-
-* **Frontend & UX Systems:** Developing zero-shift, high-performance web applications using **Next.js 14+ (App Router)**, **React.js**, **TypeScript**, and **Tailwind CSS**, emphasizing client-side caching and responsive layouts.
-* **Backend & Data Persistence:** Architecting scalable RESTful APIs with **Node.js** and **Express.js**, paired with relational modeling in **PostgreSQL** via **Prisma ORM** and document stores in **MongoDB Atlas**.
-* **AI & Real-Time Workflows:** Integrating low-latency bidirectional voice triage pipelines (**Vapi Voice AI SDK**), structured multimodal prompting (**Google Gemini API**), and reactive document synchronization (**Convex DB**).
-* **Algorithmic Foundations:** Strong mathematical and analytical grounding in **C++** with **500+ solved algorithmic problems** across LeetCode and GeeksforGeeks, maintaining strict $O(N)$ and $O(\log N)$ asymptotic efficiency.
+<br />
 
 ---
 
-## 🛠️ Technical Skills
+## 🐍 Contribution Activity
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/amandubey923/amandubey923/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/amandubey923/amandubey923/output/github-snake.svg" />
+  <img alt="GitHub Contribution Snake Animation" src="https://raw.githubusercontent.com/amandubey923/amandubey923/output/github-snake-dark.svg" width="100%" />
+</picture>
+
+<sub><i>Continuous deployment loop: The snake dynamically traverses daily Git commit contributions.</i></sub>
+
+</div>
+
+<br />
+
+---
+
+## 📌 Executive Summary
+
+* **Frontend Architecture:** Crafting responsive, zero-shift interfaces using **Next.js 14+ (App Router)**, **TypeScript**, and **Tailwind CSS** with client-side query indexing.
+* **Backend & Relational Persistence:** Designing resilient RESTful endpoints in **Node.js/Express**, typed schemas with **Prisma ORM & PostgreSQL**, and **MongoDB Atlas** clusters.
+* **AI & Voice Services:** Deploying conversational voice triage pipelines with **Vapi AI**, multimodal LLM reasoning via **Google Gemini API**, and real-time sync with **Convex DB**.
+* **Algorithmic Mastery:** Grounded in **C++** with **500+ solved problems** (Arrays, Trees, Graphs, DP), maintaining a **250+ days consistency streak** on LeetCode & GeeksforGeeks.
+
+---
+
+## 🚀 Featured Production Projects
+
+### 01 / Reader's HUB — Digital Library & Reading Ecosystem
+
+<p align="center">
+  <img src="assets/anim-library.svg" width="100%" alt="Reader's HUB Library Animation" />
+</p>
+
+> A modern digital library platform engineered for instant catalog search, book curation, and persistent reading states.
+
+* **In-Memory Query Engine:** Client-side indexed search across titles, authors, and genres delivering sub-millisecond filtering without recurring API round-trips.
+* **Persistent Session State:** Synchronized state engine retaining custom user themes, active reading progress, and bookmarks with zero layout shift on reloads.
+* **Responsive Component Hierarchy:** Modular book cards, rating flows, and reader views styled with Tailwind CSS.
+* **Tech Stack:** `Next.js (App Router)` · `TypeScript` · `Tailwind CSS` · `React.js` · `Node.js` · `Vercel`
+
+<div align="center">
+
+[![Live Project](https://img.shields.io/badge/Launch_Live_Demo-0284C7?style=flat-square&logo=vercel&logoColor=white)](https://reader-hub-library.vercel.app/)
+&nbsp;&nbsp;&nbsp;&nbsp;
+[![Source Code](https://img.shields.io/badge/View_Source_Code-1E293B?style=flat-square&logo=github&logoColor=white)](https://github.com/amandubey923/library-optimized)
+
+</div>
+
+<br />
+
+---
+
+### 02 / Dentiva AI — Clinical Dental Assistant & Voice Triage
+
+<p align="center">
+  <img src="assets/anim-dentiva.svg" width="100%" alt="Dentiva AI Dental & Clinical Animation" />
+</p>
+
+> An intelligent clinical assistant enabling real-time conversational voice symptom screening and doctor appointment bookings.
+
+* **Voice-Driven Clinical Triage:** Bidirectional low-latency audio streaming via **Vapi AI SDK** to collect patient symptom narratives and assign urgency tiers.
+* **Collision-Free Scheduling:** Relational PostgreSQL data model managed with **Prisma ORM** for real-time doctor slot availability and appointment locking.
+* **Route-Level Security:** Enforced role-based authorization (RBAC) and session protection with **Clerk Authentication**.
+* **Tech Stack:** `Next.js` · `TypeScript` · `Prisma ORM` · `PostgreSQL` · `Clerk Auth` · `Vapi Voice AI` · `Netlify`
+
+<div align="center">
+
+[![Live Project](https://img.shields.io/badge/Launch_Live_Demo-7C3AED?style=flat-square&logo=netlify&logoColor=white)](https://dentiva-ai-aman.netlify.app)
+&nbsp;&nbsp;&nbsp;&nbsp;
+[![Source Code](https://img.shields.io/badge/View_Source_Code-1E293B?style=flat-square&logo=github&logoColor=white)](https://github.com/amandubey923/dentiva-ai)
+
+</div>
+
+<br />
+
+---
+
+### 03 / Transaction Validator — High-Throughput CSV Anomaly Engine
+
+<p align="center">
+  <img src="assets/anim-validator.svg" width="100%" alt="Transaction Validator Stream Animation" />
+</p>
+
+> An analytical stream processing pipeline built to ingest, validate, and clean dense CSV financial transaction logs in the browser.
+
+* **Chunked Stream Ingestion:** Ingests and parses large CSV files in chunks, ensuring the browser UI thread remains fluid and responsive.
+* **Mathematical Verification:** In-memory $O(1)$ hash set deduplication and schema anomaly heuristics to detect duplicate IDs, malformed currencies, and syntax errors.
+* **Client-Side Export:** In-browser dynamic blob generator to download sanitized CSVs and audit logs with zero server-side retention.
+* **Tech Stack:** `Next.js` · `TypeScript` · `Tailwind CSS` · `Data Stream Algorithms` · `Vercel`
+
+<div align="center">
+
+[![Live Project](https://img.shields.io/badge/Launch_Live_Demo-00B4D8?style=flat-square&logo=vercel&logoColor=white)](https://transaction-validator-aman.vercel.app)
+&nbsp;&nbsp;&nbsp;&nbsp;
+[![Source Code](https://img.shields.io/badge/View_Source_Code-1E293B?style=flat-square&logo=github&logoColor=white)](https://github.com/amandubey923/transaction-validator)
+
+</div>
+
+<br />
+
+---
+
+## 🛠️ Technical Stack & Tooling
 
 <table>
   <thead>
     <tr align="left">
       <th width="28%">Domain</th>
-      <th width="72%">Technologies &amp; Production Tooling</th>
+      <th width="72%">Technologies &amp; Official Tooling</th>
     </tr>
   </thead>
   <tbody>
@@ -76,13 +198,13 @@ I am a Software Engineer and Full-Stack Developer with a rigorous foundation in 
         <img src="assets/icons/nodejs.svg" width="16" height="16" valign="middle" alt="Node.js" /> <code>Node.js</code> &nbsp;&nbsp;
         <img src="assets/icons/express.svg" width="16" height="16" valign="middle" alt="Express" /> <code>Express.js</code> &nbsp;&nbsp;
         <code>RESTful APIs</code> &nbsp;&nbsp;
-        <code>Server Actions</code>
+        <code>Next.js Server Actions</code>
       </td>
     </tr>
     <tr>
       <td>
         <img src="assets/icons/layer-db.svg" width="16" height="16" valign="middle" alt="Databases" />&nbsp;
-        <strong>Databases &amp; Persistence</strong>
+        <strong>Databases &amp; Storage</strong>
       </td>
       <td>
         <img src="assets/icons/postgresql.svg" width="16" height="16" valign="middle" alt="PostgreSQL" /> <code>PostgreSQL</code> &nbsp;&nbsp;
@@ -126,9 +248,9 @@ I am a Software Engineer and Full-Stack Developer with a rigorous foundation in 
         <strong>Computer Science Core</strong>
       </td>
       <td>
-        <img src="assets/icons/dsa.svg" width="16" height="16" valign="middle" alt="DSA" /> <code>Data Structures &amp; Algorithms</code> &nbsp;&nbsp;
+        <img src="assets/icons/dsa.svg" width="16" height="16" valign="middle" alt="DSA" /> <code>DSA (500+ Solved in C++)</code> &nbsp;&nbsp;
         <img src="assets/icons/bigo.svg" width="16" height="16" valign="middle" alt="Big-O" /> <code>Big-O Complexity Analysis</code> &nbsp;&nbsp;
-        <img src="assets/icons/oop.svg" width="16" height="16" valign="middle" alt="OOP" /> <code>Object-Oriented Programming</code> &nbsp;&nbsp;
+        <img src="assets/icons/oop.svg" width="16" height="16" valign="middle" alt="OOP" /> <code>OOP Principles</code> &nbsp;&nbsp;
         <img src="assets/icons/os.svg" width="16" height="16" valign="middle" alt="OS" /> <code>Operating Systems</code> &nbsp;&nbsp;
         <img src="assets/icons/dbms.svg" width="16" height="16" valign="middle" alt="DBMS" /> <code>DBMS Concepts</code>
       </td>
@@ -136,90 +258,42 @@ I am a Software Engineer and Full-Stack Developer with a rigorous foundation in 
   </tbody>
 </table>
 
----
-
-## 🚀 Featured Engineering Projects
-
-### 1. Reader's HUB — Digital Library & Reading Ecosystem Platform
-> An optimized full-stack digital library platform designed for high-performance catalog search, persistent reading states, and structured book reviews.
-
-* **Key Architectural & Implementation Highlights:**
-  * **Client-Side Indexing Engine:** Engineered query caching and indexed multi-attribute search across book titles, authors, and genres to achieve sub-millisecond filtering without redundant API round-trips.
-  * **Persistent Session Management:** Designed resilient client state synchronization to retain custom user themes, active reading sessions, and bookmarks without layout thrashing on cold page reloads.
-  * **Modular UI Architecture:** Built responsive component hierarchies, book detail modals, and review submission flows with Tailwind CSS.
-* **Tech Stack:** `Next.js (App Router)` · `TypeScript` · `Tailwind CSS` · `React.js` · `Node.js` · `Vercel`
-* **Links:** [Live Project](https://reader-hub-library.vercel.app/) &nbsp;|&nbsp; [Source Code](https://github.com/amandubey923/library-optimized)
-
 <br />
 
-### 2. Dentiva AI — Clinical Dental Assistant & Voice Triage
-> An intelligent clinical assistant enabling automated conversational voice symptom assessment, preliminary urgency routing, and doctor appointment scheduling.
-
-* **Key Architectural & Implementation Highlights:**
-  * **Conversational Voice AI Agent:** Integrated bidirectional voice pipelines via **Vapi AI SDK** to conduct structured patient symptom screening and clinical urgency triaging.
-  * **Type-Safe Relational Schema:** Modeled doctor schedules, availability windows, and patient booking records using **Prisma ORM** and **PostgreSQL** with strict relational integrity.
-  * **Route-Level Security & RBAC:** Configured role-based access control and session verification guarding clinical administrative rosters using **Clerk Authentication**.
-* **Tech Stack:** `Next.js` · `TypeScript` · `Prisma ORM` · `PostgreSQL` · `Clerk Auth` · `Vapi Voice AI` · `Netlify`
-* **Links:** [Live Project](https://dentiva-ai-aman.netlify.app) &nbsp;|&nbsp; [Source Code](https://github.com/amandubey923/dentiva-ai)
-
-<br />
-
-### 3. Transaction Validator — High-Throughput CSV Anomaly Engine
-> An analytical client-side stream processing pipeline built to ingest, audit, validate, and clean massive transaction CSV datasets directly in the browser.
-
-* **Key Architectural & Implementation Highlights:**
-  * **Chunked Stream Parsing:** Implemented batch-stream parsing algorithms capable of processing multi-megabyte CSV transaction logs without freezing the main browser thread.
-  * **Mathematical Anomaly Heuristics:** Designed $O(1)$ hash set deduplication and schema validators to detect duplicate transaction IDs, invalid currency codes, and syntax anomalies.
-  * **Sanitized Client Export:** Constructed in-browser dynamic blob generators allowing users to download cleaned CSV files alongside error audit ledgers with zero server-side retention.
-* **Tech Stack:** `Next.js` · `TypeScript` · `Tailwind CSS` · `Data Parsing Algorithms` · `Vercel`
-* **Links:** [Live Project](https://transaction-validator-aman.vercel.app) &nbsp;|&nbsp; [Source Code](https://github.com/amandubey923/transaction-validator)
-
 ---
 
-## 📦 Additional Projects & Repositories
-
-| Project Name | Stack | Engineering Focus | Repositories & Demos |
-| :--- | :--- | :--- | :--- |
-| **AI Fitness** | `Next.js` · `Convex` · `Clerk` · `Gemini API` · `Vapi` | Full-stack AI fitness web application pairing workout logging with multimodal Gemini prompt reasoning and voice feedback. | [Live Demo](https://ai-fitness-aman.netlify.app/) &nbsp;\|&nbsp; [GitHub](https://github.com/amandubey923/ai-fitness) |
-| **Interview VC Platform** | `Next.js` · `Stream Video` · `Convex` · `Clerk` · `Monaco` | Real-time collaborative technical interview workspace with synchronized video calling, code editor, and live chat. | [Live Demo](https://video-calling-interview-plattform.netlify.app/) &nbsp;\|&nbsp; [GitHub](https://github.com/amandubey923/Interview-video-calling-platform) |
-| **TextWorkspace** | `React.js` · `JavaScript` · `Tailwind CSS` · `Framer Motion` | Modern web utility suite for text transformations, word metrics, case manipulation, and document generation. | [GitHub](https://github.com/amandubey923/TextWorkspace) |
-| **Reserve Food** | `Node.js` · `Express.js` · `MongoDB` · `React.js` · `MERN` | Restaurant reservation system featuring table booking schedules, menu catalog browsing, and administrative portal. | [GitHub](https://github.com/amandubey923/Reserve-Food) |
-| **C++ DSA Core** | `C++` · `STL` · `Algorithms` · `Data Structures` | Central competitive programming repository documenting optimized solutions across trees, graphs, DP, and search. | [GitHub](https://github.com/amandubey923/DSA) |
-
----
-
-## 🧠 Algorithmic Problem Solving & Competitive Milestones
+## 🧠 Algorithmic Problem Solving & Milestones
 
 * **500+ Algorithmic Problems Solved (C++):**
-  * Deep understanding of memory layout, pointers, and the Standard Template Library (STL: vectors, sets, unordered_maps, priority queues).
-  * Core competencies: Arrays, Strings, Two Pointers, Sliding Window, Linked Lists, Binary Trees, Binary Search Trees, Graphs (BFS/DFS, Topological Sort), Dynamic Programming, and Recursion.
-  * Active competitive solver with a **250+ days consistency streak** on [LeetCode (aman_dubey923)](https://leetcode.com/u/aman_dubey923) and active profile on [GeeksforGeeks (kumaramag0dt)](https://www.geeksforgeeks.org/profile/kumaramag0dt).
+  * Strong proficiency with Standard Template Library (STL: vectors, sets, unordered_maps, heaps) and memory pointer models.
+  * Domains: Arrays, Strings, Two Pointers, Sliding Window, Linked Lists, Binary Trees, Graphs (BFS/DFS), Dynamic Programming, and Recursion.
+  * Active competitive solver with a **250+ days consistency streak** on [LeetCode (aman_dubey923)](https://leetcode.com/u/aman_dubey923) and [GeeksforGeeks (kumaramag0dt)](https://www.geeksforgeeks.org/profile/kumaramag0dt).
 * **Smart India Hackathon (SIH) Participant:**
-  * Selected participant in national-level hackathon rounds, designing system architectures and database schemas to solve real-world problem statements under rigorous time constraints.
-* **Academic Foundations:**
+  * National-level hackathon participant tackling mission-critical civic challenges through rapid agile sprints.
+* **Academic Credentials:**
   * **Degree:** Bachelor of Technology in Information Technology (2023 – 2027)
-  * **Institution:** Chandigarh Group of Colleges (CGC Mohali / Landran)
-  * **Academic Merit:** Cumulative Grade Point Average (CGPA): **8.17 / 10.0**
-  * **Relevant Coursework:** Data Structures & Algorithms, Database Management Systems (DBMS), Object-Oriented Programming (OOP), Operating Systems (OS), Computer Networks.
-
----
-
-## 📬 Contact & Professional Links
-
-I am open to discussions regarding **Software Engineering Internships**, **Full-Stack Development roles**, and impactful technical collaborations.
-
-| Platform / Channel | Link | Context |
-| :--- | :--- | :--- |
-| **🌐 Portfolio Website** | [aman-portfolio-next.netlify.app](https://aman-portfolio-next.netlify.app/) | Interactive project portfolio and live demos |
-| **📄 Official Resume** | [Download Resume (PDF)](https://aman-portfolio-next.netlify.app/resume/Resume2.pdf) | Technical resume and comprehensive credentials |
-| **💼 LinkedIn** | [linkedin.com/in/aman-kr-dubey](https://www.linkedin.com/in/aman-kr-dubey) | Professional networking and communication |
-| **⚡ GitHub** | [github.com/amandubey923](https://github.com/amandubey923) | Source code, public repositories, and contributions |
-| **🧠 LeetCode** | [leetcode.com/u/aman_dubey923](https://leetcode.com/u/aman_dubey923) | 500+ algorithmic solutions and streak track record |
-| **🎯 GeeksforGeeks** | [geeksforgeeks.org/profile/kumaramag0dt](https://www.geeksforgeeks.org/profile/kumaramag0dt) | Competitive coding profile |
-| **📧 Email** | [kumaraman19137@gmail.com](mailto:kumaraman19137@gmail.com) | Direct inquiries and technical opportunities |
+  * **Institution:** Chandigarh Group of Colleges (CGC Mohali / Landran) • **CGPA: 8.17 / 10.0**
 
 <br />
 
+---
+
+## 📬 Direct Contact & Transmission
+
 <div align="center">
-<sub>© 2026 Aman Dubey • Designed for performance, reliability, and engineering excellence.</sub>
+
+| Channel | Link | Purpose / Context |
+| :--- | :--- | :--- |
+| **🌐 Portfolio Website** | [aman-portfolio-next.netlify.app](https://aman-portfolio-next.netlify.app/) | Interactive portfolio & live project demos |
+| **📄 Official Resume** | [Download Resume (PDF)](https://aman-portfolio-next.netlify.app/resume/Resume2.pdf) | Technical credentials & background summary |
+| **💼 LinkedIn** | [linkedin.com/in/aman-kr-dubey](https://www.linkedin.com/in/aman-kr-dubey) | Professional messaging & connection |
+| **⚡ GitHub** | [github.com/amandubey923](https://github.com/amandubey923) | Open-source repositories & source code |
+| **🧠 LeetCode** | [leetcode.com/u/aman_dubey923](https://leetcode.com/u/aman_dubey923) | 500+ solved algorithmic problem logs |
+| **🎯 GeeksforGeeks** | [geeksforgeeks.org/profile/kumaramag0dt](https://www.geeksforgeeks.org/profile/kumaramag0dt) | Competitive coding track record |
+| **📧 Direct Email** | [kumaraman19137@gmail.com](mailto:kumaraman19137@gmail.com) | Opportunities & direct inquiries |
+
+<br />
+
+<sub>© 2026 Aman Dubey • Designed for performance, structural integrity, and verified engineering excellence.</sub>
+
 </div>

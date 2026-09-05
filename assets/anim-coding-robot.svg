@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050811"/>
+      <stop offset="50%" stop-color="#091322"/>
+      <stop offset="100%" stop-color="#03060A"/>
+    </linearGradient>
+    <linearGradient id="robotBody" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="50%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="screenGlow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00F5FF" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0.05"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes visorPulse {
+      0%, 100% { fill: #00F5FF; filter: drop-shadow(0 0 3px #00F5FF); }
+      50% { fill: #38BDF8; filter: drop-shadow(0 0 7px #00F5FF); }
+    }
+    @keyframes antennaBlink {
+      0%, 100% { opacity: 1; filter: drop-shadow(0 0 4px #10B981); }
+      50% { opacity: 0.3; }
+    }
+    @keyframes typingL {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-3px); }
+    }
+    @keyframes typingR {
+      0%, 100% { transform: translateY(-3px); }
+      50% { transform: translateY(0); }
+    }
+    @keyframes codeFlow {
+      0% { transform: translateY(0); opacity: 0.9; }
+      50% { opacity: 0.4; }
+      100% { transform: translateY(-4px); opacity: 0.9; }
+    }
+    @keyframes floatParticle1 {
+      0%, 100% { transform: translate(0, 0); opacity: 0.3; }
+      50% { transform: translate(5px, -8px); opacity: 0.8; }
+    }
+    @keyframes floatParticle2 {
+      0%, 100% { transform: translate(0, 0); opacity: 0.3; }
+      50% { transform: translate(-6px, -10px); opacity: 0.8; }
+    }
+    .visor { animation: visorPulse 2s infinite ease-in-out; }
+    .antenna-light { animation: antennaBlink 1.4s infinite; }
+    .hand-left { animation: typingL 0.6s infinite ease-in-out; }
+    .hand-right { animation: typingR 0.6s infinite ease-in-out; }
+    .code-lines { animation: codeFlow 1.8s infinite ease-in-out; }
+    .particle-1 { animation: floatParticle1 3s infinite ease-in-out; }
+    .particle-2 { animation: floatParticle2 2.5s infinite ease-in-out; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; }
+  </style>
+
+  <!-- Container Base -->
+  <rect width="600" height="240" rx="12" fill="url(#bgGrad)" stroke="#1E293B" stroke-width="1.2"/>
+
+  <!-- Background Floating Syntax Elements -->
+  <g fill="#334155" class="mono" font-size="11">
+    <text x="45" y="55" class="particle-1">&lt;code&gt;</text>
+    <text x="500" y="60" class="particle-2">{ async }</text>
+    <text x="75" y="190" class="particle-2">[ 500+ DSA ]</text>
+    <text x="475" y="195" class="particle-1">=&gt; deploy()</text>
+  </g>
+
+  <!-- Desktop Desk Surface -->
+  <line x1="80" y1="205" x2="520" y2="205" stroke="#1E293B" stroke-width="2"/>
+
+  <!-- Center Primary Monitor -->
+  <rect x="220" y="80" width="160" height="95" rx="6" fill="#0A111E" stroke="#38BDF8" stroke-width="1.2" filter="url(#glow)"/>
+  <rect x="225" y="85" width="150" height="85" rx="4" fill="url(#screenGlow)"/>
+  <!-- Monitor Stand -->
+  <polygon points="285,175 315,175 322,205 278,205" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+  <rect x="265" y="204" width="70" height="3" rx="1.5" fill="#38BDF8"/>
+
+  <!-- Code Streaming Inside Monitor -->
+  <g class="code-lines">
+    <rect x="235" y="96" width="45" height="3" rx="1.5" fill="#38BDF8"/>
+    <rect x="285" y="96" width="30" height="3" rx="1.5" fill="#818CF8"/>
+    <rect x="245" y="106" width="70" height="3" rx="1.5" fill="#10B981"/>
+    <rect x="245" y="116" width="50" height="3" rx="1.5" fill="#94A3B8"/>
+    <rect x="260" y="126" width="60" height="3" rx="1.5" fill="#00F5FF"/>
+    <rect x="245" y="136" width="80" height="3" rx="1.5" fill="#F59E0B"/>
+    <rect x="235" y="146" width="40" height="3" rx="1.5" fill="#38BDF8"/>
+    <circle cx="355" cy="98" r="2.5" fill="#10B981" class="antenna-light"/>
+  </g>
+
+  <!-- Side Screen Left (Terminal) -->
+  <polygon points="130,95 195,90 195,175 130,170" fill="#070E18" stroke="#1E293B" stroke-width="1"/>
+  <line x1="140" y1="108" x2="185" y2="105" stroke="#38BDF8" stroke-width="1.5" opacity="0.6"/>
+  <line x1="140" y1="118" x2="175" y2="115" stroke="#10B981" stroke-width="1.5" opacity="0.6"/>
+  <line x1="140" y1="128" x2="180" y2="125" stroke="#818CF8" stroke-width="1.5" opacity="0.6"/>
+  <line x1="140" y1="138" x2="165" y2="135" stroke="#94A3B8" stroke-width="1.5" opacity="0.6"/>
+
+  <!-- Side Screen Right (Metrics) -->
+  <polygon points="405,90 470,95 470,170 405,175" fill="#070E18" stroke="#1E293B" stroke-width="1"/>
+  <polyline points="415,145 425,130 435,140 445,120 455,135 462,115" fill="none" stroke="#00F5FF" stroke-width="1.5" opacity="0.7"/>
+
+  <!-- Holographic Keyboard -->
+  <polygon points="250,185 350,185 365,200 235,200" fill="#0A1322" stroke="#00F5FF" stroke-width="0.7" opacity="0.8"/>
+  <line x1="255" y1="190" x2="345" y2="190" stroke="#00F5FF" stroke-width="0.8" opacity="0.5"/>
+  <line x1="248" y1="195" x2="352" y2="195" stroke="#00F5FF" stroke-width="0.8" opacity="0.5"/>
+
+  <!-- ================= ROBOT DEVELOPER ================= -->
+  <!-- Robot Head -->
+  <g transform="translate(0, 0)">
+    <!-- Antenna -->
+    <line x1="300" y1="18" x2="300" y2="35" stroke="#64748B" stroke-width="2"/>
+    <circle cx="300" cy="16" r="4" fill="#10B981" class="antenna-light"/>
+
+    <!-- Head Shell -->
+    <rect x="278" y="32" width="44" height="34" rx="8" fill="url(#robotBody)" stroke="#38BDF8" stroke-width="1.2"/>
+    <!-- Cute Ear Bolts -->
+    <rect x="273" y="42" width="5" height="12" rx="2" fill="#38BDF8"/>
+    <rect x="322" y="42" width="5" height="12" rx="2" fill="#38BDF8"/>
+
+    <!-- Glowing Visor (Eyes) -->
+    <rect x="284" y="40" width="32" height="15" rx="5" fill="#031525"/>
+    <rect x="287" y="43" width="26" height="9" rx="3" class="visor"/>
+
+    <!-- Robot Neck & Torso -->
+    <rect x="294" y="66" width="12" height="6" rx="2" fill="#1E293B"/>
+    <path d="M 270 72 Q 300 68 330 72 L 340 100 Q 300 105 260 100 Z" fill="url(#robotBody)" stroke="#1E293B" stroke-width="1"/>
+    <!-- Core Power Indicator -->
+    <circle cx="300" cy="85" r="4" fill="#00F5FF" class="antenna-light"/>
+
+    <!-- Animated Mechanical Arms & Typing Hands -->
+    <!-- Left Hand -->
+    <path d="M 265 80 Q 245 120 270 145" fill="none" stroke="#334155" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="270" cy="145" r="5" fill="#38BDF8" class="hand-left"/>
+
+    <!-- Right Hand -->
+    <path d="M 335 80 Q 355 120 330 145" fill="none" stroke="#334155" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="330" cy="145" r="5" fill="#38BDF8" class="hand-right"/>
+  </g>
+
+  <!-- Bottom Terminal Tagline -->
+  <text x="300" y="226" class="mono" font-size="10" font-weight="bold" fill="#38BDF8" text-anchor="middle" letter-spacing="1.5">⚡ ACTIVE COMPILATION // AMAN DUBEY • IT ENGINEER</text>
+</svg>
