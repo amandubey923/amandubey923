@@ -3,19 +3,11 @@
 # Aman Dubey
 
 **Software Engineer • Full-Stack Developer • Systems Builder**  
-*B.Tech in Information Technology ('27) • Chandigarh Group of Colleges (CGPA: 8.17)*  
-*500+ Algorithmic Problems Solved (C++) • Smart India Hackathon (SIH) Participant*
+*B.Tech in Information Technology ('27) • Chandigarh Group of Colleges*
 
 <br />
 
-<!-- DYNAMIC ANIMATED ROLE TYPING -->
-<p align="center">
-  <a href="https://github.com/amandubey923">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=2400&pause=1000&color=38BDF8&center=true&vCenter=true&multiline=false&width=620&height=36&lines=Software+Engineer+%E2%80%A2+Full-Stack+Systems+Builder;500%2B+Algorithmic+Problems+Solved+(C%2B%2B);Next.js+14+%E2%80%A2+TypeScript+%E2%80%A2+PostgreSQL+%E2%80%A2+Prisma;Smart+India+Hackathon+Participant;Voice+AI+Integrations+%26+Reactive+Architectures" alt="Dynamic Role Typing" />
-  </a>
-</p>
-
-<!-- ACTION PILL BUTTONS -->
+<!-- ACTION BUTTONS -->
 <p align="center">
   <a href="https://aman-portfolio-next.netlify.app/">
     <img src="https://img.shields.io/badge/Live_Portfolio-0284C7?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Live Portfolio" />
@@ -40,9 +32,9 @@
 
 <br />
 
-<!-- ANIMATED CODING ROBOT WORKSTATION -->
+<!-- 3D ISOMETRIC DEVELOPER WORKSTATION -->
 <p align="center">
-  <img src="assets/anim-coding-robot.svg" width="100%" alt="Animated Coding Robot Workstation" />
+  <img src="assets/anim-developer-3d.svg" width="100%" alt="3D Developer Workstation" />
 </p>
 
 </div>
@@ -289,13 +281,13 @@
       </p>
     </td>
     <td width="33%" valign="top">
-      <h4>🎓 Academic Excellence</h4>
+      <h4>🎓 Academic Background</h4>
       <p><b>B.Tech in Information Technology</b><br />
       Chandigarh Group of Colleges (CGC Mohali / Landran)<br />
       <b>Batch:</b> 2023 – 2027<br />
-      <b>Cumulative GPA:</b> 8.17 / 10.0</p>
+      <b>Core Focus:</b> Data Structures, Operating Systems, DBMS, Computer Networks</p>
       <p>
-        <img src="https://img.shields.io/badge/CGPA-8.17_%2F_10.0-818CF8?style=flat-square" alt="CGPA" />
+        <img src="https://img.shields.io/badge/Degree-B.Tech_IT-818CF8?style=flat-square" alt="B.Tech IT" />
       </p>
     </td>
   </tr>
