@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 130" width="100%" height="100%">
+  <defs>
+    <linearGradient id="fitBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#04140D"/>
+      <stop offset="50%" stop-color="#08291B"/>
+      <stop offset="100%" stop-color="#020C07"/>
+    </linearGradient>
+    <linearGradient id="barGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#059669"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+    <filter id="fitGlow">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes pulseHeart {
+      0%, 100% { transform: scale(1); filter: drop-shadow(0 0 3px #10B981); }
+      50% { transform: scale(1.1); filter: drop-shadow(0 0 8px #34D399); }
+    }
+    @keyframes ecgMotion {
+      0% { stroke-dashoffset: 160; }
+      100% { stroke-dashoffset: 0; }
+    }
+    @keyframes barDance1 {
+      0%, 100% { height: 20px; y: 40px; }
+      50% { height: 35px; y: 25px; }
+    }
+    @keyframes barDance2 {
+      0%, 100% { height: 36px; y: 24px; }
+      50% { height: 18px; y: 42px; }
+    }
+    @keyframes barDance3 {
+      0%, 100% { height: 28px; y: 32px; }
+      50% { height: 42px; y: 18px; }
+    }
+    .heart-glow { transform-origin: 80px 65px; animation: pulseHeart 2s infinite ease-in-out; }
+    .ecg-line { stroke-dasharray: 160; animation: ecgMotion 2.4s infinite linear; }
+    .bar-1 { animation: barDance1 1.8s infinite ease-in-out; }
+    .bar-2 { animation: barDance2 2.2s infinite ease-in-out; }
+    .bar-3 { animation: barDance3 1.9s infinite ease-in-out; }
+    .font-mono { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; }
+  </style>
+
+  <rect width="500" height="130" rx="10" fill="url(#fitBg)" stroke="#064E3B" stroke-width="1"/>
+
+  <!-- Left: Biometric Pulse & BMR Engine -->
+  <g transform="translate(35, 30)">
+    <rect x="0" y="0" width="85" height="70" rx="6" fill="#062419" stroke="#047857" stroke-width="1"/>
+    <text x="42.5" y="18" class="font-mono" font-size="8" fill="#34D399" text-anchor="middle">BIOMETRICS</text>
+    <!-- ECG Wave -->
+    <path d="M 10 42 L 24 42 L 30 28 L 36 54 L 42 34 L 48 48 L 54 42 L 75 42" fill="none" stroke="#10B981" stroke-width="2" class="ecg-line" stroke-linecap="round"/>
+    <text x="42.5" y="62" class="font-mono" font-size="7" fill="#6EE7B7" text-anchor="middle">BMR / TDEE SYNC</text>
+  </g>
+
+  <!-- Central Dumbbell & AI Engine Hub -->
+  <g transform="translate(195, 32)">
+    <!-- Hub Box -->
+    <rect x="0" y="0" width="110" height="66" rx="8" fill="#041E15" stroke="#10B981" stroke-width="1.2" filter="url(#fitGlow)"/>
+
+    <!-- Dumbbell Graphic -->
+    <g transform="translate(25, 14)">
+      <!-- Left Weight Plates -->
+      <rect x="0" y="4" width="4" height="20" rx="1.5" fill="#34D399"/>
+      <rect x="5" y="1" width="5" height="26" rx="2" fill="#10B981"/>
+      <!-- Bar -->
+      <rect x="10" y="11" width="40" height="6" rx="2" fill="#E2E8F0"/>
+      <!-- Right Weight Plates -->
+      <rect x="50" y="1" width="5" height="26" rx="2" fill="#10B981"/>
+      <rect x="56" y="4" width="4" height="20" rx="1.5" fill="#34D399"/>
+      <!-- Center Collar Rings -->
+      <circle cx="20" cy="14" r="2.5" fill="#00F5FF"/>
+      <circle cx="40" cy="14" r="2.5" fill="#00F5FF"/>
+    </g>
+
+    <!-- Hub Labels -->
+    <text x="55" y="52" class="font-mono" font-size="8.5" font-weight="bold" fill="#F0FDF4" text-anchor="middle">AI FITPILOT CORE</text>
+    <circle cx="15" cy="50" r="2" fill="#10B981"/>
+    <circle cx="95" cy="50" r="2" fill="#10B981"/>
+  </g>
+
+  <!-- Connecting Data Stream Lines -->
+  <line x1="120" y1="65" x2="195" y2="65" stroke="#047857" stroke-width="1.5" stroke-dasharray="3,3"/>
+  <line x1="305" y1="65" x2="380" y2="65" stroke="#047857" stroke-width="1.5" stroke-dasharray="3,3"/>
+
+  <!-- Right: Dynamic Diet & Workout Spectrum -->
+  <g transform="translate(380, 30)">
+    <rect x="0" y="0" width="85" height="70" rx="6" fill="#062419" stroke="#047857" stroke-width="1"/>
+    <text x="42.5" y="18" class="font-mono" font-size="8" fill="#34D399" text-anchor="middle">ROUTINE GEN</text>
+    
+    <!-- Animated Spectrum Bars -->
+    <rect x="18" y="25" width="8" height="35" rx="2" fill="url(#barGrad)" class="bar-1"/>
+    <rect x="31" y="24" width="8" height="36" rx="2" fill="url(#barGrad)" class="bar-2"/>
+    <rect x="44" y="32" width="8" height="28" rx="2" fill="url(#barGrad)" class="bar-3"/>
+    <rect x="57" y="28" width="8" height="32" rx="2" fill="url(#barGrad)" class="bar-1"/>
+
+    <text x="42.5" y="64" class="font-mono" font-size="6.5" fill="#6EE7B7" text-anchor="middle">MEALS &amp; WORKOUTS</text>
+  </g>
+</svg>

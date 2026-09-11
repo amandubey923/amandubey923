@@ -9,11 +9,11 @@
 
 <!-- ACTION BUTTONS -->
 <p align="center">
-  <a href="https://aman-portfolio-next.netlify.app/">
+  <a href="https://aman923-portfolio.vercel.app/">
     <img src="https://img.shields.io/badge/Live_Portfolio-0284C7?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Live Portfolio" />
   </a>
   &nbsp;
-  <a href="https://aman-portfolio-next.netlify.app/resume/Resume2.pdf">
+  <a href="https://aman923-portfolio.vercel.app/resume/Aman_Dubey_Resume.pdf">
     <img src="https://img.shields.io/badge/Resume_(PDF)-DC2626?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Resume PDF" />
   </a>
   &nbsp;
@@ -140,6 +140,31 @@
 [![Live Project](https://img.shields.io/badge/Launch_Live_Demo-00B4D8?style=flat-square&logo=vercel&logoColor=white)](https://transaction-validator-aman.vercel.app)
 &nbsp;&nbsp;&nbsp;&nbsp;
 [![Source Code](https://img.shields.io/badge/View_Source_Code-1E293B?style=flat-square&logo=github&logoColor=white)](https://github.com/amandubey923/transaction-validator)
+
+</div>
+
+<br />
+
+---
+
+### 04 / FitPilot AI — Intelligent Workout & Nutrition Assistant
+
+<p align="center">
+  <img src="assets/anim-fitness.svg" width="100%" alt="FitPilot AI Fitness & Nutrition Animation" />
+</p>
+
+> An intelligent workout and nutrition assistant that analyzes user biometrics and fitness targets to formulate personalized routines.
+
+* **Adaptive Caloric & Routine Synthesis:** Calculates user BMR/TDEE caloric targets and generates customized multi-day workout and diet plans.
+* **Structured Multimodal Reasoning:** Leverages **Google Gemini API** with structured JSON output and Groq fallback to produce tailored exercise and meal regimens.
+* **Real-Time Synchronization:** Seamless cross-device data persistence powered by **Convex DB** schemas and secure identity with **Clerk Auth**.
+* **Tech Stack:** `Next.js` · `TypeScript` · `Tailwind CSS` · `Convex` · `Clerk Auth` · `Google Gemini API` · `Vercel`
+
+<div align="center">
+
+[![Live Project](https://img.shields.io/badge/Launch_Live_Demo-10B981?style=flat-square&logo=vercel&logoColor=white)](https://fit-pilot-ai.vercel.app/)
+&nbsp;&nbsp;&nbsp;&nbsp;
+[![Source Code](https://img.shields.io/badge/View_Source_Code-1E293B?style=flat-square&logo=github&logoColor=white)](https://github.com/amandubey923/ai-fitness)
 
 </div>
 
@@ -315,8 +340,8 @@
 
 | Channel | Link | Purpose / Context |
 | :--- | :--- | :--- |
-| **🌐 Portfolio Website** | [aman-portfolio-next.netlify.app](https://aman-portfolio-next.netlify.app/) | Interactive portfolio & live project demos |
-| **📄 Official Resume** | [Download Resume (PDF)](https://aman-portfolio-next.netlify.app/resume/Resume2.pdf) | Technical credentials & background summary |
+| **🌐 Portfolio Website** | [aman923-portfolio.vercel.app](https://aman923-portfolio.vercel.app/) | Interactive portfolio & live project demos |
+| **📄 Official Resume** | [Download Resume (PDF)](https://aman923-portfolio.vercel.app/resume/Aman_Dubey_Resume.pdf) | Technical credentials & background summary |
 | **💼 LinkedIn** | [linkedin.com/in/aman-kr-dubey](https://www.linkedin.com/in/aman-kr-dubey) | Professional messaging & connection |
 | **⚡ GitHub** | [github.com/amandubey923](https://github.com/amandubey923) | Open-source repositories & source code |
 | **🧠 LeetCode** | [leetcode.com/u/aman_dubey923](https://leetcode.com/u/aman_dubey923) | 500+ solved algorithmic problem logs |
